@@ -1059,62 +1059,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Aug. 2026, 15:10 Uhr";
+const SNAP_DATE = "21. Aug. 2026, 07:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
     journal:"Eur Stroke J", year:"2026", pmid:"42593950",
     author:"Janssen H et al.", pubdate:"05.08.2026",
     added:"13.08.2026",
-    title:"Hirngefäßverschluss nach Subarachnoidalblutung: Frauen mit erhöhter Sterblichkeit",
-    sum:"Britische Bevölkerungskohortenstudie an 990 Patienten mit aneurysmatischer Subarachnoidalblutung über Routinedaten der National Death Registries, zur Klärung des Geschlechtergefälles in der 90-Tages-Sterblichkeit.",
-    result:"Frauen zeigten erhöhte unadjustierte 90-Tages-Sterblichkeit (33,8% vs. 27,5%, OR 1,34; 95% KI: 1,01–1,78). Nach Anpassung für Alter und Baseline-Komorbiditäten (Hypertonie, Rauchen) reduzierte sich der Unterschied deutlich (HR 1,15; 95% KI: 0,90–1,49). Der Geschlechterunterschied ist teilweise durch höheres Alter und ungünstigere Risikofaktorenprofile bei Frauen erklärbar.",
-    transfer:"UK-Daten mit ähnlich guten Registrierungssystemen wie Deutschland; biologische und Zugangsaspekte klären sich auf."
+    title:"Sterblichkeit nach nicht-traumatischer Subarachnoidalblutung: Frauen erleben 33,8% Mortalität gegenüber 27,5% bei Männern",
+    sum:"Prospektive Kohortenstudie im UK Biobank zur Analyse von Geschlechtsunterschieden in der 90-Tage-Mortalität nach aneurysmatischer Subarachnoidalblutung (aSAH).",
+    result:"Frauen zeigten unadjustiert höhere 90-Tage-Mortalität (33,8% vs. 27,5%, OR 1,34; 95% KI 1,01–1,78). Nach Adjustierung auf Alter und Baseline-Unterschiede war dieser Unterschied statistisch nicht signifikant (HR 1,15; 95% KI 0,90–1,49). Höheres Alter und ungünstige Baseline-Risikofaktoren (Hypertonie, Rauchen) erklärten den Unterschied teilweise.",
+    transfer:"UK-Biobank, vergleichbare europäische Versorgungssysteme"
   },
   {
-    journal:"BMC Psychiatry", year:"2026", pmid:"42552525",
-    author:"von Zimmermann C et al.", pubdate:"29.07.2026",
-    added:"05.08.2026",
-    title:"Resistin und Rauchen als Depressionsrisiko: Geschlechtsspezifische Wechselwirkung",
-    sum:"Deutsche Querschnittstudie an 379 Personen mit ausgeglichenem Geschlechterverhältnis zur Prüfung, ob Resistin und Rauchen mit Depressionsschwere geschlechtsabhängig assoziiert sind.",
-    result:"Höhere Resistin-Konzentrationen erhöhten das Depressionsrisiko geschlechts- und rauchabhängig, mit stärkster Wirkung bei rauchenden und Ex-raucherinnen (weibliches Rauchen als stärkster Effektmodifikator). Rauchen und Adipositas sind bei Frauen stärkere Depressionsrisikofaktoren als bei Männern.",
-    transfer:"Deutsche Studie, AWMF-Leitlinien zur Depression noch wenig geschlechtsdifferenziert – praktische Signifikanz für Screening und Prävention unklar."
+    journal:"Front Public Health", year:"2026", pmid:"42621034",
+    author:"Lopez-de-Andres A et al.", pubdate:"05.08.2026",
+    added:"20.08.2026",
+    title:"Migrantenstatut beeinflusst Spezialistenzugang unterschiedlich nach Geschlecht in Spanien",
+    sum:"Bevölkerungsbasierte Matched-Analyse der spanischen Gesundheitsumfrage 2023 zu Geschlechtsunterschieden im Versorgungszugang zwischen Migranten und im Land Geborenen (N=5.044).",
+    result:"Migranten zeigten weniger Facharztzugang, Psychologen, Physiotherapie und Zahnpflege. Nach voller Adjustierung blieb Migranten-Status nicht mit Primärversorgung assoziiert; Unterschiede bei Spezialistenbesuchen aber persistent (Männer aOR 1,28; Frauen aOR 1,31). Ungleichheiten in Prävention waren bei Frauen ausgeprägter. Soziodemografische Faktoren, Komorbiditäten und Lebensstil erklärten teilweise, nicht vollständig.",
+    transfer:"Spanien, ähnliches Versicherungssystem wie Deutschland"
+  },
+  {
+    journal:"BMC Public Health", year:"2026", pmid:"42547865",
+    author:"Worede DT et al.", pubdate:"03.08.2026",
+    added:"04.08.2026",
+    title:"Kumulative soziale Benachteiligung wirkt stärker auf Männersterblichkeit, trifft junge Frauen früher",
+    sum:"28-Jahres-Längsschnittstudie des Sozio-Oekonomischen Panels (SOEP 1996–2023) zur Geschlechtsinteraktion zwischen sozialer Benachteiligung und Mortalität (N=112.006 Erwachsene, 660.480 Person-Wellen, 4.974 Todesfälle).",
+    result:"Kumulative soziale Benachteiligung erhöhte Mortalitätsrisiko bei beiden: Frauen +13% pro Jahr (HR 1,13; KI 1,07–1,19 bei 50 J.); Steigung steiler bei Männern (+15%, Interaktion HR 1,02; KI 1,01–1,04). Alter modulierte: Effekt attenuiert mit steigendem Alter, aber gradueller bei Männern. Life-stage-Effekte: Frauen 16–29 J. stärker (HR 1,34; KI 1,05–1,71); Männer 45+ J. (mid: 1,13; late: 1,14). Biologie versus Zugang nicht differenziert.",
+    transfer:"Deutschland, SOEP-Daten hoher Qualität"
   },
   {
     journal:"Cephalalgia", year:"2026", pmid:"42484557",
     author:"Angerhöfer C et al.", pubdate:"22.07.2026",
     added:"22.07.2026",
-    title:"Kopfschmerz in der Notaufnahme: Unterschied in Triage und Diagnostik bei Männern und Frauen",
-    sum:"Berliner Universitätsklinik beobachtete 1.825 Kopfschmerzpatienten (61,9% Frauen) über zwei Jahre, um Unterschiede in Triage-Kategorie, diagnostischen Verfahren und Diagnosen zu dokumentieren.",
-    result:"Frauen erhielten häufiger Triage-Kategorien mit höherer Dringlichkeit; Männer wiesen jedoch höhere Quote an ernsthaften Sekundärdiagnosen auf (OR 1,54; 95% KI: 1,08–2,19). Männer erhielten seltener cMRT (aOR 0,48; 95% KI: 0,26–0,90). Frauen bekamen häufiger wiederholte Analgetika und Antiemetika. Kein Hinweis auf systematische Verzögerungen der Versorgung.",
-    transfer:"Deutsche Primärdaten, Charité-System; Triageverzerrung (Frauen überschätzt, Männer unterschätzt) zeigt Versorgungsungleichheit durch Attribution, nicht biologisch erklärt."
+    title:"Kopfschmerz in der Notaufnahme: Männer mit gefährlichen Diagnosen werden untererkannt",
+    sum:"Querschnittsbeobachtungsstudie an Berliner Uniklinik zu Geschlechtsunterschieden in Triage, Diagnostik und Behandlung von Kopfschmerz-Notfallpatienten (N=1.825).",
+    result:"Frauen erhielten häufiger höher-dringlich triagiert (aOR 0,79 für Männer bei niedriger Einstufung, 95% KI 0,62–0,99). Männer hatten aber höhere Odds für Sekundärdiagnosen (1,54; KI 1,08–2,19), weniger MRT (aOR 0,48; KI 0,26–0,90). Frauen erhielten öfter wiederholte Analgetika (aOR 1,60; KI 1,06–2,44). Keine verzögerte Versorgung bei Männern trotz höherer Risiken.",
+    transfer:"Deutsche Notaufnahmedaten, vergleichbare Dokumentationspflichten"
+  },
+  {
+    journal:"BMJ Ment Health", year:"2026", pmid:"42481172",
+    author:"D'Addazio M et al.", pubdate:"21.07.2026",
+    added:"21.07.2026",
+    title:"Geschlechtsunterschiede in psychiatrischen Symptomprofilen verschwinden nicht beim Übergang in Erwachsenenversorgung",
+    sum:"Europäische Kohortenstudie (MILESTONE) mit 1.004 Adoleszenten (17–19 J.) über 24 Monate zum Geschlechtsunterschied in psychischen Symptomen und Funktionsfähigkeit beim CAMHS–AMHS-Übergang.",
+    result:"Männer zeigten durchgehend höhere Symptombelastung (insbes. Angststörung/ASD, ED/OCD, Schizophrenie) und schlechtere Funktionsfähigkeit. Frauen hatten bessere adaptive Outcomes. Unterschiede in Symptomprofilen persistierten über 2 Jahre; Männer stärker in externalisierten, Frauen in internalisierten Symptomen. Risiken weiblicher und männlicher Fehldiagnosen (ADHD/ASD bei Frauen, ED bei Männern) benannt.",
+    transfer:"Mehrländer-europäische Daten, vergleichbare Gesundheitssysteme"
   },
   {
     journal:"RMD Open", year:"2026", pmid:"42457212",
     author:"Moldovan DMM et al.", pubdate:"15.07.2026",
     added:"15.07.2026",
-    title:"Spondylarthritis: Frauen mit stärkerer Funktionsverschlechterung über 17 Jahre",
-    sum:"Spanische Longitudinalstudie REGISPON-3 mit 411 Spondylarthritispatienten (2004–2024) zum Vergleich geschlechtsspezifischer funktionaler Verschlechterung und Arbeitsunfähigkeit.",
-    result:"Nach 17 Jahren: Frauen zeigten signifikant stärkere Funktionsverschlechterung (ΔBASFI 1,47±2,81 vs. 0,38±2,57, p&lt;0,001), während permanente Arbeitsunfähigkeit ähnlich blieb (27,1% vs. 32,1%, p=0,31). Der Zusammenhang zwischen bDMARD-Exposition und Funktionsverschlechterung durch CRP-Vermittlung war bei Männern, nicht bei Frauen signifikant (sex-signifikante Interaktion).",
-    transfer:"Südeuropa, ähnliche Sozialversicherung wie Deutschland; Befund deutet auf biologische Geschlechterdifferenz in Entzündungsmodulation hin, nicht auf Zugangsunterschiede."
+    title:"Spondylarthritis führt bei Frauen zu stärkerer Funktionsverschlechterung trotz gleicher Behinderungsraten",
+    sum:"17-Jahres-Längsschnittstudie (REGISPON-3) der spanischen Spondylarthritis-Kohorte zu Geschlechtsunterschieden in langfristiger Funktionsverschlechterung und Erwerbsfähigkeit (N=411).",
+    result:"Frauen zeigten schlechtere Funktionsstatus und größere Funktionsverschlechterung (ΔBASFI 1,47±2,81 vs. 0,38±2,57; p&lt;0,001). Erwerbsunfähigkeit ähnlich (27,1% vs. 32,1%). Nach multivariater Adjustierung war der Effekt der bDMARD auf funktionelle Veränderung durch CRP in Männern mediiert, nicht in Frauen – signifikante Geschlechts-Moderation. Unterschiedliche biologische Wirkmechanismen vermutet.",
+    transfer:"Spanien, europäische Routine-Register"
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42442810",
     author:"Pernoud A et al.", pubdate:"13.07.2026",
     added:"13.07.2026",
-    title:"Krebs in der Schweiz: Frauen berichten schlechtere Versorgungserfahrungen als Männer",
-    sum:"Schweizer Multicenterstudie mit 4.408 Krebspatienten (non-sex-specific cancers) zu geschlechtsspezifischen Unterschieden in Patientenerfahrung über den gesamten Versorgungspfad.",
-    result:"Frauen bewerteten Gesamtbehandlung niedriger (8,9 vs. 9,1, p&lt;0,001; aOR für hohes Rating 0,74; 95% KI: 0,62–0,87). Frauen berichteten geringere Wahrscheinlichkeit für Therapieplan (aOR 0,69; 95% KI: 0,59–0,82) und unzureichende Information vor Operation (aOR 0,42; 95% KI: 0,27–0,67). Konsistente Muster: Frauen erhielten weniger Kommunikation, Information und Unterstützung; Männer mehr unnötige Testwiederholungen.",
-    transfer:"Schweiz, vergleichbare Sozialversicherung wie Deutschland; zeigt systematischen Zugangs- und Kommunikationsunterschied, nicht biologisch bedingt – direkt verbesserbar durch Prozessreform."
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42432638",
-    author:"von dem Knesebeck O et al.", pubdate:"10.07.2026",
-    added:"10.07.2026",
-    title:"Depression in 30 europäischen Ländern: Geschlecht, Migration und Bildung schlagen Depressionsrisiko additiv",
-    sum:"Querschnittsanalyse der European Social Survey (Round 11, n=50.116) zu intersektionalen Ungleichheiten in depressiven Symptomen nach Geschlecht, Migrationsstatus und Bildung mittels MAIHDA.",
-    result:"Frauen und Personen mit niedriger Bildung zeigten signifikant mehr depressive Symptome über alle Länder. Unterschied zwischen höchster (Frauen + Migrationshintergrund + niedrige Bildung: HR 1,34; 95% KI: 1,05–1,71) und niedrigster Risikostrata (Männer + hohe Bildung + kein Migrationshintergrund) war additiv, nicht interaktiv. Geschlecht und Bildung trugen am stärksten bei.",
-    transfer:"30 europäische Länder einschließlich Deutschland; Routine-Survey mit Selbstauskünften; zeigt Zugangs- und Attributionsmuster, nicht primär biologische Unterschiede."
+    title:"Frauen in der Onkologie erhalten weniger Information und schriftliche Behandlungspläne als Männer",
+    sum:"Multizentrische Querschnittsumfrage in der Schweiz zu Geschlechtsunterschieden in Patientenerfahrungen entlang des Krebsversorgungspfads (N=4.408, non-sex-specific cancers).",
+    result:"Frauen bewerteten Gesamtbetreuung niedriger als Männer (8,9 vs. 9,1 auf 0–10-Skala; p&lt;0,001). Nach Adjustierung: niedrigere Odds für hohe Bewertung (OR 0,74; KI 0,62–0,87), schriftlicher Behandlungsplan (0,69; KI 0,59–0,82), angemessene Präoperativaufklärung (0,42; KI 0,27–0,67). Frauen berichteten durchgehend schlechtere Kommunikation, Information, Unterstützung; Männer häufiger unnötige Testwiederholungen.",
+    transfer:"Schweiz, vergleichbares Gesundheitssystem"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===

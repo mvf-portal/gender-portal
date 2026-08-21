@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42621034",
+  "journal": "Front Public Health",
+  "year": "2026",
+  "author": "Lopez-de-Andres A et al.",
+  "pubdate": "05.08.2026",
+  "added": "20.08.2026",
+  "transfer": "Spanien, ähnliches Versicherungssystem wie Deutschland",
+  "title": "Migrantenstatut beeinflusst Spezialistenzugang unterschiedlich nach Geschlecht in Spanien",
+  "sum": "Bevölkerungsbasierte Matched-Analyse der spanischen Gesundheitsumfrage 2023 zu Geschlechtsunterschieden im Versorgungszugang zwischen Migranten und im Land Geborenen (N=5.044).",
+  "result": "Migranten zeigten weniger Facharztzugang, Psychologen, Physiotherapie und Zahnpflege. Nach voller Adjustierung blieb Migranten-Status nicht mit Primärversorgung assoziiert; Unterschiede bei Spezialistenbesuchen aber persistent (Männer aOR 1,28; Frauen aOR 1,31). Ungleichheiten in Prävention waren bei Frauen ausgeprägter. Soziodemografische Faktoren, Komorbiditäten und Lebensstil erklärten teilweise, nicht vollständig.",
+  "aufgenommen": "2026-08-21"
+ },
+ {
+  "pmid": "42547865",
+  "journal": "BMC Public Health",
+  "year": "2026",
+  "author": "Worede DT et al.",
+  "pubdate": "03.08.2026",
+  "added": "04.08.2026",
+  "transfer": "Deutschland, SOEP-Daten hoher Qualität",
+  "title": "Kumulative soziale Benachteiligung wirkt stärker auf Männersterblichkeit, trifft junge Frauen früher",
+  "sum": "28-Jahres-Längsschnittstudie des Sozio-Oekonomischen Panels (SOEP 1996–2023) zur Geschlechtsinteraktion zwischen sozialer Benachteiligung und Mortalität (N=112.006 Erwachsene, 660.480 Person-Wellen, 4.974 Todesfälle).",
+  "result": "Kumulative soziale Benachteiligung erhöhte Mortalitätsrisiko bei beiden: Frauen +13% pro Jahr (HR 1,13; KI 1,07–1,19 bei 50 J.); Steigung steiler bei Männern (+15%, Interaktion HR 1,02; KI 1,01–1,04). Alter modulierte: Effekt attenuiert mit steigendem Alter, aber gradueller bei Männern. Life-stage-Effekte: Frauen 16–29 J. stärker (HR 1,34; KI 1,05–1,71); Männer 45+ J. (mid: 1,13; late: 1,14). Biologie versus Zugang nicht differenziert.",
+  "aufgenommen": "2026-08-21"
+ },
+ {
+  "pmid": "42481172",
+  "journal": "BMJ Ment Health",
+  "year": "2026",
+  "author": "D'Addazio M et al.",
+  "pubdate": "21.07.2026",
+  "added": "21.07.2026",
+  "transfer": "Mehrländer-europäische Daten, vergleichbare Gesundheitssysteme",
+  "title": "Geschlechtsunterschiede in psychiatrischen Symptomprofilen verschwinden nicht beim Übergang in Erwachsenenversorgung",
+  "sum": "Europäische Kohortenstudie (MILESTONE) mit 1.004 Adoleszenten (17–19 J.) über 24 Monate zum Geschlechtsunterschied in psychischen Symptomen und Funktionsfähigkeit beim CAMHS–AMHS-Übergang.",
+  "result": "Männer zeigten durchgehend höhere Symptombelastung (insbes. Angststörung/ASD, ED/OCD, Schizophrenie) und schlechtere Funktionsfähigkeit. Frauen hatten bessere adaptive Outcomes. Unterschiede in Symptomprofilen persistierten über 2 Jahre; Männer stärker in externalisierten, Frauen in internalisierten Symptomen. Risiken weiblicher und männlicher Fehldiagnosen (ADHD/ASD bei Frauen, ED bei Männern) benannt.",
+  "aufgenommen": "2026-08-21"
+ },
+ {
   "pmid": "42593950",
   "journal": "Eur Stroke J",
   "year": "2026",
