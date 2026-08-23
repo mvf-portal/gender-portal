@@ -1,5 +1,31 @@
 [
  {
+  "pmid": "42470137",
+  "journal": "Int J Epidemiol",
+  "year": "2026",
+  "author": "Sieber S et al.",
+  "pubdate": "24.06.2026",
+  "added": "18.07.2026",
+  "transfer": "Spanien, europäisches Gesundheitssystem mit Routinedaten zu Geburten; Luftqualität und Bildung sind soziale, nicht biologische Erklärung.",
+  "title": "Luftqualität und niedriges Geburtsgewicht: Verbesserung der Luftqualität würde bei Müttern mit niedriger Schulbildung mehr Fälle verhindern",
+  "sum": "Bevölkerungsgestützte Studie aus Spanien mit 1,4 Millionen Geburten 2010–2018, Analyse der Assoziation zwischen Feinstaubexposition (PM2,5, NO₂) und Niedriges-Geburtsgewicht, stratifiziert nach mütterlicher Schulbildung.",
+  "result": "Ein Anstieg von 10 µg/m³ PM2,5 war mit 6 % höheren Chancen für niedriges Geburtsgewicht assoziiert (95 %-KI 0–11 %), NO₂ mit 1 % (95 %-KI 0–3 %). Mütter mit Primarschule zeigten höchstes Risiko (OR 1,76, 95 %-KI 1,71–1,82 gegenüber tertiärer Bildung). Die primäre Schulbildungsgruppe erfuhr die größten relativen Risikreduktionen unter Luftqualitäts-Interventionsszenarien. Soziale Determinanten (Bildung) waren stärker als Luftqualität allein.",
+  "aufgenommen": "2026-08-23"
+ },
+ {
+  "pmid": "42468957",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "Checa C et al.",
+  "pubdate": "17.07.2026",
+  "added": "17.07.2026",
+  "transfer": "Spanien, europäisches Versicherungssystem vergleichbar mit Deutschland; populationsgestützte Daten mit Geschlechtsstratifikation.",
+  "title": "Herzinfarkt im erwerbstätigen Alter: Frauen zeigen stärkere Assoziationen mit psychischen Komorbiditäten als Männer",
+  "sum": "Bevölkerungsbasierte Querschnittstudie aus Spanien mit 80 MI-Fällen unter 400 Erwerbstätigen (2020) zur Untersuchung von Geschlechtsunterschieden in Assoziation mit Risikofaktoren.",
+  "result": "MI betraf überwiegend Männer (74,2 %). Bei Frauen waren Depression (OR 6,75, 95 %-KI 2,23–20,4), Adipositas (OR 6,36, 95 %-KI 1,62–24,9) und COPD (OR 27,7, 95 %-KI 4,21–749) stärker mit MI assoziiert; bei Männern Angststörungen (OR 8,65, 95 %-KI 3,09–26,8) und Hypertonie (OR 4,11, 95 %-KI 2,24–7,62). Der Unterschied liegt in unterschiedlichen Komorbiditätsmustern, nicht in Beschäftigungsfaktoren.",
+  "aufgenommen": "2026-08-23"
+ },
+ {
   "pmid": "42621034",
   "journal": "Front Public Health",
   "year": "2026",
