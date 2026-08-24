@@ -202,7 +202,10 @@ Fuer jede Studie:
   aus PubMed ersetzt; rate hier nichts.)
 - year: Erscheinungsjahr, z. B. "2026"
 - pmid: die PubMed-ID
-- title: praegnanter deutscher Titel.
+- title: praegnanter deutscher Titel, **hoechstens 160 Zeichen**. Der
+  Torwaechter lehnt alles ueber 200 Zeichen ab und stoppt damit die ganze
+  Ausgabe - Methode und Population gehoeren nicht in den Titel, sie stehen
+  in sum und transfer.
       **Er MUSS mit der Versorgungsfrage beginnen, nicht mit dem Geschlecht.**
       Faengt jede Zeile mit "Frauen" oder "Maenner" an, liest sich der Hub
       wie eine Aufzaehlung von Benachteiligungen statt wie eine
