@@ -1059,62 +1059,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "23. Aug. 2026, 07:16 Uhr";
+const SNAP_DATE = "24. Aug. 2026, 07:58 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
     journal:"Eur Stroke J", year:"2026", pmid:"42593950",
     author:"Janssen H et al.", pubdate:"05.08.2026",
     added:"13.08.2026",
-    title:"Sterblichkeit nach Subarachnoidalblutung: Frauen zeigen höhere 90-Tage-Letalität, teilweise durch Alter und Risikofaktoren erklärt",
-    sum:"Prospektive Kohortenstudie aus UK Biobank mit 990 Patienten (64 % Frauen), die einen Schlaganfall durch Aneurysma-Subarachnoidalblutung erlitten, zur Untersuchung von Geschlechtsunterschieden in der 90-Tage-Sterblichkeit.",
-    result:"Frauen zeigten eine höhere unadjustierte 90-Tage-Letalität (33,8 % vs. 27,5 %, OR 1,34, 95 %-KI 1,01–1,78). Nach Anpassung für Alter und Baseline-Unterschiede reduzierte sich der Unterschied (HR 1,15, 95 %-KI 0,90–1,49). Höheres Alter, Antihypertensiva-Einsatz und aktuelles Rauchen waren unabhängig mit erhöhter Sterblichkeit assoziiert. Der Geschlechtsunterschied wird durch biologische (Alter bei Ereignis) und verhaltensbedingte Faktoren (Rauchen) teilweise erklärt.",
-    transfer:"Niederlande und Kanada, prospektive Population; Baseline-Charakteristika und Outcome-Messung vergleichbar mit deutschem Schlaganfall-Register."
+    title:"Herzstroke: Frauen nach Subarachnoidalblutung mit höherer 30-Tage-Mortalität, teilweise durch Alter und Rauchen erklärbar",
+    sum:"Prospektive UK-Biobank-Kohortenstudie prüfte Geschlechterdifferenzen in der 90-Tage-Fallmortalität nach aneurysmatischer Subarachnoidalblutung und ihre Einflussfaktoren.",
+    result:"Frauen hatten eine unadjustierte Fallmortalität von 33,8 % gegenüber 27,5 % bei Männern (OR 1,34; 95 % KI 1,01–1,78; p=0,046). Nach Anpassung für Alter und Kofaktoren sank die Hazard Ratio auf 1,15 (95 % KI 0,90–1,49) – die Geschlechterdifferenz war also teils durch höheres Alter bei Frauen und unterschiedliche Raucherquoten erklärbar.",
+    transfer:"UK-Biobank, vergleichbar mit deutschen Klinikdaten, zeigt biologische und behaviorale Faktoren."
+  },
+  {
+    journal:"Eur J Obstet Gynecol Reprod Biol", year:"2026", pmid:"42541966",
+    author:"Vervalcke J et al.", pubdate:"30.07.2026",
+    added:"01.08.2026",
+    title:"HPV-Screening bei transmanischen Personen: Selbst gewonnene Urinprobe akzeptabel und praktikabel",
+    sum:"Proof-of-Concept-Studie an 19 transmanischen Personen mit Zervix prüfte Akzeptabilität und Machbarkeit selbst gewonnener HPV-Tests zur Überwindung von Barrieren beim Zervixkrebsscreening.",
+    result:"94,7 % (18/19) betrachteten Selbstprobennahme als wertvoll, 84,2 % (16/19) bevorzugten Urin- gegenüber vaginaler Probe. HPV-Positivität in 2/17 Urinproben und 3/17 Vaginalproben nachgewiesen (Genotypen 53, 66). Kein unerwünschtes Ereignis berichtet.",
+    transfer:"Belgien, europäisches Gesundheitssystem; zeigt Zugangsbarriere bei einer unterversorgten Population und pragmatische Lösung."
   },
   {
     journal:"Cephalalgia", year:"2026", pmid:"42484557",
     author:"Angerhöfer C et al.", pubdate:"22.07.2026",
     added:"22.07.2026",
-    title:"Kopfschmerz in der Notaufnahme: Männer haben höheres Risiko für ernsthafte Pathologie, aber niedrigere Triagierung",
-    sum:"Beobachtungsstudie aus Berlin (n=1825 Kopfschmerzpatienten aus 95.150 ED-Vorstellungen, 61,9 % Frauen), Analyse von Geschlechtsunterschieden in Triagierung, Diagnostik und Therapie.",
-    result:"Frauen wurden häufiger in höher-Urgency-Kategorien triagiert, Männer hatten niedrigere Chancen (aOR 0,79, 95 %-KI 0,62–0,99). Männer wurden eher mit sekundärem Kopfschmerz durch ernsthafte Pathologie diagnostiziert (aOR 1,54, 95 %-KI 1,08–2,19) und weniger mit primären Kopfschmerzstörungen (aOR 0,73, 95 %-KI 0,54–0,98). Frauen erhielten häufiger wiederholte Analgetika (aOR 1,60, 95 %-KI 1,06–2,44) und Antiemetika (aOR 1,69, 95 %-KI 1,16–2,45). Die Fehleinschätzung lag in der frühen Triagierungsphase.",
-    transfer:"Deutschland (Berlin, Charité), direkt anwendbar; zeigt Zugangs- und Deutungsprobleme, nicht biologische Unterschiede."
+    title:"Kopfschmerz in der Notaufnahme: Männer untertriagiert trotz höherer Schwere, Frauen häufiger analgetisch behandelt",
+    sum:"Beobachtungsstudie an 1825 Notaufnahmepatienten (61,9 % Frauen) untersuchte Geschlechterdifferenzen in Triage, Diagnostik und Behandlung bei Kopfschmerz-Präsentation.",
+    result:"Frauen wurden häufiger höherer Dringlichkeitskategorie zugewiesen (aOR Männer 0,79; 95 % KI 0,62–0,99). Männer hatten höhere Wahrscheinlichkeit, sekundäre ernsthafte Pathologie diagnostiziert zu bekommen (aOR 1,54; 95 % KI 1,08–2,19), erhielten aber weniger MRI (aOR 0,48; 95 % KI 0,26–0,90). Frauen häufiger wiederholte Analgetika (aOR 1,60) und Antiemetika (aOR 1,69).",
+    transfer:"Berlin, Deutschland; zeigt Fehlanpassung zwischen wahrgenommener Dringlichkeit und Diagnoserisiko – Triageverfahren in Frage."
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42468957",
     author:"Checa C et al.", pubdate:"17.07.2026",
     added:"17.07.2026",
-    title:"Herzinfarkt im erwerbstätigen Alter: Frauen zeigen stärkere Assoziationen mit psychischen Komorbiditäten als Männer",
-    sum:"Bevölkerungsbasierte Querschnittstudie aus Spanien mit 80 MI-Fällen unter 400 Erwerbstätigen (2020) zur Untersuchung von Geschlechtsunterschieden in Assoziation mit Risikofaktoren.",
-    result:"MI betraf überwiegend Männer (74,2 %). Bei Frauen waren Depression (OR 6,75, 95 %-KI 2,23–20,4), Adipositas (OR 6,36, 95 %-KI 1,62–24,9) und COPD (OR 27,7, 95 %-KI 4,21–749) stärker mit MI assoziiert; bei Männern Angststörungen (OR 8,65, 95 %-KI 3,09–26,8) und Hypertonie (OR 4,11, 95 %-KI 2,24–7,62). Der Unterschied liegt in unterschiedlichen Komorbiditätsmustern, nicht in Beschäftigungsfaktoren.",
-    transfer:"Spanien, europäisches Versicherungssystem vergleichbar mit Deutschland; populationsgestützte Daten mit Geschlechtsstratifikation."
+    title:"Myokardinfarkt im Erwerbstätigenalter: In Spanien höhere Last bei Männern, Frauen mit anderen Komorbiditäten",
+    sum:"Bevölkerungsbasierte Querschnittsstudie der Spanischen Gesundheitsinterviewerhebung 2020 untersuchte Geschlechterdifferenzen in Häufigkeit und Komorbiditätsmustern des Myokardinfarkts im Erwerbstätigenalter.",
+    result:"MI-Prävalenz 5,45/1000 Erwerbstätiger, 74,2 % männlich; kein unabhängiger Effekt von Arbeitsbedingungen. Geschlechtsspezifische Muster: Bei Frauen Depression (OR 6,75), Adipositas (OR 6,36) und COPD (OR 27,7) stärker mit MI assoziiert; bei Männern Angststörungen (OR 8,65) und Hypertonie (OR 4,11).",
+    transfer:"Südeuropa, ähnliche Gesundheitssysteme; zeigt, dass kardiovaskuläre Prävention Geschlechtsunterschiede in psychischen Komorbiditäten berücksichtigen muss."
   },
   {
     journal:"RMD Open", year:"2026", pmid:"42457212",
     author:"Moldovan DMM et al.", pubdate:"15.07.2026",
     added:"15.07.2026",
-    title:"Spondylarthritis: Frauen zeigen stärkere funktionelle Verschlechterung über 17 Jahre, während Invaliditätsraten ähnlich bleiben",
-    sum:"Langzeit-Kohortenstudie aus Spanien (REGISPON, n=411) mit 17-Jahres-Follow-up, Analyse von Geschlechtsunterschieden in funktioneller Verschlechterung und Arbeitsunfähigkeit bei Spondylarthritis.",
-    result:"Frauen zeigten signifikant schlechtere funktionelle Ausgangslage und stärkere Verschlechterung (ΔBASFI 1,47±2,81 vs. 0,38±2,57, p&lt;0,001), während Arbeitsunfähigkeitsraten ähnlich waren (27,1 % vs. 32,1 %). Der indirekte Effekt von bDMARD-Einsatz auf funktionelle Verschlechterung über C-reaktives Protein war bei Männern signifikant, nicht bei Frauen. Dies deutet auf unterschiedliche Mechanismen der Entzündungs-Funktions-Beziehung hin.",
-    transfer:"Spanien, EU-Rheuma-Register; 17-Jahres-Längsschnitt zeigt biologische und/oder Unterschiede in Krankheitsverarbeitung nach Geschlecht."
+    title:"Spondylarthritis: Frauen mit höherer funktioneller Verschlechterung, Entzündung wirkt geschlechtsspezifisch unterschiedlich",
+    sum:"17-Jahre-Längsschnittfolgestudie (REGISPON-3) an 411 Spondylarthritis-Patienten prüfte Geschlechterdifferenzen in funktioneller Verschlechterung und untersuchte, ob systemische Entzündung (CRP) als Mediator wirkt.",
+    result:"Frauen zeigten signifikant schlechtere Funktionalität und höhere Verschlechterung (ΔBASFi 1,47±2,81 vs. 0,38±2,57; p&lt;0,001), während Behinderungsraten ähnlich waren (27,1 % vs. 32,1 %). Indirekter Effekt von Biologika auf Funktionalität über CRP signifikant nur bei Männern (signifikante Geschlechts-Interaktion).",
+    transfer:"Spanien (REGISPON), europäischer Kontext; zeigt, dass biologische Entzündungsmediatoren Geschlechterdifferenzen in Langzeitergebnissen erklären können."
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42442810",
     author:"Pernoud A et al.", pubdate:"13.07.2026",
     added:"13.07.2026",
-    title:"Krebsversorgung in der Schweiz: Frauen berichten schlechtere Kommunikation, weniger Informationen und weniger Unterstützung",
-    sum:"Multizentrische Querschnittsstudie aus 21 Schweizer Kliniken (n=4408 Patienten mit nicht-geschlechtsspezifischen Krebsarten), Analyse von Geschlechtsunterschieden in patientenberichteten Erfahrungen über die Behandlungsphasen.",
-    result:"Frauen bewerteten ihre Versorgung niedriger als Männer (8,9 vs. 9,1 auf 0–10-Skala, p&lt;0,001). Nach Anpassung hatten Frauen niedrigere Chancen für hohe Bewertung (9–10: aOR 0,74, 95 %-KI 0,62–0,87), schriftlichen Versorgungsplan (aOR 0,69, 95 %-KI 0,59–0,82) und adequate Voroperation-Information (aOR 0,42, 95 %-KI 0,27–0,67). Frauen berichteten durchgehend schlechtere Kommunikation, Information und Unterstützung. Der Unterschied liegt in Versorgungsqualität (Kommunikation, Information), nicht in Biologie.",
-    transfer:"Schweiz, vergleichbares Versicherungssystem und Versorgungsauftrag; multizentrisch, geschlechtergetrennte Patientenerfahrungsdaten."
-  },
-  {
-    journal:"Int J Epidemiol", year:"2026", pmid:"42470137",
-    author:"Sieber S et al.", pubdate:"24.06.2026",
-    added:"18.07.2026",
-    title:"Luftqualität und niedriges Geburtsgewicht: Verbesserung der Luftqualität würde bei Müttern mit niedriger Schulbildung mehr Fälle verhindern",
-    sum:"Bevölkerungsgestützte Studie aus Spanien mit 1,4 Millionen Geburten 2010–2018, Analyse der Assoziation zwischen Feinstaubexposition (PM2,5, NO₂) und Niedriges-Geburtsgewicht, stratifiziert nach mütterlicher Schulbildung.",
-    result:"Ein Anstieg von 10 µg/m³ PM2,5 war mit 6 % höheren Chancen für niedriges Geburtsgewicht assoziiert (95 %-KI 0–11 %), NO₂ mit 1 % (95 %-KI 0–3 %). Mütter mit Primarschule zeigten höchstes Risiko (OR 1,76, 95 %-KI 1,71–1,82 gegenüber tertiärer Bildung). Die primäre Schulbildungsgruppe erfuhr die größten relativen Risikreduktionen unter Luftqualitäts-Interventionsszenarien. Soziale Determinanten (Bildung) waren stärker als Luftqualität allein.",
-    transfer:"Spanien, europäisches Gesundheitssystem mit Routinedaten zu Geburten; Luftqualität und Bildung sind soziale, nicht biologische Erklärung."
+    title:"Krebsbehandlung in der Schweiz: Frauen berichten schlechtere Erfahrungen in Information und Kommunikation",
+    sum:"Multizentrische Querschnittsstudie an 4408 Krebspatienten (davon 2245 mit nicht-geschlechtsspezifischen Karzinomen) prüfte Geschlechterdifferenzen in patient-reported experience measures across der Versorgungskette.",
+    result:"Frauen bewerteten Gesamtversorgung niedriger (8,9 vs. 9,1; p&lt;0,001). Nach Anpassung: niedrigere Wahrscheinlichkeit hoher Zufriedenheit (OR 0,74; 95 % KI 0,62–0,87), schriftlichen Behandlungsplan erhalten (OR 0,69; 95 % KI 0,59–0,82), angemessene präoperative Information (OR 0,42; 95 % KI 0,27–0,67). Frauen konsistent schlechtere Erfahrungen bei Kommunikation, Information und Unterstützung.",
+    transfer:"Schweiz, deutschsprachiger Raum, ähnliches Versicherungssystem; zeigt systemische Lücke in Versorgungspraxis."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
