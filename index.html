@@ -894,7 +894,7 @@
           <p>eRelation AG – Content in Health, vertreten durch Peter Stegmaier, Johannes-von-Hanstein-Str. 2, 53115 Bonn. Kontakt siehe Impressum.</p>
           <h4>2. Charakter dieses Angebots</h4>
           <p>Dieses Portal ist eine statische Informationsseite. Es setzt <strong>keine Cookies</strong> und bindet <strong>keine Analyse- oder Trackingdienste Dritter</strong> ein. Über die anonyme Reichweitenmessung nach Abschnitt 3 hinaus werden beim bloßen Lesen keine personenbezogenen Daten erhoben oder gespeichert.</p><p>Eine Ausnahme bildet die Seite <a href="newsletter.html">Newsletter bestellen</a>: Dort können Sie freiwillig eine E-Mail-Adresse angeben, um einen Newsletter zu abonnieren. Näheres in den Abschnitten 4 und 5.</p>
-          <h4>3. Reichweitenmessung ohne Cookies</h4><p>Damit wir wissen, ob und wie dieses Angebot genutzt wird, zählen wir Seitenaufrufe. Die Zählung läuft auf einem eigenen Server von <i>Monitor Versorgungsforschung</i>; ein Dritter ist daran nicht beteiligt. Es werden <strong>keine Cookies gesetzt</strong> und <strong>keine Informationen auf Ihrem Endgerät gespeichert oder ausgelesen</strong> — eine Einwilligung nach § 25 Abs. 1 TTDSG ist dafür nicht erforderlich.</p><p>Gespeichert werden ausschließlich Summen: die aufgerufene Seite, die Domain der verweisenden Seite, die Art des Geräts (Desktop oder Mobilgerät) und die Stunde des Zugriffs. <strong>Ihre IP-Adresse wird nicht gespeichert.</strong> Sie geht gemeinsam mit der Browserkennung und einer geheimen Zufallszahl in einen nicht umkehrbaren Hashwert ein, der es uns allein erlaubt, mehrere Aufrufe desselben Tages als eine Person zu zählen. Die Zufallszahl wird jede Nacht durch eine neue ersetzt und die alte verworfen; danach ist auch uns eine Zuordnung nicht mehr möglich. Eine Wiedererkennung über den Tag hinaus findet nicht statt, ebenso wenig eine Zusammenführung mit anderen Daten oder eine Profilbildung.</p><p>Rechtsgrundlage ist unser berechtigtes Interesse an einer bedarfsgerechten Gestaltung dieses Angebots (Art. 6 Abs. 1 lit. f DSGVO). Aufrufe von Browsern, die <i>Do Not Track</i> oder <i>Global Privacy Control</i> senden, werden gar nicht erst gezählt.</p><h4>4. Newsletter-Anmeldung</h4>
+          <h4>3. Reichweitenmessung ohne Cookies</h4><p>Damit wir wissen, ob und wie dieses Angebot genutzt wird, zählen wir Seitenaufrufe. Die Zählung läuft auf einem eigenen Server von <i>Monitor Versorgungsforschung</i>; ein Dritter ist daran nicht beteiligt. Es werden <strong>keine Cookies gesetzt</strong> und <strong>keine Informationen auf Ihrem Endgerät gespeichert oder ausgelesen</strong> — eine Einwilligung nach § 25 Abs. 1 TTDSG ist dafür nicht erforderlich.</p><p>Gespeichert werden ausschließlich Summen: die aufgerufene Seite, die Domain der verweisenden Seite, die Art des Geräts (Desktop oder Mobilgerät), die Bildschirmbreite in groben Stufen und die Stunde des Zugriffs. Die Bildschirmbreite wird bewusst nur als Stufe festgehalten und nicht als genaue Auflösung — diese wäre eines der stärksten Merkmale, um einen Browser wiederzuerkennen. <strong>Ihre IP-Adresse wird nicht gespeichert.</strong> Sie geht gemeinsam mit der Browserkennung und einer geheimen Zufallszahl in einen nicht umkehrbaren Hashwert ein, der es uns allein erlaubt, mehrere Aufrufe desselben Tages als eine Person zu zählen. Die Zufallszahl wird jede Nacht durch eine neue ersetzt und die alte verworfen; danach ist auch uns eine Zuordnung nicht mehr möglich. Eine Wiedererkennung über den Tag hinaus findet nicht statt, ebenso wenig eine Zusammenführung mit anderen Daten oder eine Profilbildung.</p><p>Rechtsgrundlage ist unser berechtigtes Interesse an einer bedarfsgerechten Gestaltung dieses Angebots (Art. 6 Abs. 1 lit. f DSGVO). Aufrufe von Browsern, die <i>Do Not Track</i> oder <i>Global Privacy Control</i> senden, werden gar nicht erst gezählt.</p><h4>4. Newsletter-Anmeldung</h4>
           <p><b>Welche Daten.</b> Für die Bestellung eines Newsletters benötigen wir Ihre E-Mail-Adresse. Weitere Angaben verlangen wir nicht. Mit übermittelt wird, welchen der beiden Newsletter Sie ausgewählt haben.</p>
           <p><b>Bestätigungsverfahren.</b> Nach dem Absenden erhalten Sie eine E-Mail mit einem Bestätigungslink; der Versand beginnt erst, wenn Sie ihn anklicken (Double-Opt-in). So kann niemand fremde Adressen eintragen. Anmeldung und Bestätigung werden mit Zeitpunkt und IP-Adresse protokolliert, damit wir Ihre Einwilligung nachweisen können.</p>
           <p><b>Rechtsgrundlage.</b> Der Versand erfolgt aufgrund Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO. Die Protokollierung der Einwilligung stützt sich auf Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit der Nachweispflicht aus Art. 7 Abs. 1 DSGVO.</p>
@@ -930,10 +930,10 @@ const CATS = [
   {id:"gendermed", h:320, num:"04", name:"Gendermedizin & Fachgesellschaften",
    hinweis:"Hier stehen keine Datenbanken im engeren Sinn, sondern die Einrichtungen, die das Feld tragen: Fachgesellschaften, Institute und Netzwerke. Wer wissen will, wer in Deutschland an Curricula, Leitlinien und Fortbildung arbeitet, sucht hier zuerst - und findet Positionspapiere, die es in keine Fachzeitschrift schaffen."},
   {id:"geschlechterdaten", h:190, num:"05", name:"Geschlechterdaten & Statistik",
-   hinweis:"Diese Quellen liefern Zahlen, keine Studien - und zwar nach Geschlecht getrennt: Praevalenz, Sterblichkeit, Inanspruchnahme, Krankheitslast. Das ist die Rubrik, in der sich pruefen laesst, ob ein Unterschied, von dem eine Studie berichtet, sich auch in den deutschen Routinedaten zeigt."},
+   hinweis:"Diese Quellen liefern Zahlen, keine Studien - und zwar nach Geschlecht getrennt: Prävalenz, Sterblichkeit, Inanspruchnahme, Krankheitslast. Das ist die Rubrik, in der sich prüfen lässt, ob ein Unterschied, von dem eine Studie berichtet, sich auch in den deutschen Routinedaten zeigt."},
   {id:"policy", h:338, num:"06", name:"Institutionen & Gesundheitspolitik (international)"},
   {id:"standards", h:45, num:"07", name:"Standards & Berichtsleitlinien",
-   hinweis:"Ob Geschlecht in einer Studie ueberhaupt auftauchen muss, regeln Berichtsleitlinien und Foerderauflagen - SAGER, die SABV-Vorgabe der NIH, die Gleichstellungsplaene von Horizon Europe. Wer eine Arbeit auf ihre Geschlechterdimension prueft, findet hier den Massstab, gegen den er prueft."},
+   hinweis:"Ob Geschlecht in einer Studie überhaupt auftauchen muss, regeln Berichtsleitlinien und Förderauflagen - SAGER, die SABV-Vorgabe der NIH, die Gleichstellungspläne von Horizon Europe. Wer eine Arbeit auf ihre Geschlechterdimension prüft, findet hier den Maßstab, gegen den er prüft."},
   {id:"openaccess", h:150, num:"08", name:"Open Access & Discovery"},
   {id:"register", h:212, num:"09", name:"Studienregister & Preprints"},
   {id:"volltext", h:100, num:"10", name:"Volltext beschaffen"},
@@ -947,25 +947,25 @@ const DB = [
   {c:"deutsch", n:"Monitor Versorgungsforschung", de:1, d:"Deutsche Fachzeitschrift für Politik, Praxis & Forschung der Versorgung — durchsuchbares Facharchiv.", t:"live", u:"https://www.monitor-versorgungsforschung.de/?s=%s&utm_source=gender-hub&utm_medium=referral&utm_campaign=gender-portal", b:0},
   {c:"deutsch", n:"LIVIVO (ZB MED)", de:1, d:"Größtes deutschsprachiges Suchportal der Lebenswissenschaften — Begriff nach Öffnen eingeben.", t:"portal", u:"https://www.livivo.de/"},
   {c:"deutsch", n:"German Medical Science (GMS)", de:1, d:"Open-Access-Portal deutscher medizinischer Fachgesellschaften (AWMF/ZB MED).", t:"portal", u:"https://www.egms.de/"},
-  {c:"deutsch", n:"Robert Koch-Institut (RKI)", de:1, d:"Gesundheitsberichterstattung des Bundes an der Quelle: GEDA- und DEGS-Auswertungen sind durchgaengig nach Geschlecht getrennt.", t:"live", u:"https://www.rki.de/SiteGlobals/Forms/Suche/Expertensuche/Servicesuche_Formular.html?templateQueryString=%s"},
-  {c:"deutsch", n:"Gesundheitsberichterstattung des Bundes (GBE-Bund)", de:1, d:"Amtliche Gesundheitsindikatoren fuer Deutschland, fast durchweg nach Geschlecht aufgeschluesselt.", t:"portal", u:"https://www.gbe-bund.de/"},
-  {c:"deutsch", n:"Bundesgesundheitsministerium", de:1, d:"Gesetzentwuerfe und Stellungnahmen - auch zur Frage, wo Geschlecht in Versorgungsstrukturen verankert wird.", t:"live", u:"https://www.bundesgesundheitsministerium.de/suche.html?tx_solr%5Bq%5D=%s"},
-  {c:"deutsch", n:"Gemeinsamer Bundesausschuss (G-BA)", de:1, d:"Richtlinien und Beschluesse: hier entscheidet sich, ob eine geschlechtsspezifische Leistung erstattet wird.", t:"live", u:"https://www.g-ba.de/sys/suche/?suchbegriff=%s"},
+  {c:"deutsch", n:"Robert Koch-Institut (RKI)", de:1, d:"Gesundheitsberichterstattung des Bundes an der Quelle: GEDA- und DEGS-Auswertungen sind durchgängig nach Geschlecht getrennt.", t:"live", u:"https://www.rki.de/SiteGlobals/Forms/Suche/Expertensuche/Servicesuche_Formular.html?templateQueryString=%s"},
+  {c:"deutsch", n:"Gesundheitsberichterstattung des Bundes (GBE-Bund)", de:1, d:"Amtliche Gesundheitsindikatoren für Deutschland, fast durchweg nach Geschlecht aufgeschlüsselt.", t:"portal", u:"https://www.gbe-bund.de/"},
+  {c:"deutsch", n:"Bundesgesundheitsministerium", de:1, d:"Gesetzentwürfe und Stellungnahmen - auch zur Frage, wo Geschlecht in Versorgungsstrukturen verankert wird.", t:"live", u:"https://www.bundesgesundheitsministerium.de/suche.html?tx_solr%5Bq%5D=%s"},
+  {c:"deutsch", n:"Gemeinsamer Bundesausschuss (G-BA)", de:1, d:"Richtlinien und Beschlüsse: hier entscheidet sich, ob eine geschlechtsspezifische Leistung erstattet wird.", t:"live", u:"https://www.g-ba.de/sys/suche/?suchbegriff=%s"},
   {c:"deutsch", n:"IQWiG", de:1, d:"Nutzenbewertungen und Gesundheitsinformationen; Untergruppenanalysen nach Geschlecht sind dort methodisch dokumentiert.", t:"portal", u:"https://www.iqwig.de/suche/"},
-  {c:"deutsch", n:"AWMF Leitlinienregister", de:1, d:"Alle deutschen Fachgesellschaftsleitlinien - der Ort, an dem sich pruefen laesst, ob eine Leitlinie Geschlecht ueberhaupt erwaehnt.", t:"portal", u:"https://register.awmf.org/de/suche"},
+  {c:"deutsch", n:"AWMF Leitlinienregister", de:1, d:"Alle deutschen Fachgesellschaftsleitlinien - der Ort, an dem sich prüfen lässt, ob eine Leitlinie Geschlecht überhaupt erwähnt.", t:"portal", u:"https://register.awmf.org/de/suche"},
   {c:"deutsch", n:"Deutsches Ärzteblatt", de:1, d:"Fachartikel und Nachrichten, oft mit deutschen Versorgungsdaten und der berufspolitischen Debatte dazu.", t:"live", u:"https://www.aerzteblatt.de/search?q=%s"},
   {c:"deutsch", n:"Bundesgesundheitsblatt", de:1, d:"Amtliches Organ des RKI; Schwerpunkthefte zu Geschlecht und Gesundheit erscheinen hier zuerst.", t:"portal", u:"https://link.springer.com/journal/103"},
-  {c:"deutsch", n:"Zentralinstitut für die kassenärztliche Versorgung (Zi)", de:1, d:"Auswertungen der vertragsaerztlichen Abrechnungsdaten - Inanspruchnahme nach Geschlecht, bis auf Fachgruppenebene.", t:"portal", u:"https://www.zi.de/suche"},
-  {c:"deutsch", n:"Wissenschaftliches Institut der AOK (WIdO)", de:1, d:"Routinedatenanalysen der groessten Kassenart; Arzneimittel- und Heilmittelreports weisen Geschlecht regelhaft aus.", t:"portal", u:"https://www.wido.de/suche/"},
-  {c:"deutsch", n:"Statistisches Bundesamt (Destatis)", de:1, d:"Amtliche Statistik zu Bevoelkerung, Sterbefaellen, Krankenhausdiagnosen und Gesundheitsausgaben.", t:"live", u:"https://www.destatis.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
-  {c:"deutsch", n:"Bundeszentrale für gesundheitliche Aufklärung (BZgA)", de:1, d:"Aufklaerungsmaterial und Kampagnenauswertungen; traegt die beiden Buergerportale zu Frauen- und Maennergesundheit.", t:"live", u:"https://www.bzga.de/suche/?tx_solr%5Bq%5D=%s"},
-  {c:"deutsch", n:"Frauengesundheitsportal (BZgA)", de:1, d:"Geprueftes Buergerwissen zu Frauengesundheit ueber die gesamte Lebensspanne, mit Quellenangabe.", t:"live", u:"https://www.frauengesundheitsportal.de/suche/?tx_solr%5Bq%5D=%s"},
-  {c:"deutsch", n:"Männergesundheitsportal (BZgA)", de:1, d:"Das Gegenstueck fuer Maennergesundheit - inklusive der Frage, warum Maenner Versorgung spaeter in Anspruch nehmen.", t:"live", u:"https://www.maennergesundheitsportal.de/suche/?tx_solr%5Bq%5D=%s"},
-  {c:"deutsch", n:"Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)", de:1, d:"Zulassung und Pharmakovigilanz; relevant fuer geschlechtsabhaengige Dosierung und Nebenwirkungsprofile.", t:"live", u:"https://www.bfarm.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
-  {c:"deutsch", n:"GenderOpen", de:1, d:"Volltextrepositorium der deutschsprachigen Geschlechterforschung, frei zugaenglich.", t:"portal", u:"https://www.genderopen.de/search"},
+  {c:"deutsch", n:"Zentralinstitut für die kassenärztliche Versorgung (Zi)", de:1, d:"Auswertungen der vertragsärztlichen Abrechnungsdaten - Inanspruchnahme nach Geschlecht, bis auf Fachgruppenebene.", t:"portal", u:"https://www.zi.de/suche"},
+  {c:"deutsch", n:"Wissenschaftliches Institut der AOK (WIdO)", de:1, d:"Routinedatenanalysen der größten Kassenart; Arzneimittel- und Heilmittelreports weisen Geschlecht regelhaft aus.", t:"portal", u:"https://www.wido.de/suche/"},
+  {c:"deutsch", n:"Statistisches Bundesamt (Destatis)", de:1, d:"Amtliche Statistik zu Bevölkerung, Sterbefällen, Krankenhausdiagnosen und Gesundheitsausgaben.", t:"live", u:"https://www.destatis.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
+  {c:"deutsch", n:"Bundeszentrale für gesundheitliche Aufklärung (BZgA)", de:1, d:"Aufklärungsmaterial und Kampagnenauswertungen; trägt die beiden Bürgerportale zu Frauen- und Männergesundheit.", t:"live", u:"https://www.bzga.de/suche/?tx_solr%5Bq%5D=%s"},
+  {c:"deutsch", n:"Frauengesundheitsportal (BZgA)", de:1, d:"Geprüftes Bürgerwissen zu Frauengesundheit über die gesamte Lebensspanne, mit Quellenangabe.", t:"live", u:"https://www.frauengesundheitsportal.de/suche/?tx_solr%5Bq%5D=%s"},
+  {c:"deutsch", n:"Männergesundheitsportal (BZgA)", de:1, d:"Das Gegenstück für Männergesundheit - inklusive der Frage, warum Männer Versorgung später in Anspruch nehmen.", t:"live", u:"https://www.maennergesundheitsportal.de/suche/?tx_solr%5Bq%5D=%s"},
+  {c:"deutsch", n:"Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)", de:1, d:"Zulassung und Pharmakovigilanz; relevant für geschlechtsabhängige Dosierung und Nebenwirkungsprofile.", t:"live", u:"https://www.bfarm.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
+  {c:"deutsch", n:"GenderOpen", de:1, d:"Volltextrepositorium der deutschsprachigen Geschlechterforschung, frei zugänglich.", t:"portal", u:"https://www.genderopen.de/search"},
   {c:"deutsch", n:"GESIS — Leibniz-Institut für Sozialwissenschaften", de:1, d:"Sozialwissenschaftliche Literatur und Umfragedaten; hier liegt die empirische Grundlage zur Geschlechterrolle.", t:"portal", u:"https://search.gesis.org/"},
   {c:"deutsch", n:"Gesundheitliche Chancengleichheit", de:1, d:"Kooperationsverbund zu sozial bedingter Ungleichheit - der Bezugsrahmen, in dem Geschlecht selten allein steht.", t:"live", u:"https://www.gesundheitliche-chancengleichheit.de/portalsuche/?tx_solr%5Bq%5D=%s"},
-  {c:"deutsch", n:"Bundesstiftung Gleichstellung", de:1, d:"Fuehrt geschlechtersensible Medizin als eigenes Themenfeld; buendelt Studienlage und politische Forderungen.", t:"portal", u:"https://www.bundesstiftung-gleichstellung.de/wissen/themenfelder/geschlechtersensible-medizin/"},
+  {c:"deutsch", n:"Bundesstiftung Gleichstellung", de:1, d:"Führt geschlechtersensible Medizin als eigenes Themenfeld; bündelt Studienlage und politische Forderungen.", t:"portal", u:"https://www.bundesstiftung-gleichstellung.de/wissen/themenfelder/geschlechtersensible-medizin/"},
 
   // 02 — Bibliografische Datenbanken (international)
   {c:"biblio", n:"PubMed / MEDLINE", d:"Die zentrale biomedizinische Datenbank der US-Nationalbibliothek (NLM). >37 Mio. Nachweise.", t:"live", u:"https://pubmed.ncbi.nlm.nih.gov/?term=%s", b:1},
@@ -989,28 +989,28 @@ const DB = [
   {c:"evidenz", n:"JBI EBP Database", d:"Evidenzsynthesen des Joanna Briggs Institute.", t:"portal", u:"https://jbi.global/ebp"},
 
   // 04 — Gendermedizin & Fachgesellschaften
-  {c:"gendermed", n:"Deutsche Gesellschaft für Geschlechtsspezifische Medizin (DGesGM)", de:1, d:"Die deutsche Fachgesellschaft, 2006 gegruendet; Positionspapiere, Tagungen und Fortbildungscurricula.", t:"live", u:"https://www.dgesgm.de/?s=%s"},
-  {c:"gendermed", n:"Gender in Medicine (GiM), Charité", de:1, d:"Das aelteste deutsche Institut des Feldes; Forschung, Lehre und die Betreuung der Datenbank GenderMedDB.", t:"portal", u:"https://gender.charite.de/metas/suche/"},
-  {c:"gendermed", n:"GenderMedDB (Charité)", d:"Systematisches Archiv der Literatur zu Geschlechterunterschieden, woechentlich aus PubMed nachgefuehrt. ACHTUNG: Erreichbarkeit am 20.08.2026 nicht bestaetigt - vor dem Livegang im Browser pruefen.", t:"portal", u:"https://gendermeddb.charite.de/"},
+  {c:"gendermed", n:"Deutsche Gesellschaft für Geschlechtsspezifische Medizin (DGesGM)", de:1, d:"Die deutsche Fachgesellschaft, 2006 gegründet; Positionspapiere, Tagungen und Fortbildungscurricula.", t:"live", u:"https://www.dgesgm.de/?s=%s"},
+  {c:"gendermed", n:"Gender in Medicine (GiM), Charité", de:1, d:"Das älteste deutsche Institut des Feldes; Forschung, Lehre und die Betreuung der Datenbank GenderMedDB.", t:"portal", u:"https://gender.charite.de/metas/suche/"},
+  {c:"gendermed", n:"GenderMedDB (Charité)", d:"Systematisches Archiv der Literatur zu Geschlechterunterschieden, wöchentlich aus PubMed nachgeführt. ACHTUNG: Erreichbarkeit am 20.08.2026 nicht bestätigt - vor dem Livegang im Browser prüfen.", t:"portal", u:"https://gendermeddb.charite.de/"},
   {c:"gendermed", n:"Geschlechtersensible Medizin (GSM+), Universität Magdeburg", de:1, d:"Lehrstuhl mit angeschlossener Hochschulambulanz - der bislang einzige Ort, an dem das Fach in Deutschland ambulant praktiziert wird.", t:"portal", u:"https://gsm.med.ovgu.de/"},
-  {c:"gendermed", n:"Deutscher Ärztinnenbund", de:1, d:"Berufsverband mit langjaehriger Arbeit zur geschlechtsspezifischen Medizin und zur Lage von Aerztinnen.", t:"live", u:"https://www.aerztinnenbund.de/Suchen.0.3.1.html?what=%s"},
-  {c:"gendermed", n:"AG Geschlechtersensible Medizin (DGOU)", de:1, d:"Arbeitsgemeinschaft der Orthopaedie und Unfallchirurgie - ein Beispiel dafuer, wie das Thema in die Faecher wandert.", t:"portal", u:"https://dgou.de/gremien/arbeitsgemeinschaften/ag-geschlechtersensible-medizin"},
-  {c:"gendermed", n:"Gendered Innovations (Stanford)", d:"Methodensammlung, wie sich Geschlecht in Forschungsdesigns einbauen laesst - mit Fallbeispielen aus Medizin und Technik.", t:"portal", u:"https://genderedinnovations.stanford.edu/"},
-  {c:"gendermed", n:"Sex and Gender Health Collaborative (AMWA)", d:"US-Netzwerk fuer die Verankerung von Sex- und Gender-Inhalten in der aerztlichen Ausbildung.", t:"portal", u:"https://www.amwa-doc.org/sghc/"},
-  {c:"gendermed", n:"CIHR Institute of Gender and Health", d:"Kanadische Foerderinstitution; ihre SGBA-Lernmodule sind der internationale Bezugspunkt fuer Methodik.", t:"portal", u:"https://cihr-irsc.gc.ca/e/8673.html"},
-  {c:"gendermed", n:"NIH Office of Research on Women's Health (ORWH)", d:"Bündelt die US-Foerderpolitik zu Frauengesundheit und zur Vorgabe, Geschlecht als Variable mitzufuehren.", t:"portal", u:"https://orwh.od.nih.gov/"},
+  {c:"gendermed", n:"Deutscher Ärztinnenbund", de:1, d:"Berufsverband mit langjähriger Arbeit zur geschlechtsspezifischen Medizin und zur Lage von Ärztinnen.", t:"live", u:"https://www.aerztinnenbund.de/Suchen.0.3.1.html?what=%s"},
+  {c:"gendermed", n:"AG Geschlechtersensible Medizin (DGOU)", de:1, d:"Arbeitsgemeinschaft der Orthopädie und Unfallchirurgie - ein Beispiel dafür, wie das Thema in die Fächer wandert.", t:"portal", u:"https://dgou.de/gremien/arbeitsgemeinschaften/ag-geschlechtersensible-medizin"},
+  {c:"gendermed", n:"Gendered Innovations (Stanford)", d:"Methodensammlung, wie sich Geschlecht in Forschungsdesigns einbauen lässt - mit Fallbeispielen aus Medizin und Technik.", t:"portal", u:"https://genderedinnovations.stanford.edu/"},
+  {c:"gendermed", n:"Sex and Gender Health Collaborative (AMWA)", d:"US-Netzwerk für die Verankerung von Sex- und Gender-Inhalten in der ärztlichen Ausbildung.", t:"portal", u:"https://www.amwa-doc.org/sghc/"},
+  {c:"gendermed", n:"CIHR Institute of Gender and Health", d:"Kanadische Förderinstitution; ihre SGBA-Lernmodule sind der internationale Bezugspunkt für Methodik.", t:"portal", u:"https://cihr-irsc.gc.ca/e/8673.html"},
+  {c:"gendermed", n:"NIH Office of Research on Women's Health (ORWH)", d:"Bündelt die US-Förderpolitik zu Frauengesundheit und zur Vorgabe, Geschlecht als Variable mitzuführen.", t:"portal", u:"https://orwh.od.nih.gov/"},
   {c:"gendermed", n:"Society for Women's Health Research (SWHR)", d:"US-Organisation, die den Begriff des Gender Data Gap in die Gesundheitspolitik getragen hat.", t:"live", u:"https://swhr.org/?s=%s"},
   {c:"gendermed", n:"International Society of Gender Medicine (IGM)", d:"Dachverband der nationalen Gesellschaften; Kongressprogramme zeigen, woran international gearbeitet wird.", t:"portal", u:"https://www.isogem.eu/"},
-  {c:"gendermed", n:"Gender Medicine Unit, Medizinische Universität Wien", de:1, d:"Oesterreichisches Zentrum mit eigenem Lehrangebot; deutschsprachig und gut mit Deutschland vergleichbar.", t:"live", u:"https://www.meduniwien.ac.at/web/suche/?tx_solr%5Bq%5D=%s"},
+  {c:"gendermed", n:"Gender Medicine Unit, Medizinische Universität Wien", de:1, d:"Österreichisches Zentrum mit eigenem Lehrangebot; deutschsprachig und gut mit Deutschland vergleichbar.", t:"live", u:"https://www.meduniwien.ac.at/web/suche/?tx_solr%5Bq%5D=%s"},
   {c:"gendermed", n:"Centre for Gender Medicine, Karolinska Institutet", d:"Schwedisches Zentrum; arbeitet mit den skandinavischen Registern, die geschlechtergetrennte Auswertungen besonders belastbar machen.", t:"live", u:"https://ki.se/en/search?query=%s"},
-  {c:"gendermed", n:"Gender and Health Hub (UNU-IIGH)", d:"Wissensplattform der Universitaet der Vereinten Nationen zu Geschlecht in Gesundheitssystemen.", t:"portal", u:"https://www.genderhealthhub.org/"},
-  {c:"gendermed", n:"Global Health 50/50", d:"Prueft jaehrlich, wie Gesundheitsorganisationen selbst mit Geschlecht umgehen - Daten zu Fuehrung, Politik und Berichterstattung.", t:"live", u:"https://globalhealth5050.org/?s=%s"},
+  {c:"gendermed", n:"Gender and Health Hub (UNU-IIGH)", d:"Wissensplattform der Universität der Vereinten Nationen zu Geschlecht in Gesundheitssystemen.", t:"portal", u:"https://www.genderhealthhub.org/"},
+  {c:"gendermed", n:"Global Health 50/50", d:"Prüft jährlich, wie Gesundheitsorganisationen selbst mit Geschlecht umgehen - Daten zu Führung, Politik und Berichterstattung.", t:"live", u:"https://globalhealth5050.org/?s=%s"},
 
   // 05 — Geschlechterdaten & Statistik
   {c:"geschlechterdaten", n:"RKI — Gesundheit in Deutschland", de:1, d:"Der nationale Gesundheitsbericht mit den Surveys GEDA, DEGS und KiGGS; Grundlage fast jeder deutschen Geschlechterauswertung.", t:"portal", u:"https://www.rki.de/DE/Themen/Gesundheit-und-Gesellschaft/Gesundheitsberichterstattung/gesundheitsberichterstattung_node.html"},
-  {c:"geschlechterdaten", n:"Zentrum für Krebsregisterdaten (RKI)", de:1, d:"Bundesweite Krebsinzidenz und -sterblichkeit, durchgaengig nach Geschlecht.", t:"portal", u:"https://www.krebsdaten.de/"},
-  {c:"geschlechterdaten", n:"Eurostat — Gesundheit", d:"Europaeische Gesundheitsstatistik; die meisten Indikatoren lassen sich nach Geschlecht filtern.", t:"live", u:"https://ec.europa.eu/eurostat/search?p_auth=&text=%s"},
-  {c:"geschlechterdaten", n:"EIGE — Europäisches Institut für Gleichstellungsfragen", d:"Gender Statistics Database und der Gleichstellungsindex mit eigener Gesundheitsdomaene.", t:"live", u:"https://eige.europa.eu/search?keywords=%s"},
+  {c:"geschlechterdaten", n:"Zentrum für Krebsregisterdaten (RKI)", de:1, d:"Bundesweite Krebsinzidenz und -sterblichkeit, durchgängig nach Geschlecht.", t:"portal", u:"https://www.krebsdaten.de/"},
+  {c:"geschlechterdaten", n:"Eurostat — Gesundheit", d:"Europäische Gesundheitsstatistik; die meisten Indikatoren lassen sich nach Geschlecht filtern.", t:"live", u:"https://ec.europa.eu/eurostat/search?p_auth=&text=%s"},
+  {c:"geschlechterdaten", n:"EIGE — Europäisches Institut für Gleichstellungsfragen", d:"Gender Statistics Database und der Gleichstellungsindex mit eigener Gesundheitsdomäne.", t:"live", u:"https://eige.europa.eu/search?keywords=%s"},
   {c:"geschlechterdaten", n:"OECD Health Statistics", d:"Internationale Vergleichsdaten zu Lebenserwartung, Inanspruchnahme und Ausgaben, nach Geschlecht getrennt.", t:"portal", u:"https://www.oecd.org/en/topics/health.html"},
   {c:"geschlechterdaten", n:"WHO — Global Health Observatory", d:"Weltweite Indikatoren; die Geschlechterdimension ist als eigene Auswertungsachse angelegt.", t:"portal", u:"https://www.who.int/data/gho"},
   {c:"geschlechterdaten", n:"IHME — GBD Compare", d:"Krankheitslast weltweit, interaktiv nach Geschlecht, Alter und Region aufteilbar.", t:"portal", u:"https://vizhub.healthdata.org/gbd-compare/"},
@@ -1023,12 +1023,12 @@ const DB = [
   {c:"policy", n:"WHO IRIS", d:"Institutionelles Repositorium der WHO — Volltexte aller Berichte und Leitlinien.", t:"live", u:"https://iris.who.int/discover?query=%s"},
 
   // 07 — Standards & Berichtsleitlinien
-  {c:"standards", n:"SAGER-Leitlinien (EASE)", d:"Der Berichtsstandard fuer Sex und Gender in wissenschaftlichen Publikationen - kurz, verbindlich, oft zitiert.", t:"live", u:"https://ease.org.uk/?s=%s"},
+  {c:"standards", n:"SAGER-Leitlinien (EASE)", d:"Der Berichtsstandard für Sex und Gender in wissenschaftlichen Publikationen - kurz, verbindlich, oft zitiert.", t:"live", u:"https://ease.org.uk/?s=%s"},
   {c:"standards", n:"EQUATOR Network", d:"Sammlung aller Berichtsleitlinien; hier steht, welche davon eine Geschlechterangabe verlangen.", t:"live", u:"https://www.equator-network.org/?s=%s"},
-  {c:"standards", n:"NIH — Sex as a Biological Variable (SABV)", d:"Die Foerderauflage, die seit 2016 die internationale Studienlage veraendert hat.", t:"portal", u:"https://orwh.od.nih.gov/sex-gender/sex-gender-health-policy"},
-  {c:"standards", n:"Horizon Europe — Gender Equality Plans", d:"EU-Foerderbedingung: ohne Gleichstellungsplan kein Zuschlag; wirkt auf deutsche Forschungseinrichtungen unmittelbar.", t:"portal", u:"https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/gender-equality-research-and-innovation_en"},
-  {c:"standards", n:"Cochrane Equity Methods Group", d:"Methodik fuer Uebersichtsarbeiten mit Gleichheitsbezug; PROGRESS-Plus fuehrt Geschlecht als eine von acht Achsen.", t:"portal", u:"https://methods.cochrane.org/equity/"},
-  {c:"standards", n:"Gendered Innovations — Methods", d:"Zwoelf Methoden, Geschlecht in Forschungsdesign und Auswertung einzubauen, jeweils mit Gegenbeispiel.", t:"portal", u:"https://genderedinnovations.stanford.edu/methods-sex-and-gender-analysis.html"},
+  {c:"standards", n:"NIH — Sex as a Biological Variable (SABV)", d:"Die Förderauflage, die seit 2016 die internationale Studienlage verändert hat.", t:"portal", u:"https://orwh.od.nih.gov/sex-gender/sex-gender-health-policy"},
+  {c:"standards", n:"Horizon Europe — Gender Equality Plans", d:"EU-Förderbedingung: ohne Gleichstellungsplan kein Zuschlag; wirkt auf deutsche Forschungseinrichtungen unmittelbar.", t:"portal", u:"https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/gender-equality-research-and-innovation_en"},
+  {c:"standards", n:"Cochrane Equity Methods Group", d:"Methodik für Übersichtsarbeiten mit Gleichheitsbezug; PROGRESS-Plus führt Geschlecht als eine von acht Achsen.", t:"portal", u:"https://methods.cochrane.org/equity/"},
+  {c:"standards", n:"Gendered Innovations — Methods", d:"Zwölf Methoden, Geschlecht in Forschungsdesign und Auswertung einzubauen, jeweils mit Gegenbeispiel.", t:"portal", u:"https://genderedinnovations.stanford.edu/methods-sex-and-gender-analysis.html"},
 
   // 08 — Open Access & Discovery
   {c:"openaccess", n:"Google Scholar", d:"Breite Suchmaschine für wissenschaftliche Literatur inkl. grauer Literatur & Zitationen.", t:"live", u:"https://scholar.google.com/scholar?q=%s", b:1},
@@ -1795,15 +1795,27 @@ goBtn.disabled = !input.value.trim();
   try {
     if (navigator.doNotTrack === '1' || window.doNotTrack === '1'
         || navigator.globalPrivacyControl === true) return;
+    // Automatische Umgebungen melden sich selbst: navigator.webdriver setzen
+    // Headless Chrome und Selenium von sich aus. Zuverlaessiger als jede
+    // Liste von Browserkennungen, weil es nicht geraten, sondern gemeldet wird.
+    if (navigator.webdriver) return;
+    if (!screen.width || !screen.height) return;   // kein echter Bildschirm
     if (!/\.m-vf\.de$/.test(location.hostname)) return;   // lokal nicht zaehlen
     var r = '';
     try { r = document.referrer ? new URL(document.referrer).hostname : ''; }
     catch (e) { r = ''; }
     if (r === location.hostname) r = '';
+    // Bildschirmbreite nur in Stufen. Die genaue Aufloesung waere eines der
+    // staerksten Merkmale zum Wiedererkennen eines Browsers; fuer die Frage,
+    // fuer welche Breite zu gestalten ist, genuegt die Schublade.
+    var w = screen.width;
+    var stufe = w < 480 ? 'bis480' : w < 768 ? 'bis768' : w < 1024 ? 'bis1024'
+              : w < 1440 ? 'bis1440' : w < 1920 ? 'bis1920' : 'ueber1920';
     var q = 'h=' + encodeURIComponent(location.hostname)
           + '&p=' + encodeURIComponent(location.pathname)
           + '&r=' + encodeURIComponent(r ? 'https://' + r + '/' : '')
           + '&g=' + (Math.min(screen.width, screen.height) < 768 ? 'm' : 'd')
+          + '&b=' + stufe
           + '&c=' + Date.now();
     new Image(1, 1).src =
       'https://www.monitor-versorgungsforschung.de/zaehler/z.php?' + q;
