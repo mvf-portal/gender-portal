@@ -1,19 +1,24 @@
 {
  "hub": "Knowledge-Hub Geschlechtersensible Medizin",
  "domain": "gender.m-vf.de",
- "datum": "2026-08-26",
+ "datum": "2026-08-27",
  "stand": "terminiert",
- "titel": "MVF Gender-Newsletter 26.08.2026",
- "betreff": "Neueste Studien - Geschlecht und Gesundheit – 26. August 2026",
- "anzahl": 2,
+ "titel": "MVF Gender-Newsletter 27.08.2026",
+ "betreff": "Neueste Studien - Geschlecht und Gesundheit – 27. August 2026",
+ "anzahl": 6,
  "pmids": [
-  "42629565",
-  "42509547"
+  "42512855",
+  "42476182",
+  "42467557",
+  "42413339",
+  "42407388",
+  "42407328"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098566",
- "termin_utc": "2026-08-26T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098589",
+ "termin_utc": "2026-08-28T09:00:00+00:00",
  "empfaenger": 1,
  "listengroesse": 5903,
  "beanstandungen": [],
- "aussortiert": []
+ "aussortiert": [],
+ "pool": {}
 }
