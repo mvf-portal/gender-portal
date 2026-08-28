@@ -59,5 +59,6 @@
   "N_PORTAL": "42",
   "N_LIZENZ": "5",
   "N_RUBRIKEN": "10",
-  "N_GLOSSAR": "169"
+  "N_GLOSSAR": "169",
+  "CRON_MIN": "35"
 }
