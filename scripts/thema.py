@@ -242,3 +242,18 @@ Gib ausschliesslich das geforderte JSON zurueck.
 === ABSTRACTS ===
 {abstracts}
 """
+
+
+# ------------------------------------------------- Newsfeed
+# Wonach dieser Hub im MVF-Archiv sucht (scripts/newsfeed.py). Eigene Liste
+# statt der Schnellwahlbegriffe: Die Chips dieses Hubs nennen "Herzinfarkt"
+# und "Arzneimittelsicherheit", weil deren geschlechtsspezifische Seite das
+# Thema ist - im Archiv holen dieselben Woerter allgemeine Herz- und
+# Arzneimittelmeldungen. VORSCHLAG, vom Herausgeber zu bestaetigen.
+NEWS_SUCHE = [
+    "Geschlechterunterschiede",
+    "Frauengesundheit",
+    "Maennergesundheit",
+    "Gendermedizin",
+    "geschlechtsspezifisch",
+]
