@@ -246,14 +246,18 @@ Gib ausschliesslich das geforderte JSON zurueck.
 
 # ------------------------------------------------- Newsfeed
 # Wonach dieser Hub im MVF-Archiv sucht (scripts/newsfeed.py). Eigene Liste
-# statt der Schnellwahlbegriffe: Die Chips dieses Hubs nennen "Herzinfarkt"
-# und "Arzneimittelsicherheit", weil deren geschlechtsspezifische Seite das
-# Thema ist - im Archiv holen dieselben Woerter allgemeine Herz- und
-# Arzneimittelmeldungen. VORSCHLAG, vom Herausgeber zu bestaetigen.
+# statt der Schnellwahlbegriffe: Chips sind fuer Datenbankabfragen gemacht und
+# treffen im deutschen Archiv oft daneben - im Gender-Hub holten "Herzinfarkt"
+# und "Arzneimittelsicherheit" allgemeine Herz- und Arzneimittelmeldungen, im
+# Mental-Hub brachte "Wartezeit" jeden Arzttermin.
+#
+# Am 29.08.2026 gegen das Archiv gemessen; einzelne Begriffe stehen trotz
+# heute null Treffern drin, weil sie fachlich in der Mitte des Themas liegen
+# und das Archiv taeglich waechst. Ein Abruf ohne Treffer kostet nichts.
 NEWS_SUCHE = [
-    "Geschlechterunterschiede",
     "Frauengesundheit",
-    "Maennergesundheit",
+    "Männergesundheit",
     "Gendermedizin",
     "geschlechtsspezifisch",
+    "Geschlechterunterschiede",
 ]
