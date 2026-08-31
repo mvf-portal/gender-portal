@@ -26,19 +26,13 @@
   "42356212",
   "42341945"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098629",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098641",
  "termin_utc": "2026-08-31T08:00:00+00:00",
  "empfaenger": 1,
  "listengroesse": 5904,
  "beanstandungen": [],
  "aussortiert": [],
- "pool": {
-  "geholt": 220,
-  "bekannt": 40,
-  "pool": 53,
-  "gewaehlt": 6,
-  "neu": 6
- },
+ "pool": {},
  "rubriken": {
   "news": "ef4e620ce19d7be1"
  }
