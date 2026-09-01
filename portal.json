@@ -1,6 +1,7 @@
 {
   "_": "Themenprofil Gendermedizin - neuntes Portal. PubMed-Zahlen vom 20.08.2026, letzte zwoelf Monate: 5.903 Arbeiten (16,2 pro Tag), 5,5 Prozent Ueberschneidung mit den acht Schwesterportalen - ohne den NOT-Block waeren es 12,4 Prozent bei nur 7 Prozent mehr Material. Groesster Nachbar ist longevity (3,9 Prozent), nicht der KI-Hub. Deutschlandbezug: 339 Arbeiten im Jahr. Datenbanken am 20.08.2026 mit linkpruefung.py geprueft und zusaetzlich gegen einen Echo-Test gehalten (nimmt die Seite den Suchbegriff sichtbar auf?). Der Echo-Test war noetig: Bei GSM+ Magdeburg unterschieden sich zwei Abrufe nur im CAPTCHA-Bild, der Fingerabdruck-Vergleich haette die Kachel faelschlich als Live-Suche ausgewiesen. Fuenf Quellen (GESIS, NIH ORWH, OECD, IHME, Journal of Women's Health) weisen curl mit HTTP 403 ab und bleiben bis zur Gegenprobe im Browser Portal-Kacheln.",
   "DOMAIN": "gender.m-vf.de",
+  "HUB": "gender",
   "REPO": "mvf-portal/gender-portal",
   "TITEL": "Knowledge-Hub Geschlechtersensible Medizin",
   "TITEL_KURZ": "Geschlechtersensible Medizin",
