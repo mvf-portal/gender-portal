@@ -1406,71 +1406,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "8. Sept. 2026, 05:45 Uhr";
+const SNAP_DATE = "9. Sept. 2026, 05:45 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"EuroIntervention", year:"2026", pmid:"42703765",
-    author:"Ding Y et al.", pubdate:"07.09.2026",
-    added:"07.09.2026",
-    title:"CT-FFR-gesteuerte Diagnostik bei stabiler KHK – unterschiedliche Effekte bei Frauen und Männern",
-    sum:"Subgruppen-Analyse der TARGET-Studie (1.216 Patienten) untersucht, ob CT-FFR-Führung bei stabiler KHK geschlechtsspezifische Unterschiede in invasiver Angiographie, Revaskularisierung und 2-Jahres-Outcome zeigt.",
-    result:"Frauen waren älter (62,3±8,1 vs. 58,2±10,7 Jahre, p&lt;0,001), vergleichbare anatomische KHK-Schwere. CT-FFR-Führung senkte ICA ohne obstruktive KHK und erhöhte frühe Revaskularisierung bei Männern, nicht bei Frauen. Nach 2 Jahren: CT-FFR-Führung assoziiert mit niedrigerer MACE-Rate bei Frauen (adj. HR 0,48, 95% KI 0,27–0,87, p=0,015) vs. Standardversorgung, aber kein Unterschied bei Männern (adj. HR 0,89, 95% KI 0,59–1,33, p=0,574). Autoren betonen: Keine signifikante Sex-×-Behandlungs-Interaktion; Befunde sind explorativ. Vermutlich Biologie (weniger obstruktive Plättchen bei Frauen) + Zugang (Katheterisierung wird bei Frauen zu viel vermieden).",
-    transfer:"Interventionelle Kardiologie; Frauen mit mikrovaskularem Leiden, vergleichbar mit Deutschland"
+    journal:"PLoS One", year:"2026", pmid:"42685034",
+    author:"Bhat A et al.", pubdate:"02.09.2026",
+    added:"02.09.2026",
+    title:"Frauen mit Bronchiektasen berichten höhere körperliche Aktivität, können aber kürzere Strecken gehen",
+    sum:"Querschnittstudie an 55 stabilen Bronchiektasen-Patienten in Südindien mit Messung von selbstberichteter körperlicher Aktivität (IPAQ), Dyspnoe (mMRC), 6-Minuten-Gehstrecke (6MWD) und Lebensqualität.",
+    result:"Frauen kürzere absolute 6MWD (≈57 m weniger), aber kein Unterschied in Prozent-des-Vorhergesagten verglichen mit Männern. Frauen berichteten höhere selbstberichtete körperliche Aktivität (+1.350 MET-min/Woche). Reduzierte 6MWD korreliert mit höherem Alter, weiblichem Geschlecht, erhöhter Exazerbationsfrequenz, höherer Dyspnoe-Schwere und höherer radiologischer Schwere. Dyspnoe-Schwere und radiologische Schwere unabhängig vorhersagend für funktionelle Leistungsfähigkeit. Ursache: Diskrepanz zwischen selbstberichteter und objektiver Aktivität deutet auf Geschlechtsunterschiede in Wahrnehmung oder Messung hin, nicht auf biologische Responsivitätsunterschiede.",
+    transfer:"Süd-Asien (Manipal, Indien); begrenzte Übertragbarkeit auf deutsches System, zeigt aber universelles Messbias-Problem bei Aktivitätsbewertung."
   },
   {
-    journal:"Mult Scler Relat Disord", year:"2026", pmid:"42664643",
-    author:"Brigo F et al.", pubdate:"28.08.2026",
-    added:"28.08.2026",
-    title:"Multiple-Sklerose-Last in Italien – regionale Gradienten und Geschlechtsmuster",
-    sum:"Analyse der Global Burden of Disease-Daten 1990–2023 untersucht, wie sich die MS-Last in Italien regional und nach Geschlecht verschoben hat – von vorzeitiger Mortalität zu Langzeit-Behinderung.",
-    result:"DALY-Raten stiegen in allen Makroregionen; steilster Anstieg in Sardinien und Süditalien. YLDs wuchsen schneller als YLLs überall, was einen Verschiebung zu behinderungsgeprägter Last bestätigt. Geschlechtliche Unterschiede waren kleiner als geografische Unterschiede (kein genaues Geschlechtsverhältnis beziffert). Signifikante Heterogenität über Makroregionen hinweg.",
-    transfer:"Italien, IHME-Schätzungen; Geschlechtsunterschiede klein, geografische Variation dominiert"
+    journal:"J Card Fail", year:"2026", pmid:"42710970",
+    author:"Ramu B et al.", pubdate:"Sept. 2026",
+    added:"08.09.2026",
+    title:"Herz-Nieren-Transplantation: Frauen sterben in den ersten 90 Tagen häufiger",
+    sum:"25-Jahr-Analyse von 3.068 simultanen Herz-Nieren-Transplantationen (19,7% Frauen) aus dem US-UNOS-Register mit stratifizierten Cox-Regressionen.",
+    result:"Frauen perioperativ erhöhtes Sterblichkeitsrisiko (aHR 1,58 in den Tagen 0–90, 95%-CI 1,12–2,22, p=0,009), kein signifikanter Unterschied nach Tag 90 (aHR 0,91, p=0,729) oder nach 5 Jahren. Zeitfenster-Analyse im modernen Allokations-Ära zeigte aHR 1,78 (95%-CI 1,19–2,65, p=0,005). Frauen hatten mehr nicht-ischämische Kardiomyopathie und höheren pulmonalen Vaskulären Widerstand baseline. Ursache: perioperative Komplikationen und Zeitmangel zur Vorbereitung, nicht längerfristige biologische oder immunologische Unterschiede.",
+    transfer:"USA, aber Sicherheitsbefund zu perioperativem Risiko transkulturell übertragbar; Deutschland fehlen Transplantations-Register dieser Auflösung."
   },
   {
-    journal:"Health Policy", year:"2026", pmid:"42594604",
-    author:"Paraponaris A et al.", pubdate:"07.08.2026",
-    added:"13.08.2026",
-    title:"Hausärztliche Leistungsanpassung sinkt bei Frauen – Kinderverantwortung erklärt den Unterschied",
-    sum:"Französische Panels von 2.898 selbstständigen Hausärztinnen und Hausärzten zeigen, wie diese ihre Arbeitsleistung bei sinkendem lokalen Ärztinnen-/Ärztedichte anpassen – mit Fokus auf Unterschiede nach Geschlecht und Familiensituation.",
-    result:"Bei 10% Rückgang der Ärztedichte stiegen die privaten Praxiseinkommen um 1,7–1,8% (p&lt;0,01). Männliche Ärzte erhöhten ihre Einkommen um etwa 2,2% (p&lt;0,01), weibliche Ärzte insgesamt nicht signifikant. Ohne Kinder reagierten Frauen (+1,9%) und Männer (+2,4%) ähnlich (beide p&lt;0,01). Geschlechtsunterschiede in der Leistungsanpassung sind primär auf ungleiche Familienverantwortung während der Kindererziehung zurückzuführen, nicht auf Geschlecht selbst.",
-    transfer:"Frankreich, Steuerdaten-Panel; Gatekeeping-System unterscheidet sich von Deutschland"
+    journal:"Sex Health", year:"2026", pmid:"42289791",
+    author:"Gardner SD et al.", pubdate:"17.08.2026",
+    added:"14.06.2026",
+    title:"Co-auftretende Stigmatisierung von HIV, Geschlechtlichkeit und Drogengebrauch beeinflusst mentale Gesundheit Jugendlicher in Kasachstan",
+    sum:"Querschnittstudie an 216 HIV-negativen Jugendlichen und jungen Erwachsenen (116 Frauen, 110 Männer) in Almaty, Kasachstan mittels latenter Klassenanalyse der wahrgenommenen Stigmatisierung und psychischer Gesundheit.",
+    result:"Vier Stigmatisierungs-Klassen identifiziert: (1) niedrig alle Typen (26%); (2) niedrig HIV-Stigma, moderat Drogen- und Geschlechtsminoritäts-Stigma (44%); (3) moderat HIV- und Geschlechtsminoritäts-Stigma (9%); (4) hoch alle Typen (21%). Klasse 4 hatte höhere Odds für Geschlechtsminoritäts-Identifizierung (OR 2,70; 95%-CI 1,09–6,69), höhere Depression (M 13,88 vs. 9,00, p&lt;0,05) und Angst (M 9,00 vs. 5,2, p&lt;0,05) als Klasse 1. Klasse 2 2,47× höhere Odds für Tabakgebrauch und 2,06× für Alkoholkonsum. Ursache: Intersektionalität von Stigmatisierungsformen und Geschlechtsidentität, strukturell und psychologisch.",
+    transfer:"Kasachstan (Mittelasien); begrenzte Übertragbarkeit auf Deutschland, da kulturelle Stigmatisierungsmuster unterschiedlich sind."
   },
   {
-    journal:"Cancer Epidemiol", year:"2026", pmid:"42214924",
-    author:"Fang L et al.", pubdate:"02.06.2026",
-    added:"29.05.2026",
-    title:"Alkoholkonsum und Lebererkrankung – Frauen zeigen geschlechtsspezifische biologische Anfälligkeit",
-    sum:"UK-Biobank-Kohortenstudie mit Plasmaproteomik untersucht, ob Geschlecht die Beziehung zwischen Alkoholdosis und alkoholassoziierter Lebererkrankung (ALD) sowie Krebs modifiziert und welche biologischen Mediatoren dies erklären.",
-    result:"Nach 13,8 Jahren Follow-up: Jede 70 g/Woche Alkoholzuwachs assoziiert mit HR 1,21 (95% KI 1,19–1,23) für ALD bei Frauen vs. HR 1,06 (95% KI 1,05–1,07) bei Männern (p für Interaktion &lt;0,001). Frauen zeigten 2,8-fach höheres ALD-Risiko bei 200 g/Woche. Proteomik identifizierte unterschiedliche Mediatoren: Männer zeigen pro-inflammatorische Pathways (MAPK, NF-κB), Frauen Zelladhäsion und PI3K-Akt-Wege. Biologie erklärt unterschiedliche Alkohelvulnerabilität zwischen Geschlechtern.",
-    transfer:"UK-Biobank, vergleichbar mit Deutschland; biologische Mechanismen, nicht Zugang"
+    journal:"Eur Heart J", year:"2026", pmid:"42189053",
+    author:"Grapsa J et al.", pubdate:"03.08.2026",
+    added:"26.05.2026",
+    title:"Zentren für Frauenherzkrankheiten reduzieren Versorgungsungleichheiten bei Herzinfarkt",
+    sum:"European consensus statement zur Etablierung von Frauenherzzentern als Struktur zur Reduktion diagnostischer und therapeutischer Disparitäten in der Kardiologie.",
+    result:"Frauen haben höhere kardiovaskuläre Mortalität und erhalten weniger diagnostische Tests und Interventionen als Männer; spezialisierte Frauenherzenzentren zeigen verbesserte diagnostische Genauigkeit, bessere Risikofaktorkontrolle und höhere Patientenzufriedenheit, ohne dass langfristige Outcome-Daten zur Mortalitätsreduktion vorliegen. Strukturelle Massnahme zur Reduktion eines bekannten Unterschieds.",
+    transfer:"Europäisches Konsensus-Statement; Übertragbarkeit auf deutsches System mit vergleichbarer Kardiologie-Struktur gegeben."
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42218391",
-    author:"Rüthrich MM et al.", pubdate:"30.05.2026",
-    added:"30.05.2026",
-    title:"Obere Atemwegsinfekte – Stress und Geschlecht erklären Symptombürde unterschiedlich",
-    sum:"Deutsche Studie an 273 Gesunden und 194 Stammzelltransplantations-Empfängern untersucht, ob Frauen höhere Stresslevels aufweisen, die ihre erhöhte Anfälligkeit und Symptombelastung bei Atemwegsinfekten erklären.",
-    result:"Kohort Gesund (50% Frauen, meist ≤30 Jahre): Frauen berichteten mehr moderate/schwere URTI-Symptome als Männer (57% vs. 36%, p&lt;0,001, φ=0,210) und höhere PSS-4-Werte [t(271)=2,84, p&lt;0,001, d=0,636]. Stress korrelierte bei Frauen schwach mit Symptomen (r=0,15, p=0,04). Kohort Immungeschwächt (40,5% Frauen, meist ≥30 Jahre): Männer berichteten mehr Symptome (83% vs. 68%, p=0,021); PSS-4 unterschied sich nicht nach Geschlecht. Stress–Symptom-Korrelation war stärker (r=0,293, p&lt;0,001), besonders bei Frauen (r=0,385, p&lt;0,001). Beziehung zwischen Geschlecht, Stress und Symptomen ist gesundheitsstatus-abhängig; Biologie + Psyche.",
-    transfer:"Deutschland, Klinikstudien aus Jena/Charité; geschlechtsspezifische Stressphysiologie"
+    journal:"Int J Infect Dis", year:"2026", pmid:"42190938",
+    author:"Valencia J et al.", pubdate:"25.05.2026",
+    added:"26.05.2026",
+    title:"PrEP-Abbruchquoten unter Sexarbeiterinnen deutlich höher als bei Männern",
+    sum:"Prospektive Kohortenstudie zur PrEP-Adhärenz bei 189 Sexarbeitern in Madrid, stratifiziert nach Geschlecht und Geschlechtsidentität.",
+    result:"Cisgender-Frauen zeigten höchste Abbruchquote (20,8 pro 100 Personenmonate, medianes Halten 3,8 Monate), Cisgender-Männer (aHR 0,37; 95%-CI 0,21–0,62) und Trans-Frauen (aHR 0,30; 0,18–0,50) signifikant niedrigeres Abbruchrisiko. Wohnungsinstabilität unabhängig mit erhöhtem Abbruchrisiko assoziiert (aHR 1,91; 95%-CI 1,17–3,12). Ursache: strukturelle Barrieren für Cisgender-Frauen, nicht Biologie.",
+    transfer:"Spanisches Gesundheitssystem mit Dokumentationspflichten vergleichbar mit Deutschland; Zugangsbarrieren für vulnerable Gruppen universell."
   },
   {
-    journal:"Sci Rep", year:"2026", pmid:"42215567",
-    author:"Andrade CAS et al.", pubdate:"29.05.2026",
-    added:"29.05.2026",
-    title:"Diabetes-Prävalenz und Ungleichheit in Europa – Geschlecht und Sozialstatus",
-    sum:"SHARE-Daten von 13 europäischen Ländern 2010–2019 analysieren geschlechtsgespaltete nationale und subnationale Unterschiede in selbstberichteter Diabetes-Prävalenz und deren sozioökonomische Treiber.",
-    result:"Diabetes-Prävalenz sank von 11% (2010/11) auf 10,6% (2019); von 5,9% in der Schweiz bis 16,7% in Tschechien. Subnationale Spannweite: 2,1% bis 28,5%. Gini-Koeffizient stieg von 21,9% auf 22,5%; Schweiz zeigte höchsten Wert [30,1% (95% KI 7,9–41,7)]. Bildungs- und Einkommens-Konzentrationsindizes waren konsistent niedrig und überwiegend negativ (Ungleichheit zugunsten niedriger Sozialgruppen). Urbanisierung zeigte gemischte Muster (p&gt;0,05).",
-    transfer:"13 europäische Länder, SHARE-Kohorte; hohe Vergleichbarkeit mit Deutschland"
-  },
-  {
-    journal:"J Sex Marital Ther", year:"2026", pmid:"42212866",
-    author:"Azzi M et al.", pubdate:"29.05.2026",
-    added:"29.05.2026",
-    title:"Fertilitätsschutz bei Transgender-Personen in Italien – Beratung mangelhaft, Reue häufig",
-    sum:"Italienische Querschnittsstudie (n=548) untersucht Einstellungen zur Fertilitätserhaltung, Beratungsqualität und Entscheidungsreue bei Transgender/nicht-binären Personen nach hormoneller Geschlechtsangleichung.",
-    result:"Fertilitätsschutz-Uptake 4,6% (21 von 548); nur 1 Person nutzte später Gameten. Beratung zur Fertilitätserhaltung wurde nicht systematisch angeboten und oft als suboptimal wahrgenommen. Unter 373 mit Decision Regret Scale-Ausfüllung: 67,3% berichteten Entscheidungsreue – assoziiert mit aktuellem Wunsch nach Familie (p&lt;10⁻⁴) und niedrigerer Zufriedenheit mit Arbeitsbedingungen zum Zeitpunkt der FP-Entscheidung (p=0,018). Lücken im System, keine strukturierte hochwertige Beratung. Zugang-/Informationsproblem, nicht Biologie.",
-    transfer:"Italien, Primärquellen-Erhebung; ähnlich in deutschsprachigem Raum"
+    journal:"Med Sci (Basel)", year:"2026", pmid:"42201009",
+    author:"Santos García D et al.", pubdate:"27.04.2026",
+    added:"27.05.2026",
+    title:"Tiefenhirnstimulation bei Parkinson: Frauen älter, unter-behandelt, aber gleiche Erfolgsquoten",
+    sum:"Prospektive Real-World-Registry-Studie zu 618 Parkinson-Patienten (57,6% Männer) mit gerätegestützter Therapie (DBS, Apomorphin-Pumpe, Levodopa-Infusion) an 40 spanischen Zentren.",
+    result:"Signifikante Geschlechtsdifferenz in DBS-Nutzung (73,1% Männer, p=0,006); Frauen älter bei Indikation (älter, höhere Levodopa-Äquivalenzdosis, schlechtere Lebensqualität und Aktivitäten des täglichen Lebens baseline). Nach 6 Monaten: OFF-Zeit sank, motorische und nicht-motorische Symptome sowie Lebensqualität verbesserten sich in beiden Gruppen; AADL-Verbesserung nur bei Männern im OFF-Zustand. Ursache: Therapiezugang (Selektion zu DBS bei Frauen geringer), nicht biologisch unterschiedliche Responsivität.",
+    transfer:"Spanisches Register mit Dokumentationsstandards ähnlich Deutschland; zeigt Zuteilungsunterschiede bei etablierter Technologie."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1486,7 +1477,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "08.09.2026";
+const NEWS_STAND = "09.09.2026";
 const NEWS = [
   {titel:"Frauengesundheit in Bayern – Verhaltensauffälligkeiten bei Demenz im häuslichen Umfeld", datum:"2026-06-16", url:"https://www.monitor-versorgungsforschung.de/news/frauengesundheit-in-bayern-verhaltensauffaelligkeiten-bei-demenz-im-haeuslichen-umfeld/"},
   {titel:"Größte geschlechtsspezifische CRT-Studie zeigt, dass Frauen stärker von kardialer Resynchronisationstherapie profitieren", datum:"2026-03-31", url:"https://www.monitor-versorgungsforschung.de/news/groesste-geschlechtsspezifische-crt-studie-zeigt-dass-frauen-staerker-von-kardialer-resynchronisationstherapie-profitieren/"},
