@@ -1406,71 +1406,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "13. Sept. 2026, 08:31 Uhr";
+const SNAP_DATE = "14. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Suicide Life Threat Behav", year:"2026", pmid:"42698200",
-    author:"Bresin K et al.", pubdate:"Okt. 2026",
-    added:"05.09.2026",
-    title:"Mobiles Interventionsprogramm zur Reduktion selbstverletzenden Verhaltens bei LGBTQ+-Personen",
-    sum:"Randomisierte Experimentalstudie (n=55) LGBTQ+-Personen mit Selbstverletzungsgedanken/-verhalten: 14 Tage Baseline-EMA, dann Randomisierung zu Brief-Messaging (Zugehörigkeit, Lebenssinn) oder Kontrolle (14 Tage), dann 14 Tage Post-EMA.",
-    result:"Interventionsgruppe: Selbstverletzungsgedanken und -planung stabil, Selbstverletzungsverhalten, thwarted belongingness und perceived burdensomeness signifikant abnehmend. Kontrollgruppe: Selbstverletzungsgedanken/planung signifikant ansteigend, keine Veränderung bei Verhalten/belongingness/burdensomeness. Effekt unterstützt interpersonale Suizidtheorie.",
-    transfer:"USA; konzeptueller Ansatz (Zugehörigkeit, Burdenedness) ist international gültig, Implementierung als Mhealth skalierbar."
+    journal:"Depress Anxiety", year:"2026", pmid:"42732257",
+    author:"Hu J et al.", pubdate:"12.09.2026",
+    added:"13.09.2026",
+    title:"Symptomnetze bei Depression und Angst unterscheiden sich geschlechtsspezifisch unter Stress",
+    sum:"Querschnittsstudie zu Geschlechtsunterschieden in Symptomvernetzungen von Depression, Angst und komorbiden Symptomen (PTSD, Schlaflosigkeit) bei 1.191 Erwachsenen unter akutem psychischem Stress.",
+    result:"Bei Frauen waren Angst und Intrusion die zentralsten Symptomknoten, bei Männern Depression. Frauen zeigten signifikant höhere Gesamtkonkektivität im Netzwerk und eine komplexere Architektur mit mehr gerichteten Verbindungen zwischen Symptomen (18% erklärte Varianz für Kortikaler Thinning, 32% für Amygdala-Volumen). Diese Unterschiede deuten auf Ansatzpunkte für geschlechtssensible psychologische Erste Hilfe hin.",
+    transfer:"Deutschland – Querschnittsstudie, direkt auf Stressintervention übertragbar."
   },
   {
-    journal:"Ups J Med Sci", year:"2026", pmid:"42729934",
-    author:"Cederlöf ET et al.", pubdate:"31.08.2026",
-    added:"12.09.2026",
-    title:"Lipidsenkung verzögert sich bei Frauen nach chronischem Herzinfarkt deutlich",
-    sum:"Routinedatenstudie aus Schwedisch-Primärversorgung prüfte Geschlechtsunterschiede bei Blutdruck- und LDL-Cholesterin-Zielwerten in koronarer Herzkrankheit über 3 Jahre.",
-    result:"Von 1.452 Patienten (415 Frauen, 1.037 Männer): Frauen initiierten lipidsenkende Therapie verzögert (Hazard Ratio 0,70, KI 0,61–0,80, p&lt;0,001), Therapieanwendung fiel bis Jahr 3 auf 54,1% bei Frauen vs. 73,9% bei Männern (p&lt;0,001). LDL-Ziele bei Jahr 1 erreicht nur 12,1% Frauen vs. 24,7% Männer, Jahr 3 11,2% vs. 15,0%. Untermonitoring von LDL-C besonders bei Frauen evident.",
-    transfer:"Schweden, vergleichbare Primärversorgungsstruktur DACH-Region; geschlechtergetrennte Routinedaten vorhanden."
+    journal:"Bull Math Biol", year:"2026", pmid:"42722918",
+    author:"Doran JWG et al.", pubdate:"10.09.2026",
+    added:"11.09.2026",
+    title:"TB-Last bei Männern höher – Verhaltens- und Kontaktmuster erklären mehr als Biologie",
+    sum:"Agent-Based-Modelling zu Geschlechts-/Genderunterschieden in TB-Übertragung in Kampala, Uganda; Counterfactual-Szenarien zur Ermittlung der wichtigsten populationsweiten Faktoren für die 62,5%-zu-37,5%-Männer-zu-Frauen-Fallquote.",
+    result:"In-Host-Parameter hatten größten Gesamteffekt, aber Verhaltens- und Kontaktmuster (assortatives Mixing, genderspezifische Kontakte) erklärten das erhöhte Männer-zu-Frauen-Verhältnis stärker. Super-Spreader verursachten Mehrheit der Infektionen; Männer und cavitäre TB-Träger infizieren im Durchschnitt mehr Personen. Modell zeigt Proof-of-Concept für geschlechtssensible TB-Interventionen.",
+    transfer:"Uganda, Süd-Subsahara-Afrika – zeigt Zugang und Verhalten als biologische Faktoren überlagern; Mechanismus ist übertragbar auf ähnliche Hochlast-Settings."
   },
   {
-    journal:"Biol Sex Differ", year:"2026", pmid:"42702734",
-    author:"Mu Y et al.", pubdate:"25.08.2026",
-    added:"07.09.2026",
-    title:"Genetische Architektur der Muskelkraft zeigt geschlechtsstratifizierte Effekte",
-    sum:"Genome-wide association study (GWAS) UK Biobank zu Sarkopenieindex (Kreatinin/Cystatin-C-Ratio) mit kombinierten und geschlechtsstratifizierten Analysen zur Identifizierung biologisch dimorphe Mechanismen.",
-    result:"774 unabhängige SI-assoziierte Loci gesamt (747 kombiniert, 283 männlich, 311 weiblich); 367 neu. Geschlechtsabhängige Loci rs1145093-chr15q21.1-GATM. 17 male-biased, 11 female-biased Gene priorisiert. Androgen-Rezeptor + GATA4 männlich; ESR1 + MYOD1 weiblich. Inverse genetische Korrelation SI-Herzversagen (rg=-0,19, p=2,3×10⁻⁹) und metabolisches Syndrom (rg=-0,12, p=8,5×10⁻⁸).",
-    transfer:"UK Biobank, biologische Grundlage sarkopenischer Geschlechtsunterschiede; Präzisionsprävention abhängig von Geschlechtsverifikation."
+    journal:"PLoS One", year:"2026", pmid:"42721142",
+    author:"Kemp KC et al.", pubdate:"10.09.2026",
+    added:"10.09.2026",
+    title:"Frauen erkennen Emotionen und soziale Signale besser – auch bei sozialen Funktionsstörungen",
+    sum:"Querschnittstudie (n=212, 58,5% weiblich, Alter 14-30 Jahre) zu Geschlechtsunterschieden in Blickwahrnehmung, Theory of Mind und sozialer Inferenz bei Adoleszenten und jungen Erwachsenen mit variablem Ausmaß an sozialer Dysfunktion.",
+    result:"Frauen schnitten signifikant besser bei Theory-of-Mind-, sozialer Inferenz- und Blickwahrnehmungsaufgaben ab; Unterschiede blieben nach Adjustment für allgemeine Kognition, Alter und Psychopathologie bestehen. Ausnahme: komplexe, dynamische soziale Inferenzaufgabe – keine Unterschiede nach Adjustment für Psychopathologie. Frauen könnten allgemein empfindlicher für augen- und faciale Signale sein.",
+    transfer:"USA – auch bei Psychopathologie replizierbar; Mechanismus (Signaldetektion) nicht an System gebunden."
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42366007",
-    author:"Schwind B et al.", pubdate:"28.06.2026",
+    journal:"Int Nurs Rev", year:"2026", pmid:"42695756",
+    author:"Aydin F et al.", pubdate:"Sept. 2026",
+    added:"04.09.2026",
+    title:"Männer in der Pflege: Verschieben sich Geschlechternormen oder verstärken sie sich?",
+    sum:"Qualitative Explorationsstudie mit 40 semi-strukturierten Interviews (5 Pfleger, 5 Pflegerinnen, 10 Ärzte, 10 Patienten/Angehörige) in der Türkei zur Untersuchung, wie Männer in einem Frauenberuf die Berufsidentität Pflege reshape – Hybrid-Thematic-Analysis nach Braun &amp; Clarke.",
+    result:"Vier Themes: Männer wurden durch physische Kraft, Ruhe und Schutz positioniert, Frauen durch emotionale/mütterliche Attribute. Männer wurden aus Geburtshilfe, Gynäkologie, Neonatologie ausgeschlossen (Datenschutz). Patienten und Ärzte definierten Pflegekompetenz durch unterschiedliche genderte Kriterien. Gender-Essentialismus wurde in ‚hybrider' Form reproduziert; Status-Gewinne scheinen an maskulinisierte Attribute statt Neubewerung von Care gebunden. Nur männliche Repräsentation ändert nicht Strukturgleichheit.",
+    transfer:"Türkei – Kontext mit starken Geschlechternormen; Erkenntnis zu Geschlecht als Organisationsprinzipium überträgt auf alle Länder."
+  },
+  {
+    journal:"Qual Life Res", year:"2026", pmid:"42365548",
+    author:"Olsen JA et al.", pubdate:"28.06.2026",
     added:"28.06.2026",
-    title:"Geschlechtersensible Palliativversorgung: Schweizer Studienprojekt zu Ungleichheiten am Lebensende",
-    sum:"Mixed-Methods-Studienprotokoll untersucht, wie Geschlecht und Diversität Zugang zu und Qualität von Palliativversorgung in der Schweiz systematisch beeinflussen, mit Ethnographie, Netzwerkanalyse und Wissenstransfer.",
-    result:"Geplant: nationale Befragung von Fachkräften zur Geschlechts- und Diversitätsbewusstheit; Ethnographie in 2 Palliativstationen; Netzwerkmodellierung über Zurich; Ko-Kreation von Evidenz mit Patienten, Angehörigen, Fachkräften und Politik zur Verbesserung Equity-orientierter Praxis.",
-    transfer:"Schweiz, deutschsprachig, vergleichbares Gesundheitssystem; intersektionaler Ansatz direkt auf Versorgungsgerechtigkeit ausgerichtet."
+    title:"Gesundheitsverhalten erklärt mehr Ungleichheit als Sozioökonomie – Längsschnitt-Daten aus Norwegen",
+    sum:"Längsschnittstudie (11.313 Erwachsene, 25-54 Jahre zu Baseline, 21 Jahre Follow-up) zur Erklärung von Ungleichheiten in Lebensqualität durch Shapley-Value-Zerlegung von sozioökonomischen und Verhaltensrisiken.",
+    result:"Gesundheitsverhalten (Rauchen, körperliche Aktivität, Adipositas) erklärte 80% der Varianz in EQ-5D-5L-Werten, 75% in EQ-VAS und 67% in selbsteingeschätzter Gesundheit – deutlich mehr als drei Sozioökonomie-Indikatoren. Nach Adjustment für Baseline-Gesundheit stieg die Relevanz von Verhalten leicht an. Beide Interventionstypen könnten Ungleichheiten reduzieren.",
+    transfer:"Norwegen, Tromsø-Studie – skandinavisches Versicherungssystem, vergleichbar mit Deutschland."
   },
   {
-    journal:"Qual Life Res", year:"2026", pmid:"42260238",
-    author:"Eijkens J et al.", pubdate:"08.06.2026",
-    added:"08.06.2026",
-    title:"Arbeitslosigkeit und niedriges Einkommen verschärfen Lebensqualität ungleich in sechs Ländern",
-    sum:"Querschnittstudie März–Juni 2020 (COVID-19): 17.607 Respondenten (18–75 J.) aus China, Italien, Niederlande, Schweden, UK, USA zur Assoziation von Bildung, Einkommen und Erwerbsstatus mit EQ-5D-5L-Lebensqualität.",
-    result:"In allen Ländern außer Italien: niedrigere Bildung → höhere Health Impairment Level Sum Scores (schlechtere Qualität). UK größter Bildungsabstand. Niedrigeres Einkommen in Niederlande, Schweden, UK, USA mit schlechterer Qualität verknüpft (China/Italien keine Einkommensdifferenz). Arbeitslosigkeit über alle 6 Länder konstant stärkster Prädiktor für schlechtere Qualität.",
-    transfer:"Niederlande, Schweden, UK - europäische Systeme; vergleichbar mit DACH-Sozialversicherungen, Arbeitsmarktstrukturen."
-  },
-  {
-    journal:"J Pediatr Urol", year:"2026", pmid:"42275809",
-    author:"Heidtmann F et al.", pubdate:"30.05.2026",
-    added:"11.06.2026",
-    title:"Lebensqualität nach genitalchirurgischer Rekonstruktion bei Mädchen mit kongenitalem Adrenalhyperplasmus",
-    sum:"Deutsches Zentrum (Jena): Querschnittsumfrage 25 Patientinnen (von 56) nach Genitalchirurgie zwischen 2007–2016 mit validiertem Fragebogen zu Lebensqualität und Geschlechtsidentität.",
-    result:"Alle 25 Patientinnen: Lebensqualitätsscores vergleichbar mit gesunden Referenzgruppen (Kinder 3–6 J. und Jugendliche normal; Kinder 7–13 J. leicht erhöht). Keiner der 5 Jugendlichen ≥14 Jahre zeigte Geschlechtsdysphorie (UGDS-Scores &lt;40). Alle 14 befragten Familien bevorzugten frühzeitigen Operationszeitpunkt, kein Bedauern geäußert.",
-    transfer:"Deutschland, Single-Center, kleine Stichprobe; zeigt praktische Langzeitergebnisse chirurgischer Versorgung."
-  },
-  {
-    journal:"HIV Res Clin Pract", year:"2026", pmid:"42186205",
-    author:"Wang H et al.", pubdate:"31.12.2026",
-    added:"26.05.2026",
-    title:"Langwirksame PrEP in Italien: Awareness, Akzeptanz und ungedeckter Bedarf nach Geschlecht und Sexualität",
-    sum:"Querschnittstudie PROTECT Oktober 2023–April 2024: 2.215 HIV-negative Personen (1.707 MSM, 32 trans*, 267 Cis-Männer, 209 Cis-Frauen) zu oralem/langwirksamem PrEP-Bewusstsein, Anwendung und Intentionen.",
-    result:"Orale PrEP Anwendung 19,0% gesamt; 19,8% davon suboptimale Adhärenz, 10,0% Abbruch. LA-PrEP-Intention 47,0%. Ungedeckter Präventionsbedarf 34,8% (LA-PrEP könnte adressieren). MSM höchste Engagement (ungedeckter Bedarf in PrEP-naiven und Abbrechern hoch, aber LA-PrEP-Intention niedrig = Mismatch). Cis-Männer niedrigste Engagement. Weniger urbanisierte Gegenden höherer ungedeckter Bedarf.",
-    transfer:"Italien, vergleichbare europäische Gesundheitssystem und LGBT+-Versorgungslandschaft; zeigt Zugangsbarrieren nach Bevölkerungsgruppe."
+    journal:"Eur Neuropsychopharmacol", year:"2026", pmid:"42263356",
+    author:"Huth F et al.", pubdate:"09.06.2026",
+    added:"09.06.2026",
+    title:"Kindliches Trauma hinterlässt unterschiedliche Hirnveränderungen bei Frauen und Männern",
+    sum:"Transdiagnostische Studie (n=251, 51,8% männlich, Durchschnittsalter 24,9 Jahre) zur Untersuchung geschlechtsspezifischer Hirnstruktur-Signaturen bei frühen affektiven/Angststörungen nach Kindheitstraumatisierung mittels multivariater Sparse-PLS.",
+    result:"Physische Misshandlung in der Kindheit korrelierte mit ausgebreiteter Kortikalschwund-Signatur (ρ=0,424, p=0,007, R²=18%), emotionale Misshandlung bei Frauen spezifisch mit kleineren linken Amygdala-Kernen (ρ=0,566, p=0,014, R²=32%). Bei Frauen sagte emotionale Misshandlung schlechtere Funktionalität nach 1-2 Jahren voraus (β=-0,45/-0,48, p&lt;0,001), während kleinere Amygdala-Kerne paradox bessere 2-Jahres-Outcomes vorhersagten – möglicherweise reflexiv adaptive Verarbeitung.",
+    transfer:"Deutschland – deutsches Klinikenzentrum (Dresden, Berlin, München), vergleichbare EU-Standards."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1486,7 +1477,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-14", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "13.09.2026";
+const NEWS_STAND = "14.09.2026";
 const NEWS = [
   {titel:"Frauengesundheit in Bayern – Verhaltensauffälligkeiten bei Demenz im häuslichen Umfeld", datum:"2026-06-16", url:"https://www.monitor-versorgungsforschung.de/news/frauengesundheit-in-bayern-verhaltensauffaelligkeiten-bei-demenz-im-haeuslichen-umfeld/"},
   {titel:"Größte geschlechtsspezifische CRT-Studie zeigt, dass Frauen stärker von kardialer Resynchronisationstherapie profitieren", datum:"2026-03-31", url:"https://www.monitor-versorgungsforschung.de/news/groesste-geschlechtsspezifische-crt-studie-zeigt-dass-frauen-staerker-von-kardialer-resynchronisationstherapie-profitieren/"},
