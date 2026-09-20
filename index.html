@@ -1519,62 +1519,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "20. Sept. 2026, 06:20 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Cancer Causes Control", year:"2026", pmid:"42758345",
-    author:"Martinez A et al.", pubdate:"18.09.2026",
+    journal:"Medicine (Baltimore)", year:"2026", pmid:"42760714",
+    author:"Choi JY et al.", pubdate:"18.09.2026",
+    added:"19.09.2026",
+    title:"Schilddrüsenfunktion und Diabetes: Männer unter 65 Jahren stärker gefährdet",
+    sum:"Querschnittstudie mit 4910 erwachsenen Koreanern zur Prüfung der Assoziation zwischen TSH-, freies T4- und TPOAb-Spiegeln und Diabetesrisiko, stratifiziert nach Geschlecht und Alter.",
+    result:"Hohe TSH-Werte waren signifikant mit erhöhtem Diabetesrisiko assoziiert (OR=2,82; 95%-KI 1,26–6,32), besonders bei Männern unter 65 Jahren (OR=5,10; 95%-KI 1,65–15,77). Niedrige freies-T4-Werte zeigten erhöhtes Risiko (OR=2,08; 95%-KI 1,16–3,75), ebenfalls vornehmlich bei jüngeren Männern. Diese Unterschiede deuten auf biologische Geschlechtsvariabilität hin.",
+    transfer:"Südkorea, nationale Gesundheitsdaten; biologische Unterschiede, nicht Zugangsweg relevant."
+  },
+  {
+    journal:"Cancer Causes Control", year:"2026", pmid:"42754761",
+    author:"Ali ME et al.", pubdate:"18.09.2026",
+    added:"17.09.2026",
+    title:"Multiples Myelom: Sterblichkeit sank, aber rassische Disparität verdoppelt sich",
+    sum:"Analyse nationaler US-Sterblichkeitstrends (1999–2024) für multiples Myelom nach Geschlecht, Alter, Rasse/Ethnizität, Region und Urbanisierung; ARIMA-Modelle für Projektion bis 2034.",
+    result:"Die altersadjustierte AAMR sank von 37,6 auf 25,1 pro 1 Mio. (AAPC -1,8%; 95%-KI -2,1 bis -1,5; p&lt;0,001), beschleunigt ab 2012 (APC -3,2%). Männer hatten durchgehend höhere Raten als Frauen (32,4 vs. 19,8 pro 1 Mio. 2024). Schwarze oder afrikanisch-amerikanische Personen zeigten 2024 mehr als doppelte Mortalitätsraten gegenüber Weißen (48,0 vs. 23,5 pro 1 Mio.). Disparitäten sind für 2034 persistierend prognostiziert.",
+    transfer:"USA; Zugangs- und Versorgungsungleichheit, nicht Biologie; US-spezifische Therapieinnovationen."
+  },
+  {
+    journal:"Vasc Health Risk Manag", year:"2026", pmid:"42761883",
+    author:"Kubisa AM et al.", pubdate:"14.09.2026",
+    added:"19.09.2026",
+    title:"Aortenchirurgie: Frauen berichten über schlechtere Lebensqualität in sozialen Beziehungen",
+    sum:"Prospektive Kohortenstudie mit 150 Patienten (113 Männer, 37 Frauen) zur Erfassung von Lebensqualität, Krankheitsakzeptanz und psychischer Belastung 2 Jahre nach Aortenchirurgie mittels standardisierter Fragebögen.",
+    result:"Frauen zeigten unmittelbar nach der Operation niedrigere WHOQOL-Werte in allen vier Domänen (Psychologisch: 58,4 vs. 68,1; p=0,001; Soziale Beziehungen: 59,0 vs. 69,6; p&lt;0,001). Nach Adjustierung blieb das Defizit in der Domäne soziale Beziehungen persistent (adjustierte Differenz -6,86; 95%-KI -12,27 bis -1,44; p=0,013). Diese Beobachtung ist hypothesengenerierend und zeigt geschlechtsspezifische Unterschiede in psychosozialen Outcomes.",
+    transfer:"Polen, vergleichbare Dokumentation wie deutsche Kliniken; Ursache nicht bestimmt."
+  },
+  {
+    journal:"Cancer Med", year:"2026", pmid:"42760641",
+    author:"Barsha RAA et al.", pubdate:"Sept. 2026",
+    added:"19.09.2026",
+    title:"Brustkrebs: Schwarze Frauen haben doppelt so hohe Raten für triple-negative Subtypen",
+    sum:"Bevölkerungsbasierte Analyse von 21.130 Brustkrebspatientinnen (64,4% Weiße, 35,6% Schwarze Frauen) zur Untersuchung von Inzidenztrends nach Rasse, Stadium und molekularem Subtyp im Zeitraum 2010–2019 in Mississippi.",
+    result:"Schwarze Frauen hatten höhere Gesamtinzidenzraten als Weiße Frauen (178,0 vs. 159,1 pro 100.000). Schwarze Frauen zeigten höhere Inzidenzraten für HER2-überexprimierende Krebserkrankungen (IRR=1,55; 95%-KI 1,15–2,10) und triple-negative Krebserkrankungen (IRR=2,35; 95%-KI 1,74–3,17). Unterschiede deuten auf biologische Heterogenität und/oder Zugangsunterschiede hin.",
+    transfer:"USA-Daten; Rasse/Ethnizität und biologische Subtypen, aber US-spezifische Screening-Praktiken."
+  },
+  {
+    journal:"Brain Behav", year:"2026", pmid:"42755241",
+    author:"Bsharat AM et al.", pubdate:"Sept. 2026",
     added:"18.09.2026",
-    title:"Mammografie: 45-Minuten-Training für Radiologen erhöht Wissen über trans Patienten signifikant",
-    sum:"Pilotstudie zur Evaluation einer Schulungsintervention für Brustbildgebungsfachleute (klinische Unterstützungsfachleute, Technologen, Radiologen) zu LGBTQIA+-inklusive Mammografie-Screening-Praktiken.",
-    result:"Die 45-minütige Schulung mit Storytelling führte zu signifikant erhöhtem Selbstberichtswissen über LGBTQIA+-Terminologie (großer Effekt). Teilnehmende beantworteten mehr direkt getestete Wissensfragen korrekt (kleiner Effekt). Einstellungen zu Geschlechtsvielfalt zeigten Trend zu akzeptierender Haltung (mittlerer Effekt), erreichten aber keine statistische Signifikanz.",
-    transfer:"USA, aber Schulungsprinzipien unabhängig von Finanzierungssystem übertragbar"
+    title:"Schlaganfall mit Herzinsuffizienz: Sterblichkeit steigt, Männer stärker betroffen",
+    sum:"Analyse von CDC-Todesursachendaten (1999–2023) für Erwachsene ≥15 Jahre mit Schlaganfall als Grundursache und Herzinsuffizienz als Nebendiagnose; Joinpoint-Regression zur Ermittlung von Trends und Disparitäten.",
+    result:"Die altersadjustierte Sterblichkeitsrate (AAMR) sank von 4,09 (1999) auf 2,74 (2023), stieg dann aber 2016–2023 um 5,38% jährlich. Das Männer-zu-Frauen-Verhältnis stieg signifikant 2009–2023. Schwarze Personen hatten die höchsten AAMRs. Ländliche Gebiete zeigten höhere Raten. Diese Unterschiede entstehen durch Zugangs- und Versorgungsfaktoren, Biologie nicht primär.",
+    transfer:"USA, CDC-Daten; Geschlechts- und Rassen-Disparitäten dokumentiert, aber US-Zugangsmuster."
   },
   {
-    journal:"Curr Hypertens Rep", year:"2026", pmid:"42744939",
-    author:"Matos do Amaral T et al.", pubdate:"16.09.2026",
-    added:"16.09.2026",
-    title:"Blutdruck und Schlaf: Geschlechtsunterschiede in Schlafstörungen und Blutdruckrisiko erklären teilweise höheres Hypertonie-Risiko",
-    sum:"Systematischer Review der Assoziationen zwischen Schlaf und Bluthochdruck mit Betonung von Geschlechtsunterschieden in der Blutdruckregulation.",
-    result:"Schlaf ist ein modifizierbarer Risikofaktor für Hypertonie. Schlafqualität, -dauer und Schlafstörungen (Insomnie, Schlafapnoe) sind mit erhöhtem Blutdruck assoziiert, mit geschlechtsspezifischen Unterschieden. Sex-spezifische hormonelle Einflüsse und autonome Dysfunktion tragen zu Unterschieden in den Assoziationen zwischen Schlafstörungen und Hypertonie-Risiko bei Männern und Frauen bei. Schlaf sollte als klinisch relevantes Ziel in die kardiovaskuläre Risikoeinschätzung einbezogen werden.",
-    transfer:"Überwiegend USA-Studien, aber Physiologie geschlechtsunabhängig"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42756002",
-    author:"Czapla M et al.", pubdate:"03.09.2026",
-    added:"18.09.2026",
-    title:"Rettungsdienst: LGBTQ-Kompetenz hängt nicht von Geschlecht ab, sondern von Schulung",
-    sum:"Querschnittstudie unter 172 polnischen Rettungsassistenten zur Identifikation von Faktoren, die gay-affirmativen Überzeugungen und Verhalten vorhersagen.",
-    result:"Höhere LGBTQ-Klinische Kompetenz war unabhängig mit affirmativen Überzeugungen (β = 3,85, 95%-KI 1,21–6,50, p = 0,005) und Verhalten (β = 7,29, 95%-KI 4,62–9,96, p &lt; 0,001) assoziiert. Rechtsgerichtete politische Orientierung war mit niedrigeren affirmativen Überzeugungen (β = −12,26, p &lt; 0,001) und Verhalten (β = −6,74, p = 0,013) assoziiert. LGBT-Klinische Kompetenz war der konsistenteste Prädiktor.",
-    transfer:"Polen, europäisches Gesundheitssystem, nachweisbar Schulungseffekt"
-  },
-  {
-    journal:"Front Neurol", year:"2026", pmid:"42755585",
-    author:"Xia D et al.", pubdate:"03.09.2026",
-    added:"18.09.2026",
-    title:"Bewusstseinsstörungen: Testosteron zeigt Assoziationen mit besseren Ergebnissen bei Männern, nicht bei Frauen",
-    sum:"Retrospektive Geschlechts-stratifizierte Studie zu Serum-Sexualhormonen als potenzielle prognostische Biomarker bei 119 Patienten mit prolongiertem Bewusstsein und Bewusstseinsbeeinträchtigung (pDoC).",
-    result:"Bei Männern zeigte die Gruppe mit gutem Outcome höhere Testosteronspiegel (p = 0,02). Nach logistischer Regression adjustiert für Alter, Krankheitsdauer und Ätiologie war log-transformiertes Testosteron mit günstigen Outcomes assoziiert (OR 2,97, 95%-KI 1,29–7,70, p = 0,02), überstand aber Bonferroni-Korrektur nicht (p_bonf = 0,10). Bei Frauen zeigten Sexualhormone keine klare prognostische Bedeutung. ROC-Analyse zeigte nur bescheidene Vorhersagekraft (AUC 0,656).",
-    transfer:"China, biologische Geschlechtsunterschiede, aber geringe klinische Prädiktivität"
-  },
-  {
-    journal:"Clin Genitourin Cancer", year:"2026", pmid:"42502035",
-    author:"Schneidewind L et al.", pubdate:"30.06.2026",
-    added:"25.07.2026",
-    title:"Blasenkrebs: Frauen zeigen unter Enfortumab Vedotin bessere progressionsfreie Überlebensraten",
-    sum:"Systematische Übersicht mit Metaanalyse von 17 Studien zu Geschlechtsunterschieden im Gesamtüberleben, progressionsfreien Überleben und krankheitsfreiem Überleben nach Enfortumab-Vedotin-Therapie bei fortgeschrittenem Urothelkarzinom.",
-    result:"Frauen zeigten gegenüber Männern bessere progressionsfreie Überlebensraten (HR 0,67, 95%-KI 0,57–0,78, p &lt; 0,001), wobei Publikationsbias identifiziert wurde. Für Gesamtüberleben ergab sich kein signifikanter Unterschied (HR 0,88, 95%-KI 0,73–1,06, p = 0,17). Die Autoren betonen, dass explizite geschlechtsspezifische Analysen von Hormonal- und genetischen Aspekten nötig sind.",
-    transfer:"Deutschland, vergleichbare Dokumentationspflichten in Krebsregistern"
-  },
-  {
-    journal:"Reprod Health", year:"2026", pmid:"42381006",
-    author:"Hickman ME et al.", pubdate:"30.06.2026",
-    added:"01.07.2026",
-    title:"Vorsorge vor Schwangerschaft: Frauen tragen überproportional die Last, Männer fehlen völlig",
-    sum:"Qualitative Hybrid-Workshopstudie mit 60 Akademikern, Gesundheitsberuflern und Bürgern zur Frage, wer Verantwortung für Gesundheitsverbesserung vor der Schwangerschaft trägt.",
-    result:"Teilnehmende identifizierten, dass Frauen überproportional die Verantwortung für Präkonzeptionsgesundheit tragen, was sich in Forschung, Gesundheitswesen und Gesellschaft widerspiegelt. Empfehlungen zielten auf: (1) Gesellschafts-, Gemeinschafts- und Kulturveränderung, (2) Bildung und frühes Bewusstsein, (3) zukünftige Forschung, (4) Systemebenen- und Politiklösungen mit Schwerpunkt auf gleichberechtigte Partnereinbeziehung.",
-    transfer:"UK/EMCR-Netzwerk, europäisch übertragbar, zeigt Zugangsbarriere und Zuschreibung"
+    journal:"J Prof Nurs", year:"2026", pmid:"42744418",
+    author:"Nye CM et al.", pubdate:"30.05.2026",
+    added:"15.09.2026",
+    title:"LGBTQ+-Unterricht in Pflegefakultäten: Engagement schlägt Expertise",
+    sum:"Erklärende Mischstudie mit Umfrage (Phase I, n=196 Dozenten) und Interviews (Phase II, n=19) zur Erfassung von Erfahrungen von Pflegedozenten mit LGBTQ+-Inklusion in der Lehre an US-amerikanischen Schulen.",
+    result:"Selbstvertrauen mit LGBTQ+-Inklusion und Engagement zur Aufnahme von LGBTQ+-Inhalten hatten signifikante Auswirkungen auf die Aufnahme von Gesundheitsinhalten für LGBTQ+ in den Lehrplan (p nicht angegeben, qualitative Kernaussage: Commitment und interpersonale/institutionelle Faktoren wichtiger als Expertise). Strukturelle Barrieren wie fehlende institutionelle Unterstützung waren identifizierbar, aber überwindbar.",
+    transfer:"USA; unterrichtsbasierte Intervention mit Vorkehrungspotential, aber US-Lehrkontext."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1590,7 +1590,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "19.09.2026";
+const NEWS_STAND = "20.09.2026";
 const NEWS = [
   {titel:"Frauengesundheit in Bayern – Verhaltensauffälligkeiten bei Demenz im häuslichen Umfeld", datum:"2026-06-16", url:"https://www.monitor-versorgungsforschung.de/news/frauengesundheit-in-bayern-verhaltensauffaelligkeiten-bei-demenz-im-haeuslichen-umfeld/"},
   {titel:"Größte geschlechtsspezifische CRT-Studie zeigt, dass Frauen stärker von kardialer Resynchronisationstherapie profitieren", datum:"2026-03-31", url:"https://www.monitor-versorgungsforschung.de/news/groesste-geschlechtsspezifische-crt-studie-zeigt-dass-frauen-staerker-von-kardialer-resynchronisationstherapie-profitieren/"},
