@@ -1519,17 +1519,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Sept. 2026, 06:00 Uhr";
+const SNAP_DATE = "25. Sept. 2026, 06:23 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"PLoS One", year:"2026", pmid:"42616717",
-    author:"Yeoh S et al.", pubdate:"19.08.2026",
-    added:"19.08.2026",
-    title:"Englischkenntnisse und Gesundheitsergebnisse: Routinedaten zeigen höhere Krankheitslast bei schlechteren Sprachkenntnissen",
-    sum:"Populationsbasierte Studie zur Assoziation zwischen Englischproficiency und Gesundheitsstatus sowie Inanspruchnahme von Primär- und Sekundärversorgung in England.",
-    result:"Patienten mit geringen Englischkenntnissen zeigten höhere altersadaptierte Prävalenzen von kardiometabolischen Erkrankungen sowie signifikant höhere Inanspruchnahme von Primär- und Sekundärvergung. Dies deutet auf strukturelle Barrieren beim Zugang hin, nicht auf biologische Unterschiede.",
-    transfer:"Großbritannien; vergleichbares System; Datenqualität ähnlich deutschen Abrechnungsdaten"
+    journal:"PLoS One", year:"2026", pmid:"42784648",
+    author:"Cuadrado-Corrales N et al.", pubdate:"24.09.2026",
+    added:"24.09.2026",
+    title:"Demenziadiagnosen und Sterblichkeit bei Typ-2-Diabetes-Patienten: Spanische Routinedaten zeigen Geschlechtsmuster",
+    sum:"Retrospektive Analyse von 2,79 Millionen Krankenhausaufnahmen mit Typ-2-Diabetes (2021-2024) aus der Spanischen Nationalen Entlassungsdatenbank zur Untersuchung von Geschlechtsunterschieden in Demenzhäufigkeit und Kliniksterblichkeit.",
+    result:"Frauen hatten einen höheren Anteil an Demenzkodierungen (6,48 % aller T2DM-Aufnahmen); bei Aufnahmen mit Demenz zeigten Frauen eine niedrigere adjustierte Odds Ratio für Kliniksterblichkeit als Männer. Alzheimer-Demenz betraf 2,88 % mit 16,3 % Kliniksterblichkeit. Vaskuläre Demenz war mit Prior-Schlag/TIA stark assoziiert (aOR 5,89; 95%-KI 5,69–6,09). Administrative Daten ermöglichen keine Kausalaussage, zeigen aber ein Geschlechtsmuster in Prognose.",
+    transfer:"Spanien, nationale Routinedaten mit Geschlechtertrennung, europäischer Kontext."
+  },
+  {
+    journal:"PLoS One", year:"2026", pmid:"42771574",
+    author:"Marshall SA et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Gerechtigkeitsintervention für schwarze Männer mit niedriger Einkommen: sozialökologische Barrieren identifiziert",
+    sum:"Qualitative Studie mit 31 Stakeholdern (einschließlich Angehöriger der Zielgruppe) in den USA zur Analyse von Faktoren für erfolgreiche Interventionen zur Verbesserung der Gesundheit schwarzer Männer mit chronischen Erkrankungen und niedrigen Einkommen.",
+    result:"Folgende Themenbereiche wurden identifiziert: (1) Zielgruppe verzögert Gesundheitsversorgung, (2) Beziehungen sind durch Inhaftierung oder Armut belastet, (3) Gefängnisgesundheits- und Gesundheitssysteme sind nicht hilfreich strukturiert, (4) viele Barrieren innerhalb der Gemeinschaft, (5) Rassismus und Armut sind verflechtete, verankerte Versorgungsbarrieren. Gerechtigkeitsinterventionen müssen Faktoren auf individueller, zwischenmenschlicher, gemeinschaftlicher und institutioneller Ebene adressieren.",
+    transfer:"USA mit struktureller Rassismuskomponente, begrenzte Übertragbarkeit auf deutsches System, aber Methodenrelevanz für Equity-Forschung."
+  },
+  {
+    journal:"Arch Sex Behav", year:"2026", pmid:"42711548",
+    author:"Hidalgo-Muñoz AR et al.", pubdate:"08.09.2026",
+    added:"09.09.2026",
+    title:"Sexuelle Gewalt-Prävention: Frauen und bisexuelle Personen zeigen niedrigere sexuelle Koercion",
+    sum:"Validierungsstudie der spanischen Version der Process-Based Consent Scale (PBCS) mit 726 Teilnehmern (505 Frauen, 209 Männer, 7 nonbinär) unterschiedlicher sexueller Orientierungen zur Analyse von Geschlechts- und Orientierungsunterschieden in sexueller Zustimmung und Koercion.",
+    result:"Geschlechtsunterschiede zeigten sich in zwei von drei PBCS-Faktoren. Nach sexueller Orientierung gab es Unterschiede mit weniger sexueller Koercion durch bisexuelle Frauen. Die spanische PBCS ist ein zuverlässiges Messinstrument für die spanische Population und könnte zur Prävention und Intervention bei sexueller Gewalt beitragen, die auf individuelle Unterschiede zugeschnitten ist.",
+    transfer:"Spanien, europäischer Kontext, Validierungsstudium mit klinischer Anwendung."
+  },
+  {
+    journal:"Arch Sex Behav", year:"2026", pmid:"42690247",
+    author:"Miranda-Tena A et al.", pubdate:"03.09.2026",
+    added:"03.09.2026",
+    title:"Diskriminierungserfahrungen beeinträchtigen Vertrauen und Versorgungszugang bei sexuellen und Geschlechtsminderheiten in Spanien",
+    sum:"Querschnittstudie mit 217 Teilnehmern (144 cisgender heterosexuell, 73 sexuelle/Geschlechtsminderheiten) in Spanien zu Diskriminierungserfahrungen im Gesundheitswesen, Vertrauen in Anbieter und Versorgungszugang.",
+    result:"Sexuelle und Geschlechtsminderheiten berichteten höheres wahrgenommenes Diskriminierungserleben, größere psychische Belastung, niedrigeres Vertrauen in Anbieter und mehr Verzögerungen bei der Inanspruchnahme von Versorgung als cisgender heterosexuelle Teilnehmer. Qualitative Analysen zeigten, dass Diskriminierung (Misgendering, medizinischer Paternalismus, moralische Verurteilung) im klinischen Alltag erlebt wurde und mit Identitätsverheimlichung und Vertrauenserosion verbunden war. Universal Health Coverage ist ohne affirmativer, kulturell kompetenter Versorgung unzureichend.",
+    transfer:"Spanien, europäisches Versicherungssystem, qualitative und quantitative Daten zu Zugangsbarrieren."
+  },
+  {
+    journal:"Health Promot Int", year:"2026", pmid:"42773967",
+    author:"Nickel B et al.", pubdate:"01.09.2026",
+    added:"23.09.2026",
+    title:"Instagram-Content zu Frauengesundheit ist von Interessenskonflikten und Werbekommunikation dominiert",
+    sum:"Inhaltsanalyse von 472 Instagram-Posts mit dem Hashtag #womenshealth zur Untersuchung von Gesundheitsinformationen, Interessenskonflikten und wissenschaftlichen Belegen.",
+    result:"Von 472 Posts wurden 63 % von Einzelpersonen erstellt (162 von anderen/alternativen Gesundheitsfachleuten, 105 von Medizinern). 56 % richteten sich auf allgemeine Gesundheitsinformationen, 16 % warben für Medikamente/Supplements. Hormonale und Reproduktionsgesundheit war Thema in 48 % (58 Posts zu Menopause/Perimenopause). 69 % stellten explizite Gesundheitsaussagen dar, aber nur 7 % bezogen sich auf wissenschaftliche Evidenz. 51 % der Account-Inhaber hatten klare finanzielle Interessen, 39 % der Posts verkauften direkt ein Produkt. Das zeigt ein von Non-Experten und kommerzieller Ausrichtung dominiertes Umfeld.",
+    transfer:"Medienanalyse mit Relevanz für deutschsprachige Länder, regulatorische Implikationen."
+  },
+  {
+    journal:"Prev Med", year:"2025", pmid:"42777124",
+    author:"Higgins ST", pubdate:"25.10.2025",
+    added:"23.09.2026",
+    title:"Tabakkonsum und Suchtkomorbidität bei Minderheiten: Versorgungsungleichheiten in den USA",
+    sum:"Überblicksartikel über 13 Fachantikel zum Schwerpunkt Schnittmengen von Tabakkonsum mit anderen Süchten, chronischen Erkrankungen und Gesundheitsdispositionen sowie Interventionen zur Reduktion.",
+    result:"Das Spezialthema dokumentiert die disproportionale Auswirkung des Rauchens auf vulnerable Bevölkerungsgruppen, Schnittmengen mit anderen Suchterkrankungen, chronischen Erkrankungen und Gesundheitsdispositionen sowie klinische und regulatorische Interventionen zur Reduktion und Minderung ungünstiger Gesundheitseffekte. Rauchen verursacht etwa 450.000 Todesfälle jährlich in den USA.",
+    transfer:"USA-Fokus, Methodenüberblick zu Health-Disparities-Forschung, begrenzte direkte Übertragbarkeit."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1545,10 +1590,10 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "24.09.2026";
+const NEWS_STAND = "25.09.2026";
 const NEWS = [
+  {titel:"KI, Ambulantisierung und Gendermedizin: DGK-Herztage 2026", datum:"2026-09-24", url:"https://www.monitor-versorgungsforschung.de/news/ki-ambulantisierung-und-gendermedizin-dgk-herztage-2026/"},
   {titel:"Frauengesundheit in Bayern – Verhaltensauffälligkeiten bei Demenz im häuslichen Umfeld", datum:"2026-06-16", url:"https://www.monitor-versorgungsforschung.de/news/frauengesundheit-in-bayern-verhaltensauffaelligkeiten-bei-demenz-im-haeuslichen-umfeld/"},
-  {titel:"Größte geschlechtsspezifische CRT-Studie zeigt, dass Frauen stärker von kardialer Resynchronisationstherapie profitieren", datum:"2026-03-31", url:"https://www.monitor-versorgungsforschung.de/news/groesste-geschlechtsspezifische-crt-studie-zeigt-dass-frauen-staerker-von-kardialer-resynchronisationstherapie-profitieren/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
