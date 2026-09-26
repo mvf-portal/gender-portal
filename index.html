@@ -1519,62 +1519,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Sept. 2026, 06:23 Uhr";
+const SNAP_DATE = "26. Sept. 2026, 06:23 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"PLoS One", year:"2026", pmid:"42784648",
-    author:"Cuadrado-Corrales N et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Demenziadiagnosen und Sterblichkeit bei Typ-2-Diabetes-Patienten: Spanische Routinedaten zeigen Geschlechtsmuster",
-    sum:"Retrospektive Analyse von 2,79 Millionen Krankenhausaufnahmen mit Typ-2-Diabetes (2021-2024) aus der Spanischen Nationalen Entlassungsdatenbank zur Untersuchung von Geschlechtsunterschieden in Demenzhäufigkeit und Kliniksterblichkeit.",
-    result:"Frauen hatten einen höheren Anteil an Demenzkodierungen (6,48 % aller T2DM-Aufnahmen); bei Aufnahmen mit Demenz zeigten Frauen eine niedrigere adjustierte Odds Ratio für Kliniksterblichkeit als Männer. Alzheimer-Demenz betraf 2,88 % mit 16,3 % Kliniksterblichkeit. Vaskuläre Demenz war mit Prior-Schlag/TIA stark assoziiert (aOR 5,89; 95%-KI 5,69–6,09). Administrative Daten ermöglichen keine Kausalaussage, zeigen aber ein Geschlechtsmuster in Prognose.",
-    transfer:"Spanien, nationale Routinedaten mit Geschlechtertrennung, europäischer Kontext."
+    journal:"Pharmacoepidemiol Drug Saf", year:"2026", pmid:"42788194",
+    author:"Kim JH et al.", pubdate:"Okt. 2026",
+    added:"25.09.2026",
+    title:"Geschlechterunterschied bei Appetite-Suppressiva: 15-fach höhere Dosis für Frauen in Südkorea",
+    sum:"Analyse der Narkotica-Datenbank Südkoreas 2019–2023 zur Nutzung von kontrollierten Substanzen außerhalb der Krankenversicherung.",
+    result:"Frauen (Durchschnittsalter 30–49 Jahre) erhielten an Primärkliniken ca. 440 geschätzte Dispensierungseinheiten pro 1000 Frauen/Monat für Anorexigenanzien – etwa 15-mal höher als Männer. Muster deutet auf Off-Label-Verschreibung zu kosmetischen Zwecken hin. ADHD-Medikamente zeigten umgekehrtes Muster mit männlichem Übergewicht, besonders bei Adoleszenten (10–19 Jahre).",
+    transfer:"Südkorea, Pharmakovigilanz außerhalb Versicherung; Deutschland: Daten zu Reimbursement-Lücke fehlen."
   },
   {
-    journal:"PLoS One", year:"2026", pmid:"42771574",
-    author:"Marshall SA et al.", pubdate:"22.09.2026",
+    journal:"Pharmacoepidemiol Drug Saf", year:"2026", pmid:"42788194",
+    author:"Kim JH et al.", pubdate:"Okt. 2026",
+    added:"25.09.2026",
+    title:"Psychotrope Narkotica: Frauen in Südkorea systematisch höher dosiert außer-versichert",
+    sum:"Landesweite Datenbank-Analyse aller kontrollierten Substanzen außerhalb des südkoreanischen Krankenversicherungssystems 2019–2023.",
+    result:"3,1 Mio. Fälle. Frauen (30–49 J., Primärpraxen) ~440 EDU/1000/Monat Anorexigenanza – 15× höher als Männer. Offenbar Off-Label zu kosmetischen Zwecken. ADHD-Medikamente männer-dominant, adoleszentale Jungen mit größter Lücke, Konvergenz mit Alter. Anstieg über Studienperiode, besonders ADHD nach COVID-Schulrückkehr.",
+    transfer:"Südkorea; Pharmakovigilanz-Blindfleck außerhalb Reimbursement; Deutschland hat ähnliches Privatrezept-Problem, Datengrundlage aber schwächer."
+  },
+  {
+    journal:"Cad Saude Publica", year:"2026", pmid:"42788563",
+    author:"Oladosun M et al.", pubdate:"18.09.2026",
+    added:"25.09.2026",
+    title:"Mütterliche Gesundheit in Nigeria: Digitale Geräte wirken nicht linear auf Inanspruchnahme",
+    sum:"Querschnittanalyse von 28.888 verheirateten Frauen aus Nigeria Demographic and Health Survey 2018 zu Determinanten von Schwangerenvorsorge und Geburtsort.",
+    result:"Prävalenz ≥6 Vorsorgebesuche 25 %, Klinikengeburt 28,7 %. Mobiltelefon-Besitz positiv assoziiert (OR 1,29 für Vorsorge, OR 1,36 für Klinikgeburt). Internet-Nutzung positiv mit Vorsorge, häufige Internet-Nutzung aber negativ (−). Mobile-Payment negativ mit Klinikgeburt. Bildet komplexes Zusammenspiel von Ungleichheit und digitaler Infrastruktur, nicht linear.",
+    transfer:"Nigeria; zeigt: Digitalisierung ist kein allein-Versorgungshebel, sondern überlagert strukturelle Ungleichheit – für Deutschland relevant bei Tele-Medizin-Planung."
+  },
+  {
+    journal:"F1000Res", year:"2026", pmid:"42760901",
+    author:"Lynn KS et al.", pubdate:"15.09.2026",
+    added:"19.09.2026",
+    title:"PrEP-Nutzung reduziert Depression bei schwulen Männern und trans Frauen in Thailand",
+    sum:"Querschnittstudie bei 150 MSM und Transgender Frauen (75 PrEP-Nutzer, 75 nicht) in zwei HIV-Präventionskliniken Chiang Mai; Depressionswerte (PHQ-9) und Suizidalität (C-SSRS).",
+    result:"PrEP-Nutzer: Depression MW 3,80±3,46 vs. Nicht-Nutzer 5,96±3,76 (Differenz −2,16, 95%-KI: −0,99 bis −3,33; p&lt;0,001). Suizidalität: 6,7 % (PrEP) vs. 4,0 % (Kontrolle), kein signifikanter Unterschied (p=0,719). In adjustiertes Modell: PrEP unabhängig mit niedrigerer Depression assoziiert (B=−1,77, 95%-KI: −3,07 bis −0,47; p=0,008). Diskriminierungserlebnis positiv mit höherer Depression assoziiert (B=−1,32).",
+    transfer:"Thailand; zeigt Versorgungszugang (PrEP) reduziert Minderheitenstress – Aussage zu Zugang/Stigma, nicht Biologie; Übertragbarkeit auf Deutschland abhängig von PrEP-Verfügbarkeit und Stigmaklima."
+  },
+  {
+    journal:"Health Promot Chronic Dis Prev Can", year:"2026", pmid:"42788895",
+    author:"Hobin E et al.", pubdate:"Sept. 2026",
+    added:"25.09.2026",
+    title:"Geschlechtsunterschiede bei Hochkonsum-Alkohol: Frauen 18–25 Jahre nähern sich Männern an",
+    sum:"Wiederholte Querschnittsanalyse der Canadian Community Health Survey zu Geschlechtsunterschieden bei Heavy Episodic Drinking (HED) 2017–2019 und 2022–2023.",
+    result:"Gesamt-HED stabil bei ~20 %. Männer hatten insgesamt höhere Prävalenz, aber Unterschiede verengten sich 2022–2023. Bei 18–25-Jährigen: Frauen 27,9 % vs. Männer 24,2 % in 2022–2023 (Differenz −3,7 %, 95%-KI: −9,4 bis 1,9; Konfidenzintervall umfasst Null). Konvergenz besonders bei jungen Erwachsenen.",
+    transfer:"Kanada, ähnliche Sozialversicherung; biologisches Risiko (tiefere Toxidität bei Frauen) bekannt, Verhalten ändert sich."
+  },
+  {
+    journal:"Med J Aust", year:"2026", pmid:"42788226",
+    author:"Garth B et al.", pubdate:"Sept. 2026",
+    added:"25.09.2026",
+    title:"Frauen im Gesundheitswesen: Führungsquoten als Hebel für Versorgungsqualität",
+    sum:"Konzeptpapier zu Australiens neuen Geschlechtergleichstellungszielen für große Arbeitgeber und deren Umsetzung in Gesundheitsdiensten.",
+    result:"Frauen stellen Mehrheit der australischen Gesundheitsfachkräfte, sind aber in Führungspositionen unterrepräsentiert. Bindende Zielquoten schaffen institutionelle Verantwortung. Maturity Matrix als Werkzeug zur Verankerung in Governance und Klinischer Rechenschaftspflicht. Gute Umsetzung fördert Personalbindung und bessere Patientenversorgung.",
+    transfer:"Australien; Struktur: weniger direkt auf Deutschland übertragbar (andere Führungskultur), aber Mechanismus (Zielquoten → Systemveränderung) prüfenswert."
+  },
+  {
+    journal:"BMC Psychol", year:"2026", pmid:"42768383",
+    author:"Li Y et al.", pubdate:"10.08.2026",
     added:"22.09.2026",
-    title:"Gerechtigkeitsintervention für schwarze Männer mit niedriger Einkommen: sozialökologische Barrieren identifiziert",
-    sum:"Qualitative Studie mit 31 Stakeholdern (einschließlich Angehöriger der Zielgruppe) in den USA zur Analyse von Faktoren für erfolgreiche Interventionen zur Verbesserung der Gesundheit schwarzer Männer mit chronischen Erkrankungen und niedrigen Einkommen.",
-    result:"Folgende Themenbereiche wurden identifiziert: (1) Zielgruppe verzögert Gesundheitsversorgung, (2) Beziehungen sind durch Inhaftierung oder Armut belastet, (3) Gefängnisgesundheits- und Gesundheitssysteme sind nicht hilfreich strukturiert, (4) viele Barrieren innerhalb der Gemeinschaft, (5) Rassismus und Armut sind verflechtete, verankerte Versorgungsbarrieren. Gerechtigkeitsinterventionen müssen Faktoren auf individueller, zwischenmenschlicher, gemeinschaftlicher und institutioneller Ebene adressieren.",
-    transfer:"USA mit struktureller Rassismuskomponente, begrenzte Übertragbarkeit auf deutsches System, aber Methodenrelevanz für Equity-Forschung."
-  },
-  {
-    journal:"Arch Sex Behav", year:"2026", pmid:"42711548",
-    author:"Hidalgo-Muñoz AR et al.", pubdate:"08.09.2026",
-    added:"09.09.2026",
-    title:"Sexuelle Gewalt-Prävention: Frauen und bisexuelle Personen zeigen niedrigere sexuelle Koercion",
-    sum:"Validierungsstudie der spanischen Version der Process-Based Consent Scale (PBCS) mit 726 Teilnehmern (505 Frauen, 209 Männer, 7 nonbinär) unterschiedlicher sexueller Orientierungen zur Analyse von Geschlechts- und Orientierungsunterschieden in sexueller Zustimmung und Koercion.",
-    result:"Geschlechtsunterschiede zeigten sich in zwei von drei PBCS-Faktoren. Nach sexueller Orientierung gab es Unterschiede mit weniger sexueller Koercion durch bisexuelle Frauen. Die spanische PBCS ist ein zuverlässiges Messinstrument für die spanische Population und könnte zur Prävention und Intervention bei sexueller Gewalt beitragen, die auf individuelle Unterschiede zugeschnitten ist.",
-    transfer:"Spanien, europäischer Kontext, Validierungsstudium mit klinischer Anwendung."
-  },
-  {
-    journal:"Arch Sex Behav", year:"2026", pmid:"42690247",
-    author:"Miranda-Tena A et al.", pubdate:"03.09.2026",
-    added:"03.09.2026",
-    title:"Diskriminierungserfahrungen beeinträchtigen Vertrauen und Versorgungszugang bei sexuellen und Geschlechtsminderheiten in Spanien",
-    sum:"Querschnittstudie mit 217 Teilnehmern (144 cisgender heterosexuell, 73 sexuelle/Geschlechtsminderheiten) in Spanien zu Diskriminierungserfahrungen im Gesundheitswesen, Vertrauen in Anbieter und Versorgungszugang.",
-    result:"Sexuelle und Geschlechtsminderheiten berichteten höheres wahrgenommenes Diskriminierungserleben, größere psychische Belastung, niedrigeres Vertrauen in Anbieter und mehr Verzögerungen bei der Inanspruchnahme von Versorgung als cisgender heterosexuelle Teilnehmer. Qualitative Analysen zeigten, dass Diskriminierung (Misgendering, medizinischer Paternalismus, moralische Verurteilung) im klinischen Alltag erlebt wurde und mit Identitätsverheimlichung und Vertrauenserosion verbunden war. Universal Health Coverage ist ohne affirmativer, kulturell kompetenter Versorgung unzureichend.",
-    transfer:"Spanien, europäisches Versicherungssystem, qualitative und quantitative Daten zu Zugangsbarrieren."
-  },
-  {
-    journal:"Health Promot Int", year:"2026", pmid:"42773967",
-    author:"Nickel B et al.", pubdate:"01.09.2026",
-    added:"23.09.2026",
-    title:"Instagram-Content zu Frauengesundheit ist von Interessenskonflikten und Werbekommunikation dominiert",
-    sum:"Inhaltsanalyse von 472 Instagram-Posts mit dem Hashtag #womenshealth zur Untersuchung von Gesundheitsinformationen, Interessenskonflikten und wissenschaftlichen Belegen.",
-    result:"Von 472 Posts wurden 63 % von Einzelpersonen erstellt (162 von anderen/alternativen Gesundheitsfachleuten, 105 von Medizinern). 56 % richteten sich auf allgemeine Gesundheitsinformationen, 16 % warben für Medikamente/Supplements. Hormonale und Reproduktionsgesundheit war Thema in 48 % (58 Posts zu Menopause/Perimenopause). 69 % stellten explizite Gesundheitsaussagen dar, aber nur 7 % bezogen sich auf wissenschaftliche Evidenz. 51 % der Account-Inhaber hatten klare finanzielle Interessen, 39 % der Posts verkauften direkt ein Produkt. Das zeigt ein von Non-Experten und kommerzieller Ausrichtung dominiertes Umfeld.",
-    transfer:"Medienanalyse mit Relevanz für deutschsprachige Länder, regulatorische Implikationen."
-  },
-  {
-    journal:"Prev Med", year:"2025", pmid:"42777124",
-    author:"Higgins ST", pubdate:"25.10.2025",
-    added:"23.09.2026",
-    title:"Tabakkonsum und Suchtkomorbidität bei Minderheiten: Versorgungsungleichheiten in den USA",
-    sum:"Überblicksartikel über 13 Fachantikel zum Schwerpunkt Schnittmengen von Tabakkonsum mit anderen Süchten, chronischen Erkrankungen und Gesundheitsdispositionen sowie Interventionen zur Reduktion.",
-    result:"Das Spezialthema dokumentiert die disproportionale Auswirkung des Rauchens auf vulnerable Bevölkerungsgruppen, Schnittmengen mit anderen Suchterkrankungen, chronischen Erkrankungen und Gesundheitsdispositionen sowie klinische und regulatorische Interventionen zur Reduktion und Minderung ungünstiger Gesundheitseffekte. Rauchen verursacht etwa 450.000 Todesfälle jährlich in den USA.",
-    transfer:"USA-Fokus, Methodenüberblick zu Health-Disparities-Forschung, begrenzte direkte Übertragbarkeit."
+    title:"Frauen bauen Nähe durch neuronale Synchronisation auf, Männer nicht – fNIRS-Befund",
+    sum:"Hyperscanning-Studie mit fNIRS: 32 weibliche und 30 männliche Dyaden von Fremden in gestuftem Selbstoffenbarungsparadigma (oberflächlich bis tiefe Intimität).",
+    result:"Bei tiefem gegenseitigem Austausch: signifikante Erhöhung interpersoneller neuronaler Synchronisation (INS) DLPFC-TPJ. Geschlecht moderiert Beziehung INS ↔ Nähe (β=−0,386, p-FDR=0,025). Weibliche Dyaden: INS mediiert Selbstoffenbarung→Nähe (indirekter Effekt 0,03); männliche Dyaden: kein Mediationseffekt. Beziehungsaufbau bei Frauen stärker auf emotionaler Expressivität und INS gestützt.",
+    transfer:"China (Macau); Grundlagenbefund; Übertragung auf Versorgung würde voraussetzen, dass therapeutische Beziehung als kritischer Ausgang gilt – gilt in Psychotherapie/Psychiatrie, nicht allgemeine Medizin."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1590,7 +1599,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "25.09.2026";
+const NEWS_STAND = "26.09.2026";
 const NEWS = [
   {titel:"KI, Ambulantisierung und Gendermedizin: DGK-Herztage 2026", datum:"2026-09-24", url:"https://www.monitor-versorgungsforschung.de/news/ki-ambulantisierung-und-gendermedizin-dgk-herztage-2026/"},
   {titel:"Frauengesundheit in Bayern – Verhaltensauffälligkeiten bei Demenz im häuslichen Umfeld", datum:"2026-06-16", url:"https://www.monitor-versorgungsforschung.de/news/frauengesundheit-in-bayern-verhaltensauffaelligkeiten-bei-demenz-im-haeuslichen-umfeld/"},
