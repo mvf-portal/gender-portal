@@ -1519,71 +1519,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Sept. 2026, 06:23 Uhr";
+const SNAP_DATE = "27. Sept. 2026, 09:48 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Pharmacoepidemiol Drug Saf", year:"2026", pmid:"42788194",
-    author:"Kim JH et al.", pubdate:"Okt. 2026",
+    journal:"BMJ Open", year:"2026", pmid:"42785938",
+    author:"Baek Y et al.", pubdate:"24.09.2026",
+    added:"24.09.2026",
+    title:"Elternprogramm für Kindsentwicklung in Vietnam: Geschlechts-und Kostenkontrolle",
+    sum:"Protokoll einer Follow-up-Studie einer Cluster-RCT (2018–2021) mit 622 Frauen-Kind-Dyaden (Interventionsgruppe) und 546 (Kontrolle) zur Untersuchung mittelfristiger Effekte auf kognitives, sprachliches und motorisches Entwicklungsniveau von Kindern im Alter 7–9 Jahren und maternale psychische Gesundheit.",
+    result:"Die ursprüngliche RCT zeigte bei 2 Jahren erhöhte kognitive, sprachliche und motorische Entwicklung in der Interventionsgruppe und war kosteneffektiv. Das geplante Follow-up wird die Persistenz dieser Effekte bei älteren Kindern untersuchen, Geschlechtsspezifizität ist ein geplanter Outcomes (Geschlechtsunterschiede in Reaktion auf Intervention werden analysiert).",
+    transfer:"Vietnam; Versorgungsmodell müsste auf deutsches System adaptiert werden."
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42791533",
+    author:"Bah H et al.", pubdate:"04.09.2026",
     added:"25.09.2026",
-    title:"Geschlechterunterschied bei Appetite-Suppressiva: 15-fach höhere Dosis für Frauen in Südkorea",
-    sum:"Analyse der Narkotica-Datenbank Südkoreas 2019–2023 zur Nutzung von kontrollierten Substanzen außerhalb der Krankenversicherung.",
-    result:"Frauen (Durchschnittsalter 30–49 Jahre) erhielten an Primärkliniken ca. 440 geschätzte Dispensierungseinheiten pro 1000 Frauen/Monat für Anorexigenanzien – etwa 15-mal höher als Männer. Muster deutet auf Off-Label-Verschreibung zu kosmetischen Zwecken hin. ADHD-Medikamente zeigten umgekehrtes Muster mit männlichem Übergewicht, besonders bei Adoleszenten (10–19 Jahre).",
-    transfer:"Südkorea, Pharmakovigilanz außerhalb Versicherung; Deutschland: Daten zu Reimbursement-Lücke fehlen."
+    title:"Geschlechtsbilder in der Grundversorgung beeinflussen Behandlungsqualität",
+    sum:"Querschnittsuntersuchung der Wahrnehmungen von Gesundheitspersonal zu Geschlecht und Equity in 19 Gesundheitszentren Conakrys (412 Mitarbeiter aus ärztlichem, pflegerischem und technischem Dienst).",
+    result:"Über 50 % der Mitarbeiter berichteten das Fehlen von Geschlechter-Equity-Richtlinien oder Focal Points; die Mehrheit sah Geschlecht nicht als Einflussfaktor auf Versorgung, Karriere oder Patientenbehandlung an. Allerdings äußerte die starke Mehrheit Unterstützung für gezielt Schulung und Sensibilisierung zu Geschlecht und Equity.",
+    transfer:"Guinea, aber zeigt Schulungsbedarfe, die auch in Subsahara-Systemen gelten."
   },
   {
-    journal:"Pharmacoepidemiol Drug Saf", year:"2026", pmid:"42788194",
-    author:"Kim JH et al.", pubdate:"Okt. 2026",
-    added:"25.09.2026",
-    title:"Psychotrope Narkotica: Frauen in Südkorea systematisch höher dosiert außer-versichert",
-    sum:"Landesweite Datenbank-Analyse aller kontrollierten Substanzen außerhalb des südkoreanischen Krankenversicherungssystems 2019–2023.",
-    result:"3,1 Mio. Fälle. Frauen (30–49 J., Primärpraxen) ~440 EDU/1000/Monat Anorexigenanza – 15× höher als Männer. Offenbar Off-Label zu kosmetischen Zwecken. ADHD-Medikamente männer-dominant, adoleszentale Jungen mit größter Lücke, Konvergenz mit Alter. Anstieg über Studienperiode, besonders ADHD nach COVID-Schulrückkehr.",
-    transfer:"Südkorea; Pharmakovigilanz-Blindfleck außerhalb Reimbursement; Deutschland hat ähnliches Privatrezept-Problem, Datengrundlage aber schwächer."
+    journal:"Arch Sex Behav", year:"2026", pmid:"42665774",
+    author:"Misevic-Kallenbach M et al.", pubdate:"28.08.2026",
+    added:"28.08.2026",
+    title:"Messinstrumente für Minderheitsstress bei LGBQ-Personen: Systematische Bewertung",
+    sum:"COSMIN-Systematischer Review der psychometrischen Eigenschaften von Instrumenten zur Messung von Minderheitsstress in LGBQ-Populationen; 105 Instrumente gescreent, 8 bewertet.",
+    result:"Die Lesbian, Gay, and Bisexual Identity Scale (LGBIS) und ihre deutsche Adaptation (LGBIS-DE) zeigten die stärksten psychometrischen Eigenschaften. Jedoch zeigte der Review erhebliche Variabilität in der Konzeptualisierung von Minderheitsstress und unzureichend untersuchte Inhaltsvalidität bei vielen Instrumenten.",
+    transfer:"Deutschland - LGBIS-DE verfügbar; Messstandards gelten unabhängig vom System."
   },
   {
-    journal:"Cad Saude Publica", year:"2026", pmid:"42788563",
-    author:"Oladosun M et al.", pubdate:"18.09.2026",
-    added:"25.09.2026",
-    title:"Mütterliche Gesundheit in Nigeria: Digitale Geräte wirken nicht linear auf Inanspruchnahme",
-    sum:"Querschnittanalyse von 28.888 verheirateten Frauen aus Nigeria Demographic and Health Survey 2018 zu Determinanten von Schwangerenvorsorge und Geburtsort.",
-    result:"Prävalenz ≥6 Vorsorgebesuche 25 %, Klinikengeburt 28,7 %. Mobiltelefon-Besitz positiv assoziiert (OR 1,29 für Vorsorge, OR 1,36 für Klinikgeburt). Internet-Nutzung positiv mit Vorsorge, häufige Internet-Nutzung aber negativ (−). Mobile-Payment negativ mit Klinikgeburt. Bildet komplexes Zusammenspiel von Ungleichheit und digitaler Infrastruktur, nicht linear.",
-    transfer:"Nigeria; zeigt: Digitalisierung ist kein allein-Versorgungshebel, sondern überlagert strukturelle Ungleichheit – für Deutschland relevant bei Tele-Medizin-Planung."
+    journal:"Soc Sci Med", year:"2026", pmid:"42600356",
+    author:"Nguyen D et al.", pubdate:"11.08.2026",
+    added:"14.08.2026",
+    title:"Grüne Stadtinfrastruktur reduziert keine bestehenden Gesundheitsungleichgewichte",
+    sum:"Kohortenstudie mit Querschnittserhebungen 2010/11, 2017/18 und 2023/24 (je ca. 1000 Erwachsene) zur Messung von Einkommensungleichgewichten bei körperlicher Aktivität, psychischem Wohlbefinden und Lebensqualität vor, während und nach Abschluss einer großen urbanen Grünflächenintervention (Connswater Community Greenway, Belfast).",
+    result:"Über 15 Jahre breite Zunahme von Einkommensungleichgewichten in allen drei Ergebnisvariablen: Höhere Aktivität, besseres Wohlbefinden und höhere Lebensqualität in Hocheinkommensgruppen (Konzentrationsindizes: PA 0,33; MWB 0,03; QLi 0,09). Die Ungleichgewichte verbreiterten sich während der Bauphase 2010–2017 und blieben nach Abschluss stabil. Langzeiterkrankung und Arbeitslosigkeit erklärten 51–76 % der Ungleichgewichte.",
+    transfer:"UK; zeigt Grenzen von Infrastrukturintervention ohne Equity-Fokus, methodisch auf Deutschland übertragbar."
   },
   {
-    journal:"F1000Res", year:"2026", pmid:"42760901",
-    author:"Lynn KS et al.", pubdate:"15.09.2026",
-    added:"19.09.2026",
-    title:"PrEP-Nutzung reduziert Depression bei schwulen Männern und trans Frauen in Thailand",
-    sum:"Querschnittstudie bei 150 MSM und Transgender Frauen (75 PrEP-Nutzer, 75 nicht) in zwei HIV-Präventionskliniken Chiang Mai; Depressionswerte (PHQ-9) und Suizidalität (C-SSRS).",
-    result:"PrEP-Nutzer: Depression MW 3,80±3,46 vs. Nicht-Nutzer 5,96±3,76 (Differenz −2,16, 95%-KI: −0,99 bis −3,33; p&lt;0,001). Suizidalität: 6,7 % (PrEP) vs. 4,0 % (Kontrolle), kein signifikanter Unterschied (p=0,719). In adjustiertes Modell: PrEP unabhängig mit niedrigerer Depression assoziiert (B=−1,77, 95%-KI: −3,07 bis −0,47; p=0,008). Diskriminierungserlebnis positiv mit höherer Depression assoziiert (B=−1,32).",
-    transfer:"Thailand; zeigt Versorgungszugang (PrEP) reduziert Minderheitenstress – Aussage zu Zugang/Stigma, nicht Biologie; Übertragbarkeit auf Deutschland abhängig von PrEP-Verfügbarkeit und Stigmaklima."
+    journal:"Neural Plast", year:"2026", pmid:"42730484",
+    author:"Oldrati V et al.", pubdate:"2026",
+    added:"12.09.2026",
+    title:"Geschlechtsspezifische Unterschiede bei motorischem Lernen unter Hirnstimulation",
+    sum:"Kontrollierte experimentelle Studie zu Effekten transkranieller alternierend Stromstimulation (tACS) und transkutaner Vagusnervstimulation (tVNS) auf motorisches Lernen bei 96 gesunden Erwachsenen (24 Frauen pro Gruppe).",
+    result:"tACS zeigte geschlechtsspezifisch unterschiedliche Effekte: Frauen verbesserten Präzision bei näheren Zielen, Männer bei fernen Zielen (erhebliche Überschneidung). tVNS hatte unterschiedliche Effekte auf Reaktionszeiten: Verlangsamung bei Männern, Beschleunigung bei Frauen. Beide Stimulationsarten zeigten Reaktionszeitverlangsamung (tACS) oder divergente Effekte (tVNS) nach Geschlecht.",
+    transfer:"Labor-Setting; zeigt biologische Modulation aber keine klinische Versorgungssituation."
   },
   {
-    journal:"Health Promot Chronic Dis Prev Can", year:"2026", pmid:"42788895",
-    author:"Hobin E et al.", pubdate:"Sept. 2026",
-    added:"25.09.2026",
-    title:"Geschlechtsunterschiede bei Hochkonsum-Alkohol: Frauen 18–25 Jahre nähern sich Männern an",
-    sum:"Wiederholte Querschnittsanalyse der Canadian Community Health Survey zu Geschlechtsunterschieden bei Heavy Episodic Drinking (HED) 2017–2019 und 2022–2023.",
-    result:"Gesamt-HED stabil bei ~20 %. Männer hatten insgesamt höhere Prävalenz, aber Unterschiede verengten sich 2022–2023. Bei 18–25-Jährigen: Frauen 27,9 % vs. Männer 24,2 % in 2022–2023 (Differenz −3,7 %, 95%-KI: −9,4 bis 1,9; Konfidenzintervall umfasst Null). Konvergenz besonders bei jungen Erwachsenen.",
-    transfer:"Kanada, ähnliche Sozialversicherung; biologisches Risiko (tiefere Toxidität bei Frauen) bekannt, Verhalten ändert sich."
-  },
-  {
-    journal:"Med J Aust", year:"2026", pmid:"42788226",
-    author:"Garth B et al.", pubdate:"Sept. 2026",
-    added:"25.09.2026",
-    title:"Frauen im Gesundheitswesen: Führungsquoten als Hebel für Versorgungsqualität",
-    sum:"Konzeptpapier zu Australiens neuen Geschlechtergleichstellungszielen für große Arbeitgeber und deren Umsetzung in Gesundheitsdiensten.",
-    result:"Frauen stellen Mehrheit der australischen Gesundheitsfachkräfte, sind aber in Führungspositionen unterrepräsentiert. Bindende Zielquoten schaffen institutionelle Verantwortung. Maturity Matrix als Werkzeug zur Verankerung in Governance und Klinischer Rechenschaftspflicht. Gute Umsetzung fördert Personalbindung und bessere Patientenversorgung.",
-    transfer:"Australien; Struktur: weniger direkt auf Deutschland übertragbar (andere Führungskultur), aber Mechanismus (Zielquoten → Systemveränderung) prüfenswert."
-  },
-  {
-    journal:"BMC Psychol", year:"2026", pmid:"42768383",
-    author:"Li Y et al.", pubdate:"10.08.2026",
-    added:"22.09.2026",
-    title:"Frauen bauen Nähe durch neuronale Synchronisation auf, Männer nicht – fNIRS-Befund",
-    sum:"Hyperscanning-Studie mit fNIRS: 32 weibliche und 30 männliche Dyaden von Fremden in gestuftem Selbstoffenbarungsparadigma (oberflächlich bis tiefe Intimität).",
-    result:"Bei tiefem gegenseitigem Austausch: signifikante Erhöhung interpersoneller neuronaler Synchronisation (INS) DLPFC-TPJ. Geschlecht moderiert Beziehung INS ↔ Nähe (β=−0,386, p-FDR=0,025). Weibliche Dyaden: INS mediiert Selbstoffenbarung→Nähe (indirekter Effekt 0,03); männliche Dyaden: kein Mediationseffekt. Beziehungsaufbau bei Frauen stärker auf emotionaler Expressivität und INS gestützt.",
-    transfer:"China (Macau); Grundlagenbefund; Übertragung auf Versorgung würde voraussetzen, dass therapeutische Beziehung als kritischer Ausgang gilt – gilt in Psychotherapie/Psychiatrie, nicht allgemeine Medizin."
+    journal:"J Health Care Poor Underserved", year:"2026", pmid:"42766502",
+    author:"Obi C et al.", pubdate:"2026",
+    added:"21.09.2026",
+    title:"Struktureller Rassismus und Kindersterblichkeit: Systematischer Review",
+    sum:"Systematischer Review (PRISMA-Leitlinie) von 1955–2024 mit 33 eingeschlossenen Studien (alle USA) zur Beziehung zwischen strukturellem Rassismus (sechs Domänen: Einkommen, Bildung, Wohnen, Bügerrechte, Gesundheitswesen, Justiz) und Säuglingssterblichkeitsraten (IMR).",
+    result:"In allen sechs Domänen zeigte Rassenungleichheit (gemessen als struktureller Rassismus) Assoziation mit höherer Säuglingssterblichkeit bei Schwarzen Kindern; wenig oder kein Effekt auf weiße Säuglingssterblichkeit. Struktureller Rassismus wirkt sich nachteilig auf IMR schwarzer Säuglinge aus.",
+    transfer:"USA; Befund zu Rassenungleichheit nicht direkt übertragbar, aber methodisches Vorgehen zur Untersuchung struktureller Determinanten relevant."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1599,7 +1590,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.09.2026";
+const NEWS_STAND = "27.09.2026";
 const NEWS = [
   {titel:"KI, Ambulantisierung und Gendermedizin: DGK-Herztage 2026", datum:"2026-09-24", url:"https://www.monitor-versorgungsforschung.de/news/ki-ambulantisierung-und-gendermedizin-dgk-herztage-2026/"},
   {titel:"Frauengesundheit in Bayern – Verhaltensauffälligkeiten bei Demenz im häuslichen Umfeld", datum:"2026-06-16", url:"https://www.monitor-versorgungsforschung.de/news/frauengesundheit-in-bayern-verhaltensauffaelligkeiten-bei-demenz-im-haeuslichen-umfeld/"},
