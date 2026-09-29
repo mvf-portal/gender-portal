@@ -1519,62 +1519,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "28. Sept. 2026, 06:01 Uhr";
+const SNAP_DATE = "29. Sept. 2026, 06:23 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Nurs Inq", year:"2026", pmid:"42801724",
-    author:"Handlovsky I et al.", pubdate:"Okt. 2026",
-    added:"27.09.2026",
-    title:"Liaison-Pflegekraft für 2S/LGBTQIA+-Patienten: Strukturelle Intervention für Chancengleichheit",
-    sum:"Qualitative Ethnographie der klinischen Praxis einer Liaison-Pflegekraft für sexuelle und Geschlechterminderheiten in zwei kanadischen Akutkrankenhäusern über 7 Monate.",
-    result:"Drei zentrale Dimensionen wurden identifiziert: Präsenz (Vertrauensbildung), Fachkompetenz (physiologische und psychosoziale Besonderheiten von 2S/LGBTQIA+-Patienten) und Systemadvokacy (Navigation institutioneller Hemmnisse). Diese Dimensionen ermöglichten bessere Informationen für klinische Entscheidungen und reduzierten strukturelle Barrieren — nachweislich nicht primär biologisch, sondern durch Unterversorgung und Stigma bedingt. Die Liaison-Rolle funktioniert als klinische und Systemintervention, die Chancengleichheit fördert.",
-    transfer:"Kanada, ähnliches Modell im deutschsprachigen Raum adaptierbar"
+    journal:"Low Urin Tract Symptoms", year:"2026", pmid:"42802498",
+    author:"Koike T et al.", pubdate:"Nov. 2026",
+    added:"28.09.2026",
+    title:"Überaktive Blase: Ältere Frauen erhalten länger Anticholinergika statt β3-Agonisten",
+    sum:"Nationale japanische Analyse von Verschreibungsmustern für überaktive Blase (OAB) 2017–2024, stratifiziert nach Alter und Geschlecht, mit Fokus auf Anticholinergika-Burden.",
+    result:"β3-Agonisten-Anteil stieg von 36,2 % auf 64,9 %; in FY2024 war ihr Anteil bei Männern in allen Altersgruppen höher. Anticholinerge Burden (ACB-weighted) war bei Frauen höher, Verhältnis Frau:Mann stieg mit Alter (1,1 bei 65–74 Jahren, 2,8 bei ≥85 Jahren). Bei Frauen ≥85 Jahren sank die Verschreibungsmenge nur um 11,3 % statt ~20 %. Ältere Frauen bleiben kognitiv riskanteren Wirkstoffen länger exponiert.",
+    transfer:"Japan – Registerqualität vergleichbar mit europäischer; Geschlechtsunterschied in Praxis-Adhärenz zu Leitlinien dokumentiert."
   },
   {
-    journal:"Pediatr Obes", year:"2026", pmid:"42802009",
-    author:"Miller S et al.", pubdate:"Okt. 2026",
-    added:"27.09.2026",
-    title:"Übergewichtsdisparitäten bei Kindern: Ethnische Segregation und Schulumgebung bestimmen Unterschiede",
-    sum:"Beobachtungsstudie mit Messungen des Übergewichts bei kalifornischen Schulkindern 2018/19, Analyse nach ethnischer Schulzusammensetzung und Nachbarschaftseinkommen.",
-    result:"In integrierten einkommensschwachen Schulen betrug die Disparität zwischen Schwarzen und Weißen Kindern 3 %, zwischen Latinos und Weißen 10 %. In integrierten wohlhabenden Schulen waren es 8 % bzw. 13 %. In segregierten einkommensschwachen Schulen: 11 % bzw. 14 %; in segregierten wohlhabenden Schulen: 22 % bzw. 26 %. Die größte Disparität (23 % bzw. 28 %) lag zwischen Minderheitskindern in segregierten armen und Weißen Kindern in segregierten wohlhabenden Schulen. Dies zeigt: Unterschiede sind nicht biologisch, sondern durch Zugang zu Ressourcen und strukturelle Segregation bestimmt.",
-    transfer:"USA-Daten, aber soziologische Mechanik (Segregation und Armut als Determinanten) übertragbar auf Deutschland"
+    journal:"Endocrine", year:"2026", pmid:"42804060",
+    author:"Maddalena RR et al.", pubdate:"28.09.2026",
+    added:"28.09.2026",
+    title:"Geschlechtsspezifische Phänotypen beim Hyperparathyreoidismus: Frauen mit skelettalen, Männer mit kardiovaskulären Risiken",
+    sum:"Retrospektive Analyse von 315 Patienten mit primärem Hyperparathyreoidismus zur Untersuchung geschlechtsspezifischer Unterschiede in klinischer Präsentation und Komplikationen.",
+    result:"Frauen zeigten signifikant höhere Prävalenz von Osteopenie/Osteoporose (71,7 % vs. 53,1 %, p = 0,004), vertebralen Frakturen (44 % vs. 12 %, p &lt; 0,001) und Knochenschmerzen (60,7 % vs. 10,3 %, p &lt; 0,001). Männer hatten höhere Nephrolithiasisraten (p = 0,013) und kardiovaskuläre Komorbiditäten (p = 0,046). Hormonabhängig unterschiedliche Krankheitsmanifestationen erfordern geschlechtsspezifische Behandlungsansätze.",
+    transfer:"Italien, einzelnes Zentrum – Generalisierbarkeit für Deutschland begrenzt, aber biologisches Geschlecht als Einflussfaktor klar belegt."
   },
   {
-    journal:"J Sex Med", year:"2026", pmid:"42801789",
-    author:"Gobbo A et al.", pubdate:"14.09.2026",
-    added:"27.09.2026",
-    title:"Geschlechtsangleichende Penisprothetik: Lernkurve und Revisionsergebnisse über 5 Jahre",
-    sum:"Retrospektive Analyse von 473 Patienten mit geschlechtsangleichender Penisprothesenimplantation zur Erfassung der institutionellen Lernkurve und ihrer Auswirkung auf die Ergebnisqualität.",
-    result:"Die Wahrscheinlichkeit einer Operation aus beliebigem Grund sank von 65,6 % beim ersten Fall auf 32,9 % beim Fall 473; maximale Effizienz wurde bei Fall 311 erreicht. Revisionen wegen Unzufriedenheit traten bei 21,9 % der Patienten auf und sanken von 33,2 % auf 12,8 %, mit maximaler Effizienz bei Fall 261. Kumulative institutionelle Erfahrung war unabhängiger Prädiktor für bessere Ergebnisse (OR = 0,997, p = 0,020). Dies zeigt: Die Versorgungsqualität verbessert sich mit Routine — die biologische Komplexität (Aufbau eines funktionsfähigen Gewebes) wird durch strukturelle Faktoren (Chirurgenerfahrung) bestimmt.",
-    transfer:"UK-Daten, ähnliche Ressourcenlage wie deutsches Spezialistensystem"
+    journal:"Epidemiol Psychiatr Sci", year:"2026", pmid:"42802615",
+    author:"Taouk Y et al.", pubdate:"28.09.2026",
+    added:"28.09.2026",
+    title:"Vereinbarkeit Familie-Beruf und psychische Gesundheit: Mütter und Väter unterschiedlich belastet",
+    sum:"Längsschnittanalyse mit fixed-effects-Regression von 7.265 berufstätigen Eltern aus HILDA-Kohorte (Australien, 2001–2021) zu Assoziation zwischen Work-Family-Conflict (WFC) und mentaler Gesundheit.",
+    result:"Zunahme des WFC war negativ assoziiert mit psychischer Gesundheit bei Frauen (β = −1,25 [95 % KI: −1,45, −1,05]) und Männern (β = −1,21 [95 % KI: −1,40, −1,02]). Zunahme von FWC (Family-to-Work) war stärker schädlich für Männer (β = −1,51 [95 % KI: −1,75, −1,28]) als Frauen (β = −1,09 [95 % KI: −1,33, −0,85]). Kleine, aber konsistent signifikante Geschlechtsunterschiede deuten auf unterschiedliche psychische Belastungsmuster hin.",
+    transfer:"Australien, vergleichbare Arbeitsmärkte; großes, 21-jähriges Längsschnittpanel mit Gatekeeping wie Deutschland."
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42735073",
-    author:"Wu W et al.", pubdate:"14.09.2026",
-    added:"14.09.2026",
-    title:"Digitale kognitive Verhaltenstherapie für chinesische Männer mit HIV: Kulturelle Anpassung und Machbarkeit",
-    sum:"Drei-Phasen-Nutzer-zentrierte Anpassung einer kognitiven Verhaltenstherapie (ESTEEM) in eine WeChat-Mini-Programm-App für chinesische Männer mit HIV-Erfahrung; Pilotphase mit 10 Patienten und 5 Berater.",
-    result:"In Phase 1 wurden 3 Themen identifiziert: katastrophisches Denken bei Gesundheitsangst, internalisiertes Stigma (Offenbarungsdilemma) und Scham-Schemata zu Unzulänglichkeit. Im Pilot loggten sich Teilnehmer durchschnittlich 14,1-mal (SD 6,7) ein und absolvierten 134,3 min (SD 103,1) Lernmodule; 90 % ( 9/10) erreichten alle Module. Angststörungen sanken von 8,9 (SD 2,3) auf 7,2 (SD 3,0). Alle Teilnehmer (100 %) zeigten Bereitschaft zur Fortsetzung und Empfehlung. Dies zeigt: Psychische Belastung entsteht nicht aus Biologie (HIV), sondern aus sozialer Stigmatisierung und Schamkognitionen — durch kulturgerechte Intervention reduzierbar.",
-    transfer:"China-Pilot, aber Konzept der Stigma-fokussierten Intervention für andere Hochrisikogruppen adaptierbar"
+    journal:"Womens Health (Lond)", year:"2026", pmid:"42803365",
+    author:"Birtel MD et al.", pubdate:"28.09.2026",
+    added:"28.09.2026",
+    title:"Menstruationsgesundheit South Asians vs. Weiße Britin: Kulturelle Stigma und Versorgungsungleichheit",
+    sum:"Querschnitterhebung mit 306 menstruierenden Frauen (153 South Asian, 153 Weiß-Britisch) im UK zu kulturellen Unterschieden in Menstruationserfahrungen, Literacy, Stigma und Diskriminierung im Gesundheitswesen.",
+    result:"South Asian Frauen berichteten niedrigere Menstruations-Literacy, größere Geheimhaltung und Vermeidungsverhalten beim Diskutieren von Menstruation, aber auch positivere Emotionen gegenüber Menstruation. Sie erlebten mehr ethnische Mikroaggressionen im Gesundheitswesen. Geheimhaltung und Mikroaggressionen vermittelten den Effekt von Kulturgruppe auf Selbststigma beim Hilfesuchverhalten. Zeigt Zugang und Arzt-Patient-Interaktion als Barrieren, nicht biologische Geschlechtsunterschiede.",
+    transfer:"Großbritannien, qualitative Befunde zu Zugang und Arztkommunikation; Thema hochrelevant für Migrantinnengruppen in Deutschland."
   },
   {
-    journal:"Int J Public Health", year:"2026", pmid:"42729238",
-    author:"Stalsberg R", pubdate:"28.08.2026",
-    added:"12.09.2026",
-    title:"Physische Aktivitätsforschung übersieht arme Bevölkerungsgruppen systematisch",
-    sum:"Literaturkritik zum Bias in der Bewegungsforschung: Die Fokussierung auf Freizeit-Bewegung ignoriert Alltagsaktivität und unterschätzt Aktivitätsmuster niedriger Sozialschichten systematisch.",
-    result:"Methodische Verzerrungen (Stichprobenselektion, Messinstrumente) führen zur Unterrepräsentation von Personen mit niedrigem Sozioökonomischen Status. Dies reproduziert Chancenungleichheit: Interventionen, die auf Freizeitverhalten abzielen, verfehlen arbeitsreiche, körperlich fordernde Bevölkerungsgruppen. Der Bias ist nicht biologisch, sondern methodisch und perpetuiert Health Inequities durch fehlerhafte Datenbasis.",
-    transfer:"Skandinavien (Autor), aber epistemische Kritik auf deutsches Studiendesign anwendbar"
+    journal:"BMJ Open", year:"2026", pmid:"42778246",
+    author:"Li X et al.", pubdate:"23.09.2026",
+    added:"23.09.2026",
+    title:"Schwangerschaftskohorte Shenzhen: Prä-BMI bei Knaben mit Entwicklungsverzögerungen stärker assoziiert",
+    sum:"Prospektive Geburtskohorte mit 4.208 schwangeren Frauen seit März 2018, Nachverfolgung bis 7 Jahre, zu Effekten genetischer, umwelt- und lebensstilfaktoren auf mütterliche und kindliche Gesundheit.",
+    result:"Höherer Prä-Schwangerschafts-BMI assoziiert mit Entwicklungsverzögerungen bei Nachkommen, besonders bei Jungen. Schlechte Schlafqualität in Frühschwangerschaft assoziiert mit Small-for-Gestational-Age. Pränatale Grünflächenexposition assoziiert mit besserer motorischer Entwicklung, PM₂,₅-Exposition postnatal mit verzögerter motorischer und Problemlösungs-Entwicklung. Sex als biologische Variable moderiert Umwelteffekte.",
+    transfer:"China; Geburtskohorte mit Geschlechtsstratifizierung – Methodenmodell für deutsche Kohortenforschung, aber nicht deutsches System."
   },
   {
-    journal:"Front Immunol", year:"2026", pmid:"42718495",
-    author:"Flanagan KL et al.", pubdate:"26.08.2026",
-    added:"10.09.2026",
-    title:"Geschlechtsspezifische Immunität: Sechs ungelöste Fragen für klinische Anwendung",
-    sum:"Expertenpapier zu mechanistischen Forschungslücken in der Geschlechtsimmunologie, die geklärt werden müssen, bevor biologische Geschlechtsunterschiede klinisch handlungsleitend werden können.",
-    result:"Sechs identifizierte Grand Challenges: (1) rigide Erfassung geschlechtsspezifischer Immunzellfunktionen über die Lebensspanne; (2) funktionale Rollen X- und Y-gebundener Immungene und X-Inaktivierungs-Escape klären; (3) Rolle von Sexualsteroiden und epigenetischer Regulation abbilden; (4) Auswirkung der bidirektionalen Sex-Mikrobiota-Immunitäts-Achse klären; (5) Geschlecht in experimentellen Modellen als Variable statt Confounder etablieren; (6) mechanistische Einsichten in geschlechtsspezifische Prävention und Behandlung übersetzen. Das Paper zeigt: Ohne diese grundlagenseitigen Klärungen können biologische Unterschiede nicht klinisch sicher genutzt werden — momentan ist die Kausalität ungeklärt.",
-    transfer:"Internationale Expertise, unabhängig von Gesundheitssystem gültig"
+    journal:"East Asian Arch Psychiatry", year:"2026", pmid:"42802391",
+    author:"Chan TF et al.", pubdate:"Sept. 2026",
+    added:"28.09.2026",
+    title:"Geschlechtsangleichende Versorgung in Hongkong: AMAB mit höheren psychischen Komorbiditäten, längere Wartezeiten für alle",
+    sum:"Retrospektive Analyse von 609 Patienten (349 AMAB, 260 AFAB) eines Geschlechtsidentitätsambulanzen über 6 Jahre zu Versorgungszugang, psychiatrischen Komorbiditäten und Suizidalität.",
+    result:"AMAB waren bei Vorstellung älter und hatten höhere psychiatrische Komorbiditäten (31,5 % vs. 24,2 %), insbesondere Autismus und frühere Suizidversuche. AFAB forderten mehr Chirurgien an (73,4 % vs. 56,2 %). Wartezeiten für endokrinologische Bewertung stiegen von ~105 Tagen (2017) auf &gt;400 Tage (2022). Zwei AMAB und ein AFAB starben durch Suizid während des Wartens. Unmet demand und prolongierte Wartezeiten gefährden vulnerable Populationen.",
+    transfer:"Hongkong, öffentliches System; zeigt Zugangsbarriere als Ursache schlechterer Outcomes, nicht Biologie."
+  },
+  {
+    journal:"Reprod Biomed Online", year:"2026", pmid:"42561480",
+    author:"Tsonis O et al.", pubdate:"25.06.2026",
+    added:"06.08.2026",
+    title:"Fertilitätserhalt für transgender Personen: TransFertility-Modell steigert Zugang und Completion",
+    sum:"Fallbericht und Evidence-Synthese zur Implementierung eines dysphorie-informierten, trans-inklusiven Fertilitätsschutz-Pfads am Guy's and St Thomas' NHS Trust, London, mit Outcomes über 39 Monate.",
+    result:"Das TransFertility-Modell erzielte 19-fache Steigerung der Überweisungen, 100 % Konsultations-Attendance, &gt;90 % Treatment-Initiation und 96,7 % Completion ohne schwere Nebenwirkungen. Dysphorie-informierte Umgestaltung von Administration, Klinik und psychosozialen Komponenten verbesserte Zugang, Engagement und Adherence. Zeigt, dass Strukturdesign – nicht nur Leitlinien – Zugangsbarrieren für transgender Personen abbaut.",
+    transfer:"Großbritannien, NHS; deutsches System ähnlicher Zugangsschutz, aber keine vergleichbaren Spezialistenservices etabliert."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1590,7 +1599,7 @@ const RADAR_FRISTEN = [["2026-10-15", "2026-10-06", "2026-10-19", "2026-10-15", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "28.09.2026";
+const NEWS_STAND = "29.09.2026";
 const NEWS = [
   {titel:"KI, Ambulantisierung und Gendermedizin: DGK-Herztage 2026", datum:"2026-09-24", url:"https://www.monitor-versorgungsforschung.de/news/ki-ambulantisierung-und-gendermedizin-dgk-herztage-2026/"},
   {titel:"Frauengesundheit in Bayern – Verhaltensauffälligkeiten bei Demenz im häuslichen Umfeld", datum:"2026-06-16", url:"https://www.monitor-versorgungsforschung.de/news/frauengesundheit-in-bayern-verhaltensauffaelligkeiten-bei-demenz-im-haeuslichen-umfeld/"},
