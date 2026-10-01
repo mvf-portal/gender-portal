@@ -1519,71 +1519,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "30. Sept. 2026, 06:01 Uhr";
+const SNAP_DATE = "1. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Res Adolesc", year:"2026", pmid:"42808776",
-    author:"Taliaferro LA et al.", pubdate:"Dez. 2026",
+    journal:"BMJ Open", year:"2026", pmid:"42816075",
+    author:"Hameed W et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"Geburtsbeistand und psychische Gesundheit der Mutter: systematische Übersicht zu Ländern mit niedrigem/mittlerem Einkommen",
+    sum:"Systematische Übersicht von 10 Studien (6 Beobachtungs-, 4 experimentell) zu Effekten von persönlichen Geburtsbegleitern auf Angst und Depression unter der Geburt und postpartal.",
+    result:"Experimentelle Studien (primär an Erstgebärenden, unkomplizierte Schwangerschaften): Relative Änderung der Angst zwischen Intervention und Kontrolle –0,85% bis +120%, die meisten p&lt;0,001 zugunsten Intervention; für depressive Symptome 4,5% und 22,8%, statistisch nicht signifikant. Beobachtungsstudien (außer zwei) zeigten keine statistisch signifikante Beziehung, Richtung aber positiv assoziiert. Eine Studie fand: Begleitungsmerkmale (Art, Intensität) erhöhten Angst-/Depressions-Chancen (OR 2,86; 95%-CI 1,52–5,39). Zeigt: Effekt abhängig von Parität, Komplikationsstatus, Begleitungsqualität – nicht einfacher biologischer Schutz.",
+    transfer:"Länder mit niedrigem/mittlerem Einkommen – Zugangsmuster unterscheiden sich von Deutschland; übertragbar nur Evidenzstruktur"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42812274",
+    author:"Sithole T et al.", pubdate:"15.09.2026",
+    added:"30.09.2026",
+    title:"Behinderung in Südafrika: Geschlechtslücke persistent, Gesundheitszugang stagniert",
+    sum:"Südafrikanische Trendanalyse 2020–2024 aus Haushaltsumfragen zeigt persistente Geschlechtsunterschiede in Behinderungsprävalenz und stagnierendem Zugang.",
+    result:"Behinderungsprävalenz national 4,5–5,0%, kein signifikanter linearer Trend (p=0,49). Frauen durchgehend signifikant höhere Prävalenz als Männer in jedem Umfragejahr (p≤0,007). Nordkap höchste Prävalenz 2020 und 2024; Eastern Cape größter weiblicher Anstieg. Öffentliche Einrichtungen bleiben erste Anlaufstelle (72–73%). Krankenversicherungsabdeckung zeigte keinen signifikanten linearen Trend (p=0,72), stieg aber 2021 signifikant und fiel bis 2024 (p=0,004). Zeigt: Geschlechtslücke ist robuster statistischer Befund (bleiben unter Design-Effekt-Sensitivitätsanalyse), strukturelle Ungleichheit besteht fort trotz Gesundheitspolitik.",
+    transfer:"Südafrika - vergleichbare Routinedaten, Zugangsstrukturen unterscheiden sich von Deutschland deutlich"
+  },
+  {
+    journal:"J Sex Med", year:"2026", pmid:"42814583",
+    author:"Tordoff DM et al.", pubdate:"14.09.2026",
+    added:"30.09.2026",
+    title:"Genitale Atrophie bei testosterontherapierten Transmaskulinen: Symptome, Behandlungshindernisse",
+    sum:"Qualitative Studie mit 28 testosterontherapierten transmaskulinen Erwachsenen zu Symptomerleben genitaler Atrophie, Behandlungspräferenzen und Versorgungsbarrieren.",
+    result:"93% hatten von genitaler Atrophie gehört, 64% erlebten diese im Leben (46% im letzten Jahr); Symptome von Trockenheit bis zu chronischen Schmerzen beim Gehen/Sitzen. 79% kannten topisches vaginales Östrogen, 43% hatten es verwendet, Symptomlinderung in den meisten Fällen. Creme häufigst verordnet, aber unbeliebt wegen Unordentlichkeit, Dysphorie, sexueller Beeinträchtigung; Zäpfchen/Ring bevorzugt. Hauptbarrieren: Anbieter-Wissenslücken, Symptomverharmlosung, Verweigerung topischen Östrogens, Versicherungsablehnungen, Pharmaka-Stigma. Zeigt: Versorgungsproblem besteht in Ausbildung, Versicherungspolitik und evidenzbasierter Diagnostik, nicht biologischer Unmöglichkeit.",
+    transfer:"USA - Versorgungsbarrieren teilweise übertragbar; in Deutschland AWMF-Leitlinien zu Geschlechtsangleichung heteronorm, Evidenzlücke größer"
+  },
+  {
+    journal:"BMC Public Health", year:"2026", pmid:"42811308",
+    author:"Thielcke TA et al.", pubdate:"09.09.2026",
     added:"29.09.2026",
-    title:"Staatliche Gleichheitspolitik als Schutzfaktor gegen Suizidalität bei ethnorassisch marginalisierter LGBTQ+-Jugend",
-    sum:"Längsschnitt-Pfadanalyse mit 486 ethnorassisch marginalisierten lesbischen, bisexuellen Frauen und nichtbinären Personen (National Queer Women's Mental Health Cohort, durchschnittlich 22 Jahre) zu moderierenden Effekten staatlicher Rassen- und LGBTQ+-Gleichheitspolitik auf Suizidalität über drei Wellen.",
-    result:"Intersektionale Minoritätsstressoren in Welle 1 führten über Entrapment in Welle 2 zu Suizidideen in Welle 3 (indirekte Assoziation signifikant). Kombinierte staatliche Rassen- und LGBTQ+-Gleichheit moderierte die Assoziation zwischen Minoritätsstress und Entrapment und reduzierte Suizidideen – Effekt besonders wichtig für Personen in Staaten mit niedriger Gleichheit. Strukturelle Maßnahmen zur Bekämpfung von Diskriminierung beeinflussen Suizidrisiken nachweisbar.",
-    transfer:"USA - zeigt Struktur-Wirkmechanismus, aber Übernahme auf Deutschland erfordert Daten zu Bundesebenen-Unterschieden"
+    title:"Blutdruck bei Kindheitstraumatisierung: Geschlechtsspezifische Muster in 150.983 deutschen Erwachsenen",
+    sum:"Deutsche Kohortenstudie untersucht alters- und geschlechtsspezifische Assoziationen zwischen Kindheitsmisshandlung und Blutdruckergebnissen im Erwachsenenalter.",
+    result:"Frauen mit hoher kumulativer Kindheitstraumatisierung (≥3 Kategorien) zeigten niedrigere Hypertoniequoten (OR=0,87; 95%-CI 0,80–0,94), Männer nicht signifikant (OR=1,01; 95%-CI 0,91–1,13). Altersabhängige inverse Assoziationen zwischen Kindheitstrauma und Blutdruckmarkern offenbarten geschlechtsspezifische Muster; Effekte konsistenter für Missbrauch als Vernachlässigung. Befund widerspricht Erwartung – biologische Vulnerabilität vs. psychosoziale Coping-Unterschiede ungenügend geklärt.",
+    transfer:"Deutschland - NAKO Daten, nationale Routineerfassung, direkter Versorgungsbezug"
   },
   {
-    journal:"Neurol Sci", year:"2026", pmid:"42768129",
-    author:"Xu Y et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Tabakexposition und neurodegenerative Erkrankungen: Geschlechtsspezifische Unterschiede und das TH-Gen",
-    sum:"Multi-Omics-Analyse der Global Burden of Disease 2021-Daten zu Parkinson- und Alzheimer-Erkrankung bei Tabakexposition mit geschlechtsstratifizierten Vergleichen und Bioinformatik zur Genidentifikation.",
-    result:"Tabakexposition senkte Parkinson-Last, erhöhte aber Alzheimer-Risiko. Männer stärker betroffen. Markante regionale Heterogenität: Parkinson höchst in Ostasien, Alzheimer in Hocheinkommens-Ländern. Prognosen: Steigende altersstandarisierte Raten (ASR) bei Männern bis 2050, Rückgang bei Frauen. Das TH-Gen als Nexus zwischen Nikotinstoffwechsel, Parkinson und Geschlechtsunterschieden identifiziert (erklärt stärkeren Effekt bei Männern). Geschlechtsspezifische biologische Mechanismen differenzieren Tabakeffekte.",
-    transfer:"Global Burden of Disease, biologischer Wirkmechanismus belegt, aber regionale Heterogenität limitiert deutsche Übertragbarkeit"
+    journal:"Front Public Health", year:"2026", pmid:"42813077",
+    author:"Liu J et al.", pubdate:"03.09.2026",
+    added:"30.09.2026",
+    title:"Gebärmutterhalskrebs-Sterblichkeit USA: Persistent höher bei Schwarzen Frauen und ländlichen Regionen",
+    sum:"USA-Analyse der Gebärmutterhalskrebs-Sterblichkeit 1999–2023 nach Rasse, Wohnort, Region zeigt anhaltende Ungleichheit trotz Gesamtrückgang.",
+    result:"Mortalitätsrate sank von 4,37 auf 2,09 pro 100.000 Frauen (AAPC –3,27%; 95%-CI –3,81 bis –2,73), aber Schwarze Frauen durchgängig höhere Sterblichkeit; ländliche Gebiete erhöhte Raten; Südstaaten konsistent höher, Nordosten mit größtem Rückgang (AAPC –4,23%). Geografische Variation: höchstbelastete Staaten 2–4× höher als niedrigbelastete. Ursachen: Zugangsungleichheit zu Screening, HPV-Impfung, Behandlung. Zeigt Versorgungsbarrieren (geografisch, sozioökonomisch), nicht primär biologische Unterschiede.",
+    transfer:"USA - Gesundheitssystem Hürden überlagern Unterschiede; übertragbar nur Screening-Strategien, nicht Zugangsverhältnisse"
   },
   {
-    journal:"Am J Mens Health", year:"2026", pmid:"42771530",
-    author:"Amadi MC", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Präzisionsprävention von vorzeitiger Herzkrankheit bei afrikanischen Männern: Triple-Risk-Konvergenz-Rahmen",
-    sum:"Konzeptuelles Papier, das einen integrierten Rahmen (Triple-Risk Convergence Framework) zu psychosozialen Stressoren, metabolischer Dysfunktion und ererbter Lipoprotein(a)-assoziierter kardiovaskulärer Anfälligkeit bei afrikanischen Männern entwickelt (Synthesearbeit 2019–2026).",
-    result:"Das TRCF schlägt vor, dass vorzeitige Herzkrankheit bei afrikanischen Männern durch die dynamische Konvergenz von psychosozialen Stressoren, metabolischer Dysfunktion und ererbter kardiovaskulärer Anfälligkeit besser verstanden wird als durch isolierte Einzeldomänen. Diese drei Domänen wirken über den Lebensverlauf in einem sozioökologischen Kontext, der ihre Exposition, Expression und Management prägt. Der Rahmen erweitert konventionelle Präventionsansätze, die sich auf Stoffwechselrisiken konzentrieren. Empfehlungen: Integration psychosozialer Bewertung, metabolischer Auswertung und Stratifikation ererbter Risiken in Präventionsprogramme.",
-    transfer:"Sub-Sahara-Afrika - Rahmen nicht deutschland-spezifisch, aber Wirkmechanismus-Ansatz übertragbar"
-  },
-  {
-    journal:"GMS J Med Educ", year:"2026", pmid:"42807627",
-    author:"Heinen I et al.", pubdate:"15.09.2026",
-    added:"29.09.2026",
-    title:"Selbstvertrauen durch Unterricht: Geschlechtsspezifische Unterschiede in der Selbstbewertung dermatologischer Fähigkeiten",
-    sum:"Quasi-experimentelle Studie zu geschlechtsspezifischen Unterschieden in der Selbsteinschätzung dermatologischer Kenntnisse bei 142 Medizinstudierenden vor und nach einem Seminar.",
-    result:"Studentinnen bewerteten ihr Wissen zu Hauttypen (p&lt;0,001, η²=0,078) und diagnostischen Fähigkeiten (p&lt;0,001, η²=0,075) initial signifikant niedriger als Studenten, zeigten aber objektiv gleiche MC-Testergebnisse (p=0,905). Nach dem Seminar verschwanden die Geschlechtsunterschiede. Gezielte Lehre und Feedback können Selbstvertrauen, besonders bei Frauen, fördern.",
-    transfer:"Deutsche Hochschuldaten, vergleichbare medizinische Ausbildung, Effekt der Instruktion nachweisbar"
-  },
-  {
-    journal:"LGBT Health", year:"2026", pmid:"42714922",
-    author:"Moss H et al.", pubdate:"09.09.2026",
-    added:"09.09.2026",
-    title:"Lehrplan für LGBTQIA+-inklusive Praxis in australischen Medizinstudiengängen: Audit und Lückenanalyse",
-    sum:"Querschnitt-Audit von 15 australischen medizinischen Fachprogrammen (68% aller akkreditierten Programme) zur Erfassung von LGBTQIA+-Inhalten im Lehrplan mit Fokus auf Umfang, Lieferform und Themenbereiche.",
-    result:"LGBTQIA+-Lehrplninhalte: 3–40 Stunden (Median 10, IQR 6–10); 80% verteilten Inhalte über den gesamten Lehrplan statt Dedizierter Module. Häufigste Inhalte: Definitionen von Sexualität/Geschlecht (93%), inklusive Sprache (80%), soziale/legale Geschlechtsangleichung (80%). Am seltensten unterrichtet: Gesundheit von Personen mit angeborenen Geschlechtsvariationen. Respondenten beschrieben Abdeckung als fair bis gut. Variable Qualität und Umfang zeigen Implementierungslücken auf. Ohne LGBTQIA+-Kompetenzen in zukünftigen Rahmen bleibt Training fragmentiert.",
-    transfer:"Australien - ähnliche Ausbildungsstruktur wie DACH, aber keine Vergleichsdaten zu Ergebnisqualität"
-  },
-  {
-    journal:"Rev Med Chil", year:"2026", pmid:"42809785",
-    author:"Torres Bravo RH et al.", pubdate:"Juli 2026",
-    added:"29.09.2026",
-    title:"Ernährungs- und cardiometabolisches Profil von Transgender-Personen unter Hormontherapie",
-    sum:"Beschreibende Querschnittstudie zu ernährungsbezogenen, cardiometabolischen und psychosozialen Profilen von 41 Erwachsenen unter geschlechtsangleichender Hormontherapie in Chile (August 2024–Januar 2025).",
-    result:"71% Überernährung, 61% abdominale Adipositas; transmaskuline Personen zeigten größere Adiposität und Muskelmasse, transfeminine eher Normalgewicht mit höherem Fettanteil (östrogener Effekt). 19,5% metabolisches Syndrom, 24,4% moderates/hohes kardiovaskuläres Risiko (konzentriert bei Transmaskulinen). Rauchen 51%, 19% suizidale Gedanken. Hohe Frequenz von Überernährung und psychosozialen Bedarf.",
-    transfer:"Chile - vergleichbar zu Deutschland bei Mangel geschlechtsspezifischer Daten zu Hormontherapie-Effekten"
-  },
-  {
-    journal:"J Health Care Poor Underserved", year:"2026", pmid:"42766511",
-    author:"Oh H et al.", pubdate:"2026",
-    added:"21.09.2026",
-    title:"Rassische Einkommensungleichheit und COVID-19-Last in Louisiana: Geografische Analyse von Versorgungsungleichheiten",
-    sum:"Räumliche Autoregression-Analyse von Louisiana-Parish-Daten (COVID-19-Fälle, Census-Daten) zur Verbindung zwischen rassischer Einkommensungleichheit zwischen weißen und schwarzen Einwohnern und COVID-19-Infektionsraten.",
-    result:"Parishs mit größerer rassischer Einkommensungleichheit zwischen Weißen und Schwarzen zeigten höhere COVID-19-Infektionsraten. Zusammenhang attributierbar zu Bedingungen in Parishs mit höherer rassischer Einkommensungleichheit, nicht zu Diffusion über Parish-Grenzen hinweg. Rassische und sozioökonomische Inequität ist ein ökologischer Treiber von COVID-19-Last. Struktur vor Ansteckung.",
-    transfer:"USA - zeigt Wirkmechanismus über Einkommensungleichheit, aber US-spezifische Sozialstruktur limitiert Übertragung"
+    journal:"Womens Health Issues", year:"2026", pmid:"42595608",
+    author:"Langlamet A et al.", pubdate:"13.08.2026",
+    added:"13.08.2026",
+    title:"Polydrug-bedingte Todesfälle bei Frauen höher: Unterschiede in Todesursachen zwischen Geschlechtern",
+    sum:"Französische Analyse von 6.068 drogenabhängigen Todesfällen zeigt geschlechtsabhängige Unterschiede in den beteiligten Substanzen mit fokussierten Massnahmen für Frauen.",
+    result:"Frauen starben zu 39,4% durch Polydrogenmissbrauch vs. Männer 28,4% (p&lt;0,001); Frauen überrepräsentiert bei Todesfällen durch Antidepressiva (p&lt;0,001), Benzodiazepine (p&lt;0,001), Codein (p=0,002), Tramadol (p&lt;0,001). Männer überrepräsentiert bei illegalen Drogen (Heroin p&lt;0,001, Cannabis p&lt;0,001, neue psychoaktive Substanzen p&lt;0,001). Zeigt Geschlechtsunterschied im Anstoßmechanismus: Frauen eher polymedikamentös überdosiert, Männer über illegale Substanzen.",
+    transfer:"Frankreich - vergleichbare Sozialversicherung, europäische Routinedaten mit Versorgungsimplikation"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1599,10 +1590,10 @@ const RADAR_FRISTEN = [["2026-10-15", "2026-10-06", "2026-10-19", "2026-10-15", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "30.09.2026";
+const NEWS_STAND = "01.10.2026";
 const NEWS = [
+  {titel:"Männergesundheit: Nur jeder Dritte fühlt sich gut informiert", datum:"2026-09-30", url:"https://www.monitor-versorgungsforschung.de/news/maennergesundheit-nur-jeder-dritte-fuehlt-sich-gut-informiert/"},
   {titel:"KI, Ambulantisierung und Gendermedizin: DGK-Herztage 2026", datum:"2026-09-24", url:"https://www.monitor-versorgungsforschung.de/news/ki-ambulantisierung-und-gendermedizin-dgk-herztage-2026/"},
-  {titel:"Frauengesundheit in Bayern – Verhaltensauffälligkeiten bei Demenz im häuslichen Umfeld", datum:"2026-06-16", url:"https://www.monitor-versorgungsforschung.de/news/frauengesundheit-in-bayern-verhaltensauffaelligkeiten-bei-demenz-im-haeuslichen-umfeld/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
