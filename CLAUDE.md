@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Projekt
 
-„Knowledge-Hub Geschlechtersensible Medizin" — ein Rechercheportal zum Themenfeld Geschlecht & Gesundheit. Ein Angebot von **Monitor Versorgungsforschung** (Betreiber: eRelation AG – Content in Health, Bonn).
+„Knowledge-Hub Geschlechtersensible Medizin" — ein Rechercheportal zum Themenfeld Geschlechtersensible Medizin. Ein Angebot von **Monitor Versorgungsforschung** (Betreiber: eRelation AG – Content in Health, Bonn).
 
 Live: https://gender.m-vf.de/
 

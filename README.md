@@ -1,6 +1,6 @@
-# Geschlecht & Gesundheit · Rechercheportal
+# Geschlechtersensible Medizin · Rechercheportal
 
-Ein Rechercheportal zum Themenfeld **Geschlecht & Gesundheit**: 92 Datenbanken in 10 Rubriken,
+Ein Rechercheportal zum Themenfeld **Geschlechtersensible Medizin**: 92 Datenbanken in 10 Rubriken,
 davon 45 mit Live-Suche, dazu eine täglich aus PubMed kuratierte Studienauswahl mit
 deutschen Zusammenfassungen.
 
