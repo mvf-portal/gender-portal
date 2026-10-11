@@ -507,10 +507,10 @@
   "aufgenommen": "2026-10-05"
  },
  {
-  "pmid": "42817676",
+  "pmid": "42817673",
   "journal": "J Pak Med Assoc",
   "year": "2026",
-  "author": "Shaikh MO et al.",
+  "author": "Yaseen U et al.",
   "pubdate": "Sept. 2026",
   "added": "01.10.2026",
   "transfer": "Pakistan – Daten aus globalem Krankheitsbürde-Register; übertragbar nur für Disparitätsstruktur, nicht für deutsche Systemanalyse.",
@@ -786,10 +786,10 @@
   "author": "Obón-Azuara B et al.",
   "pubdate": "23.09.2026",
   "added": "23.09.2026",
-  "transfer": "Spanien, deutschsprachiger Kulturkreis, vergleichbares Primärversorgungs-System; deutsche Studien als Vergleich einbezogen.",
-  "title": "Geschlechtsbias in niedrigwertigen Praktiken in der Primärversorgung: Überblick über europäische und spanische Studien",
-  "sum": "Scoping-Review (PRISMA-ScR) der Spanischen Gesellschaft analysierte 250 Studien (1999-2026) zur Frage, ob geschlechtsspezifische Unterschiede in Low-Value Practices (unnötige oder schädliche Maßnahmen) in der Primärversorgung existieren. Schwerpunkt auf spanische Kohorten (APEAS, EVADUR).",
-  "result": "Geschlecht ist ein relevanter Determinant dafür, welche Low-Value Practices auftreten, für wen, und mit welchen Folgen. Evidenz konzentriert sich auf unangemessene Psychopharmaka-Verordnung (n=181 Studien) und exzessive diagnostische Tests (n=124). Geschlechtergetrenntes Screening, epidemiologische Berichte und Überweisungen deutlich unterrepräsentiert. Keine spanische Gründungsstudie hat Geschlecht als primären Determinanten analysiert. Empfehlung: Geschlechtsgetrennte Auswertung und SAGER-Richtlinien obligatorisch für sichere Primärversorgung. Mechanismus: Zuschreibung durch Behandelnde + Zugangsunterschiede + Diagnoseverzerrung.",
+  "transfer": "Spanien, internationale Literatur; Befund zur Datenlage systemunabhängig",
+  "title": "Geschlechtsbias in niedrigwertigen Praktiken der Primärversorgung: Scoping Review über 250 Studien",
+  "sum": "Scoping Review (PRISMA-ScR) mit 250 Studien aus internationalen Datenbanken (1999–2026), ergänzt um spanische Grundlagenstudien zur Patientensicherheit (APEAS, EVADUR), zur Frage, ob Low-Value Practices (unnötige oder schädliche Maßnahmen) in der Primärversorgung nach Geschlecht verschieden ausfallen.",
+  "result": "Geschlecht ist ein relevanter Determinant dafür, welche Low-Value Practices auftreten, für wen, und mit welchen Folgen. Evidenz konzentriert sich auf unangemessene Psychopharmaka-Verordnung (n=181 Studien) und exzessive diagnostische Tests (n=124). Geschlechtergetrenntes Screening, epidemiologische Berichte und Überweisungen deutlich unterrepräsentiert. Keine spanische Grundlagenstudie hat Geschlecht als primären Determinanten analysiert. Geschlechtsgetrennte Auswertungen und die SAGER-Richtlinien gelten den Autoren als notwendige Bedingung für eine gerechte, sichere Primärversorgung.",
   "aufgenommen": "2026-10-02"
  },
  {
@@ -3533,19 +3533,6 @@
   "title": "Saunabaden und Geschlecht: Frauen erholen sich, Männer sind sozial – Schweden",
   "sum": "Deskriptive Querschnittstudie zu Motivationen und wahrgenommenen Gesundheitseffekten des Saunabades mit 588 schwedischen Regelmäßigen (384 Frauen, 204 Männer).",
   "result": "Frauen nannten psychische Erholung als Hauptmotivation (mental recovery), Männer soziale Kontakte (social togetherness). Frauen berichteten signifikant bessere Schlafqualität (p<0,05) und weniger Körperschmerz (p<0,05) nach Saunabaden; Männer zeigten diese Unterschiede nicht. Sauna wird als multidimensionale Gesundheitsförderung wahrgenommen.",
-  "aufgenommen": "2026-08-28"
- },
- {
-  "pmid": "42442179",
-  "journal": "Health Place",
-  "year": "2026",
-  "author": "Davidson R et al.",
-  "pubdate": "13.07.2026",
-  "added": "13.07.2026",
-  "transfer": "Großbritannien (NHS), vergleichbare Dokumentationspflichten, anderer Zugang als Deutschland",
-  "title": "Englischproficiency und Versorgung: Wer die Sprache nicht spricht, kommt nicht an Versorgung heran – England",
-  "sum": "Analyse von Routinedaten aus Hausarztpraxen und Kliniken in Nordwestlondon: Zusammenhang zwischen Englischkenntnissen und gesundheitlicher Versorgung sowie Outcomes.",
-  "result": "Personen ohne Englischkenntnisse zeigten höhere altersbereinigt Prävalenzen kardiometabolischer Erkrankungen und höhere primär- und sekundärmedizinische Inanspruchnahme. Sprachbarrieren sind ein signifikanter Zugangshindernis; Sprachunterstützung ab Registrierung wird empfohlen.",
   "aufgenommen": "2026-08-28"
  },
  {
