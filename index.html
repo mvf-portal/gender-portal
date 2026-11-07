@@ -2205,62 +2205,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "6. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "7. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Health Expect", year:"2026", pmid:"42952345",
-    author:"Currie S et al.", pubdate:"Dez. 2026",
-    added:"29.10.2026",
-    title:"Schottland identifiziert vier Forschungsprioritäten für Gesundheit vor der Konzeption",
-    sum:"Das Projekt identifizierte per Literaturreview, Online-Survey und Multi-Stakeholder-Workshop in Schottland (mit Bürgern, Forschenden, Fachleuten) Forschungslücken und -prioritäten für Gesundheit vor der Konzeption.",
-    result:"Vier übergeordnete Forschungsprioritäten wurden identifiziert: (1) Life-Course-Ansatz zur Vorkozeptionsgesundheit, (2) Reduktion neurologischer Risiken und Sensibilisierung für Vorkonzeptionsverhalten, (3) Reduktion von Gesundheitsungleichheiten und equitable Versorgungszugang, (4) verstärkte Beteiligung von Männern und Partnern an gemeinsamer Verantwortung. Übergreifende Prinzipien: inklusive Kommunikation, Schulung von Fachleuten, Integration in bestehende Dienste, Stakeholder-Beteiligung, robuste Datenerfassung.",
-    transfer:"Schottland, NHS-Kontext, zeigt, welche Versorgungslücken Fachleute und Patienten wahrnehmen"
-  },
-  {
-    journal:"Immun Inflamm Dis", year:"2026", pmid:"42985971",
-    author:"Hong M et al.", pubdate:"Nov. 2026",
+    journal:"Nurs Health Sci", year:"2026", pmid:"42989069",
+    author:"Bigler C et al.", pubdate:"Dez. 2026",
     added:"05.11.2026",
-    title:"Entzündungsmarker beim akuten Koronarsyndrom: Bei Männern prädiktiv, bei Frauen nicht",
-    sum:"Die Studie prüfte, ob die Systemic Immune-Inflammation Index (SII) bei Männern und Frauen mit akutem Koronarsyndrom unterschiedlich mit dem Ausmaß der Koronarstenose assoziiert ist.",
-    result:"Bei 130 Patienten (Geschlecht nicht spezifiziert) war die SII bei Männern signifikant mit der Stenose-Schwere korreliert (r=0,306; p=0,006), nicht aber bei Frauen. Nach Adjustierung waren SII (B=0,030; p=0,007), nicht aber LDL-C und Rauchen unabhängig bei Männern assoziiert; bei Frauen bestimmten LDL-C, Rauchen und Alter, nicht aber SII die Stenose-Schwere.",
-    transfer:"China, ähnliche Erkrankungspräsentation, zeigt unterschiedliche biologische Pathomechanismen"
+    title:"Geschlechterungleichheit im Gesundheitspersonal: Nepal-Studie zu Anerkennung, Lohn und Karriere",
+    sum:"Qualitative Studie mit 66 Interviews und 3 Stakeholder-Workshops zu Geschlechternormen und hierarchischen Strukturen, die Arbeitsbedingungen in Nepals Gesundheitswesen prägen.",
+    result:"Weibliche Community Health Volunteers erbringen essentielle Leistungen für minimale Bezahlung; Krankenschwestern face hohe Workload und begrenzte Aufstiegsmöglichkeiten; Ärztinnen begegnen gendered barriers zur Führungsposition. Feminisierung, Unterbewertung und Pflege-Heilung-Divide führen zu Ungleichheit in Anerkennung, Bezahlung, Autonomie und Karriereprogression.",
+    transfer:"Nepal, qualitativ; Struktur nicht direkt auf Deutschland übertragbar, aber zeigt Versorgungsmechanismus (Geschlecht als Determinante von Arbeitsbedingungen → Servicequalität)."
   },
   {
-    journal:"Int J Lang Commun Disord", year:"2026", pmid:"42986207",
-    author:"Chen Z et al.", pubdate:"Nov. 2026",
+    journal:"Curr Heart Fail Rep", year:"2026", pmid:"42993357",
+    author:"Roth E et al.", pubdate:"06.11.2026",
+    added:"06.11.2026",
+    title:"Vorhofflimmern und Herzinsuffizienz: Frauen entwickeln andere Phänotypen",
+    sum:"Übersichtsarbeit zu Geschlechterunterschieden in Epidemiologie, Pathophysiologie, klinischer Präsentation und Behandlung von Vorhofflimmern mit Herzinsuffizienz.",
+    result:"Frauen entwickeln Vorhofflimmern später im Leben, häufiger bei Hypertonie und erhaltener Ejektionsfraktion; sie berichten höhere Symptombelastung und schlechtere Lebensqualität. Frauen erhalten seltener Rhythmuskontrollstrategien, Katheterablation oder Devicetherapie – dokumentierte Versorgungsungleichheit ohne mechanistische Erklärung im Abstract.",
+    transfer:"Deutschland, vergleichbare Herz-Kreislauf-Register; Geschlecht in AWMF-Leitlinie Vorhofflimmern unterrepräsentiert."
+  },
+  {
+    journal:"Depress Anxiety", year:"2026", pmid:"42968999",
+    author:"De Luca I et al.", pubdate:"01.11.2026",
+    added:"02.11.2026",
+    title:"Pornografiekonsum und psychische Belastung: Geschlechtsunterschiede in Moderierung",
+    sum:"Große internationale Querschnittstudie (82.243 Personen, 42 Länder) zu Geschlechterunterschieden in Assoziation zwischen problematischem Pornografiekonsum und Depressions- und Angstsymptomen.",
+    result:"Männer zeigten höchste Pornografiekonsumniveaus; genderdiverse Personen höchste Angst- und Depressionswerte. Pornografiekonsum korrelierte mit Angst (r=0,207) und Depression (r=0,249). Geschlecht moderierte beide Assoziationen signifikant: steilste positive Steigung bei Männern – sie nutzen möglicherweise Pornografie intensiver als Bewältigungsmechanismus.",
+    transfer:"42 Länder inklusive Europa; grundsätzlich übertragbar, aber Versorgungsrelevanz für Deutschland gering."
+  },
+  {
+    journal:"Cad Saude Publica", year:"2026", pmid:"42987101",
+    author:"Seixas S et al.", pubdate:"30.10.2026",
     added:"05.11.2026",
-    title:"Stimmtraining bei transFrauen im Mandarin: 60–74 Hz Frequenzanstieg, TWVQ-Score sinkt um 26 Punkte",
-    sum:"Die Studie entwickelte und evaluierte ein an die Tonalität des Mandarin angepasstes Stimmhöhentraining für transgender Frauen (n=26) über zehn 40-Minuten-Sitzungen.",
-    result:"Nach Training stieg die mediane Grundfrequenz um 62 Hz bei /a/, 60 Hz bei /i/, 74 Hz im Satzlesen und 72 Hz in Spontanrede. Der TWVQ-SC-Gesamtscore sank signifikant um 26,35 Punkte, vier von sechs Modulscores verbesserten sich, Selbstbewertung der stimmlichen Geschlechtlichkeit verschob sich in Richtung weiblich. 5. und 95. Perzentile der Grundfrequenz stiegen ebenfalls signifikant.",
-    transfer:"China, transkulturell übertragbar, zeigt therapeutische Machbarkeit bei spezifischer Sprachgruppe"
+    title:"PrEP-Überzeugungen bei jungen Männern mit Männern und trans Frauen: Assoziation mit Therapiestart",
+    sum:"Querschnittstudie an 1.477 sexuellen und genderdiverse Adoleszenten (91% Männer) in Brasilien zur Assoziation zwischen PrEP-Überzeugungen und Therapieinitiation.",
+    result:"Latent-Class-Analyse identifizierte zwei Gruppen: positive Überzeugungen (n=1.348; 93,2%) und negative (n=99; 6,8%). Adoleszenten mit positiven Überzeugungen waren signifikant häufiger zur PrEP-Initiation bereit (aOR 1,73; 95%-KI 1,05–2,84). 81,4% initiierten PrEP innerhalb 30 Tage nach Erstbesuch.",
+    transfer:"Brasilien, Adoleszentenpopulation; qualitativ neue Population, aber Übertragung auf deutsche Versorgung begrenzt."
   },
   {
-    journal:"J Am Heart Assoc", year:"2026", pmid:"42757908",
-    author:"Raeisi-Dehkordi H et al.", pubdate:"03.11.2026",
-    added:"18.09.2026",
-    title:"Sexualhormone als mögliche Vermittler von Geschlechterunterschieden beim Schlaganfallrisiko",
-    sum:"Die Studie untersuchte, ob Androgene und SHBG den bekannten Geschlechterunterschied in Schlaganfall- und Herzinfarktrisiko bei Erwachsenen aus der bevölkerungsbasierten deutschen KORA-Studie erklären.",
-    result:"Bei 1.970 Personen (58% Männer, mittleres Alter 54 Jahre) traten über 8,6 Jahre 71 Schlaganfälle und 63 Herzinfarkte auf. Testosteron und Dihydrotestosteron zeigten eine inkonsistente Vermittlerrolle beim Schlaganfallrisiko zwischen Geschlechtern (direkte Effekte 0,42–0,40; indirekte Effekte 2,48–2,90), aber keine Vermittlerrolle beim Herzinfarkt. Dies deutet auf eine dimorphe, geschlechtsspezifische Wirkung hin.",
-    transfer:"Deutsche Kohortendaten, vergleichbares Versicherungssystem, zeigt biologischen Mechanismus"
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42990901",
+    author:"Liu Z et al.", pubdate:"22.10.2026",
+    added:"06.11.2026",
+    title:"Leberfettsucht zeigt geschlechtsspezifische Muster nach Menopause",
+    sum:"Querschnittstudie an 136.816 stationären Patienten zum Geschlechtunterschied in Prävalenz und Alter der metabolischen Lebererkrankung.",
+    result:"Frauen aged 18–50 hatten niedrigere Prävalenz (aOR 0,50; 95%-KI 0,48–0,52), Frauen aged 51–80 höhere Prävalenz als gleicalte Männer (aOR 1,69; 95%-KI 1,64–1,74). Die Assoziation blieb signifikant nach Adjustierung für Alter, Jahr und Geschlecht×Alter-Interaktion (p&lt;0,001). Ursache: biologische (Menopause) oder Zugang unklar.",
+    transfer:"China, einzelnes Zentrum; Replikation in deutschsprachigem System nötig."
   },
   {
-    journal:"Soc Sci Med", year:"2026", pmid:"42906403",
-    author:"Bai Y et al.", pubdate:"16.09.2026",
-    added:"22.10.2026",
-    title:"Sexuelle Minderheiten in UK: Höhere Lebensmittelarmut, unterschiedliche Zugangsbarrieren zu Hilfe",
-    sum:"Die Studie untersuchte mit Längsschnittdaten aus der Understanding Society (2011–2025) Unterschiede in Lebensmittelarmut und Nutzung von Lebensmitteltafeln nach sexueller Orientierung in Großbritannien.",
-    result:"Bisexuelle Erwachsene (23% höhere Chancen), Personen in der Kategorie »Sonstiges« (66%) und Nicht-Discloser (23%) zeigten höhere adjustierte Odds für Lebensmittelarmut als Heterosexuelle. Unter Lebensmittelunsicheren nutzten »Sonstige« und Nicht-Discloser mehr Tafeln; bisexuelle und Nicht-Discloser-Erwachsene wollten diese nicht nutzen, gay/lesbische wollten aber, konnten aber nicht.",
-    transfer:"UK-Langzeitdaten, vergleichbare Sozialstrukturen, zeigt Zugangsbarrieren statt biologische Unterschiede"
-  },
-  {
-    journal:"BMC Pregnancy Childbirth", year:"2026", pmid:"42983329",
-    author:"Welshman H et al.", pubdate:"05.08.2026",
+    journal:"Front Public Health", year:"2026", pmid:"42979066",
+    author:"Zapperi S et al.", pubdate:"13.10.2026",
     added:"04.11.2026",
-    title:"Vorbereitungsverhalten auf Schwangerschaft: Deprivation und Familienplanung beeinflussen es unabhängig voneinander",
-    sum:"Die Studie analysierte sekundär die schottische SMINS-Befragung (2017, n=2.523 Schwangere), um Effekte von Deprivation und geplanter Schwangerschaft auf Gesundheitsverhaltensänderungen vor der Konzeption zu untersuchen.",
-    result:"78% der Schwangerschaften waren geplant, 19% ambivalent, 3% ungeplant. Gesundheitsverhaltensänderungen waren in der obersten Deprivationsgruppe (M=0,93) signifikant niedriger als in anderen (p&lt;0,05). Bei geplanten Schwangerschaften waren Verhaltensänderungen höher (M=1,5) als bei ambivalenten (M=0,23) oder ungeplanten (M=0,04; p&lt;0,001). Insgesamt waren Verhaltensänderungen suboptimal, besonders bei Nicht-Planern und in deprvierten Gebieten.",
-    transfer:"Schottland, NHS-Daten, vergleichbare Sozialstruktur, zeigt Zugangsungleichheit"
+    title:"Einkommensgradienten in Gesundheit: USA steiler als Brasilien",
+    sum:"Vergleichende Querschnittstudie zu Einkommens-Gesundheits-Gradienten in Brasilien und USA mit national repräsentativen Haushaltsstichproben.",
+    result:"Beide Länder zeigten Einkommens-Gesundheits-Ungleichheit; der Gradient war in USA steiler für Diabetes (signifikante Länder×Einkommen-Interaktion) und Adipositas. Bei psychiatrischen Erkrankungen umgekehrte Richtung: höheres Einkommen mit höherer Prävalenz in Brasilien, aber niedrigerer in USA. Unterschiede wahrscheinlich durch Gesundheitssystem und Lebensstil erklärt (Kausalität wegen Querschnitt unklar).",
+    transfer:"USA und Brasilien, Gesundheitssysteme zu unterschiedlich; Methodologie auf Deutschland nicht eins-zu-eins übertragbar."
+  },
+  {
+    journal:"BMC Public Health", year:"2026", pmid:"42989195",
+    author:"Alghamdi RY et al.", pubdate:"17.08.2026",
+    added:"05.11.2026",
+    title:"Emotionales Essen und BMI: Assoziation nur bei Frauen signifikant",
+    sum:"Nationale Querschnittstudie an 4.412 Erwachsenen in Saudi-Arabien zum Zusammenhang zwischen emotionalem Essen und BMI stratifiziert nach Geschlecht.",
+    result:"Etwa 25% der Teilnehmer zeigten hohes emotionales Essen. Emotionales Essen war mit höherem BMI assoziiert (Exp(B)=1,001; 95%-KI 1,000–1,001), aber nur bei Frauen statistisch signifikant (p&lt;0,001); bei Männern keine signifikante Assoziation. Geschlecht moderierte die Assoziation signifikant (p&lt;0,001).",
+    transfer:"Saudi-Arabien, nicht direkt auf Deutschland übertragbar; zeigt aber Geschlechtermoderator in nicht-westlichem Kontext."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2285,7 +2294,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "06.11.2026";
+const NEWS_STAND = "07.11.2026";
 const NEWS = [
   {titel:"Erbliche Krebsrisiken und Liquid Biopsy: Med Uni Graz zur Männergesundheit", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/erbliche-krebsrisiken-und-liquid-biopsy-med-uni-graz-zur-maennergesundheit/"},
   {titel:"Versorgung von Frauen mit Seltenen Erkrankungen: Chiesi-Fachdialog", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-von-frauen-mit-seltenen-erkrankungen-chiesi-fachdialog/"},
