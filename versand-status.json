@@ -1,47 +1,35 @@
 {
  "hub": "Knowledge-Hub Geschlechtersensible Medizin",
  "domain": "gender.m-vf.de",
- "datum": "2026-11-09",
+ "datum": "2026-11-10",
  "stand": "terminiert",
- "titel": "MVF Gender-Newsletter 09.11.2026",
- "betreff": "Neueste Studien - Geschlechtersensible Medizin – 7. November 2026 bis 9. November 2026",
- "anzahl": 19,
+ "titel": "MVF Gender-Newsletter 10.11.2026",
+ "betreff": "Neueste Studien - Geschlechtersensible Medizin – 10. November 2026",
+ "anzahl": 7,
  "pmids": [
-  "42995607",
-  "42995485",
-  "42992899",
-  "42992405",
-  "42986472",
-  "42956775",
-  "42989280",
-  "42987142",
-  "42986875",
-  "42986854",
-  "42983442",
-  "42972486",
-  "42993357",
-  "42990901",
-  "42989195",
-  "42989069",
-  "42987101",
-  "42979066",
-  "42968999"
+  "43002720",
+  "43002587",
+  "43002127",
+  "43000358",
+  "43000281",
+  "42987099",
+  "42665192"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099774",
- "termin_utc": "2026-11-09T09:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099796",
+ "termin_utc": "2026-11-10T09:00:00+00:00",
  "empfaenger": 9,
- "listengroesse": 5866,
+ "listengroesse": 5858,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 178,
+  "bekannt": 179,
   "pool": 29,
-  "gewaehlt": 6,
-  "neu": 6
+  "gewaehlt": 7,
+  "neu": 7
  },
  "rubriken": {
   "news": "1c910e771914943f",
-  "radar": "c582fe76b4cbc468"
+  "radar": "b992ba06f3f3c32d"
  }
 }
