@@ -2205,71 +2205,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "10. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "11. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Neurology", year:"2026", pmid:"43002720",
-    author:"Gu R et al.", pubdate:"08.12.2026",
+    journal:"Womens Health (Lond)", year:"2026", pmid:"43006325",
+    author:"Almarzooqi M et al.", pubdate:"10.11.2026",
+    added:"10.11.2026",
+    title:"Gesundheitspolitik und reproduktive Chancen für Frauen im Nahen Osten",
+    sum:"Vergleichende Analyse, wie nationale Politiken, Versicherung und Rechtsrahmen Zugang zu reproduktiver Versorgung in verschiedenen Ländern des Nahen Ostens prägen.",
+    result:"Länder mit klaren nationalen Politiken (VAE, Saudi-Arabien, Qatar, Jordanien) bieten bessere und gerechtere Versorgung; konfliktbetroffene oder schwach regierte Länder (Afghanistan, Jemen, Libyen, Sudan) zeigen erhebliche Servicedefizite. Policies zu Versicherung, Familienplanung und mütterlicher Gesundheit variieren stark und beeinflussen Zugang, Qualität und Gesundheitsergebnisse direkt. Empfehlung: Multi-Ebenen-Rahmen mit Fokus auf Community-Support, faire Finanzierung und patientenzentrierte Versorgung.",
+    transfer:"Naher Osten; nicht direkt auf Deutschland übertragbar, aber Leitprinzip der Politikanalyse wertvoll für Vergleichende Versorgungsforschung."
+  },
+  {
+    journal:"Clin Cardiol", year:"2026", pmid:"43004679",
+    author:"Zibaeenezhad MJ et al.", pubdate:"Nov. 2026",
+    added:"10.11.2026",
+    title:"Anthropometrische Indizes zur Vorhersage von Herz-Kreislauf-Risiko: Geschlechtsspezifische Unterschiede",
+    sum:"Vergleich von acht Adipositätsindizes (BMI, Taillenumfang, Waist-to-Hip-Ratio u.a.) zur Risikovorhersage für Atherosklerose-Ereignisse in den nächsten 10 Jahren, stratifiziert nach Geschlecht.",
+    result:"Männer hatten signifikant höhere 10-Jahres-Risikoscores als Frauen (2,67 vs. 0,65; p&lt;0,001). Waist-to-Hip-Ratio, Körperfett und Taillenumfang waren bei der Vorhersage erhöhten Risikos (≥7,5%) überlegen gegenüber BMI. Die stärksten positiven Assoziationen mit Risiko zeigten sich für Körperfett, Waist-to-Height-Ratio und Waist-to-Hip-Ratio (p&lt;0,001 für alle). Geschlechtsspezifische Unterschiede in der Diskriminationsfähigkeit waren jedoch begrenzt.",
+    transfer:"Iran, aber Anthropometrie-Schwellenwerte sind populations- und häufig geschlechtsspezifisch; deutsche Validierung erforderlich."
+  },
+  {
+    journal:"Clin Transl Sci", year:"2026", pmid:"42966850",
+    author:"Harrall KK et al.", pubdate:"Nov. 2026",
+    added:"01.11.2026",
+    title:"Elektronische Patientenakten unterschätzen soziale Vulnerabilität von Schwangeren",
+    sum:"Neue statistische Methode zur Bewertung, ob elektronische Krankenakten-Kohorten representative Stichproben darstellen, angewandt auf Schwangerschaftsdaten aus Florida.",
+    result:"OneFlorida+ EHR zeigte höhere Quoten für Black-Racial-Kategorie (höher im EHR), Wohnen in deprivierten Gebieten (höher im EHR) und Prädiabetes/Hypertonie (höher im EHR), aber niedrigere Raten für Schwangerschaftskomplikationen (niedriger im EHR). Blutdruck, Körpergröße und Kaiserschnittrate unterschieden sich nicht bedeutsam. Fehlende Angaben zu Rasse, Ethnizität und Wohnort waren im EHR (35-65%) deutlich höher als in Geburtsregistern (2-5%), was Datenerfassungsunterschiede aufdeckt.",
+    transfer:"USA mit fragmentierter EHR-Landschaft, aber Methodologie anwendbar auf deutsche GKV-Sekundärdaten zur Validierung von Kohortenfitness."
+  },
+  {
+    journal:"Sex Med Rev", year:"2026", pmid:"42998271",
+    author:"Barry C et al.", pubdate:"30.09.2026",
+    added:"07.11.2026",
+    title:"Systemische Barrieren in der Versorgung von trans und genderdiverse Menschen",
+    sum:"Scoping Review mit systematischer Suche von 72 Studien (2011–2024) zu Patientenerfahrungen trans und genderdiverser Menschen in Kliniken; Analyse über neun Dimensionen der Patientenerfahrung.",
+    result:"Häufig adressiert: Zugangsbarrieren, kulturelle Kompetenz und Diskriminierung. Unterbelichtet aber effektiv: Health Information Systems und physische Infrastruktur prägen Erfahrungen erheblich. Übergeordnetes Muster: fragmentierte, emotional anstrengend und oft unsichere Versorgungskontakte. Befund: Patientenerfahrung kann nicht durch silierte oder reduktionistische Ansätze verstanden werden; systemische, struktur- und institutionsübergreifende Faktoren sind zentral. Empfehlung: ganzheitliche, systemische Rahmen verankert in Lived Experience.",
+    transfer:"Kanada/Nordamerika, aber Befund der systemischen, nicht nur individuellen Barrieren ist international; fehlt deutsche qualitative Literatur zu Klinik-Erfahrungen."
+  },
+  {
+    journal:"BMC Med Educ", year:"2026", pmid:"43004294",
+    author:"Mehta P et al.", pubdate:"13.08.2026",
     added:"09.11.2026",
-    title:"Blutdruckmanagement nach Schlaganfall-Thrombektomie wirkt bei Frauen anders",
-    sum:"Sekundäranalyse einer randomisierten chinesischen Multicenterstudie (n=816) zur Frage, ob intensive Blutdrucksenkung nach endovaskulärer Thrombektomie bei akutem Ischämie-Schlaganfall bei Männern und Frauen unterschiedliche Effekte hat.",
-    result:"Bei Männern führte intensives Blutdruckmanagement zu schlechteren 90-Tage-Ergebnissen (adjustierte Common Odds Ratio 1,91; 95%-KI 1,29–2,83), bei Frauen zeigte sich kein signifikanter Effekt (aOR 0,94; 95%-KI 0,56–1,57; Interaktions-Ratio 0,49; 95%-KI 0,26–0,94). Jede 5 mmHg höhere Systolik war bei Männern mit schlechteren Outcomes assoziiert (aOR 1,11 pro 5 mmHg; 95%-KI 1,03–1,20), nicht aber bei Frauen (aOR 0,95; 95%-KI 0,85–1,05). Die Autoren deuten dies als biologische Geschlechterdifferenzen in Baseline-Charakteristika, nicht als Versorgungseffekt; Bestätigung durch prospektive Studien erforderlich.",
-    transfer:"China, ähnliche biologische Grundlagen; Übertragbarkeit auf deutsche Stroke-Units unklar ohne eigene Validierung."
+    title:"Kluft zwischen LGBTQ+-Wissen und Behandlungsicherheit bei Medizinstudierenden",
+    sum:"Querschnittsstudie bei 229 Medizinstudierenden zu Awareness, Einstellungen und Selbstsicherheit in der LGBTQ+-Versorgung; Mediationsanalyse der Beziehung zwischen Wissen und Vertrauen.",
+    result:"Moderate Awareness (Median 3,59), positive Einstellungen (3,40), aber niedrigere Vertrauenswerte (3,17). Trotz signifikantem Anstieg der Awareness über Studienjahre (p&lt;0,001) stiegen Vertrauen und Einstellungen nicht (p=0,522 bzw. p=0,919). Im multivariablen Modell waren Awareness (B=0,446), Einstellungen (B=0,414) und vorangegangene Schulung (B=0,245) unabhängig mit höherem Vertrauen assoziiert (alle p&lt;0,001). Einstellungen vermittelten nur 27,1% der Beziehung zwischen Wissen und Vertrauen (p&lt;0,001). Senioren-Studierende zeigten trotz besserer Awareness niedrigeres Vertrauen (Jahrgang 3: B=-0,256, p=0,005; Jahrgang 4: B=-0,275, p=0,009).",
+    transfer:"Indien, aber Befund der Kluft zwischen Wissen und Anwendung ist international relevant; deutsche Hochschulen könnten ähnliche Lücke aufweisen."
   },
   {
-    journal:"J Sex Med", year:"2026", pmid:"43002587",
-    author:"Vallinga MS et al.", pubdate:"06.11.2026",
+    journal:"Perspect Biol Med", year:"2026", pmid:"43001471",
+    author:"Hooven C et al.", pubdate:"2026",
     added:"09.11.2026",
-    title:"Geschlechtsangleichende Vaginoplastie: Technische Heterogenität und mangelnde Evidenzbasis",
-    sum:"Systematische Übersichtsarbeit (23 Volltext- plus 5 Videostudien von 14 Zentren) zur Bewertung technischer Variationen, Indikationen und Evidenzreife von peritonealem Gewebe bei Vaginoplastien mittels IDEAL-Framework (Idea, Development, Exploration, Assessment, Long-term study).",
-    result:"Techniken waren in vier Gruppen kategorisiert; erhebliche Heterogenität in Flapkonfiguration, Gefäßversorgung, Ausmaß der Vaginalauskleidung und postoperativem Management. Indikationen reichten von routinemäßiger Anwendung bei primärer Vaginoplastie bis zu Sekundärrekonstruktion oder Hautmangel – waren aber zentrumsabhängig. Von 23 Volltext-Arbeiten: 22 berichteten Komplikationen (Fokus auf Sicherheit), aber nur 3 patientenberichtete Outcomes. Keine Studie war prospektiv registriert oder verwies auf ein veröffentlichtes Protokoll. Sechs Arbeiten berichteten Informed Consent. Zwei Studien waren IDEAL-Stadium 2a; die übrigen konnten nicht zugeordnet werden. Schlussfolgerung der Autoren: Peritonealplastiken sind keine standardisierte Verfahrensgruppe; Techn- und indikationsspezifische Evaluationen erforderlich.",
-    transfer:"Niederlande, europäische Versorgungspraxis; deutsche Leitlinien für geschlechtsangleichende Chirurgie müssen Evidenzstandards definieren."
-  },
-  {
-    journal:"Alcohol Clin Exp Res (Hoboken)", year:"2026", pmid:"43002127",
-    author:"Dunn W et al.", pubdate:"Nov. 2026",
-    added:"09.11.2026",
-    title:"Episodisches Trinken schädigt die Leber von Frauen stärker als von Männern",
-    sum:"Sekundäranalyse der US-Bevölkerungsumfrage NHANES (1999–2020) zur Frage, ob Rauschtrinken (≥4 Drinks für Frauen, ≥5 für Männer) bei Frauen und Männern unterschiedlich mit fortgeschrittener Leberfibrose (FIB-4 ≥2,67) assoziiert ist.",
-    result:"Von 43.447 Teilnehmenden berichteten 6.248 seltener als monatliches, 2.778 monatlich bis wöchentliches und 3.285 wöchentliches oder häufigeres Rauschtrinken. Bei Frauen war Rauschtrinken monatlich oder häufiger mit Fibrose assoziiert (aOR 3,34 für monatlich–wöchentlich, 95%-KI 1,38–8,11; aOR 3,20 für wöchentlich+, 95%-KI 1,12–9,19). Bei Männern zeigte sich keine signifikante Assoziation. Die Effektgröße für Frauen entspricht der von täglichem Alkoholkonsum &gt;20 g bei Metabolisch-Alkoholassoziierter Lebererkrankung (aOR 2,85; 95%-KI 1,94–4,19).",
-    transfer:"USA, vergleichbare biologische Grundlagen; deutsche Leitlinien zu MetALD müssen Geschlechtsunterschiede integrieren."
-  },
-  {
-    journal:"Cad Saude Publica", year:"2026", pmid:"42987099",
-    author:"Arias-Uriona AM et al.", pubdate:"30.10.2026",
-    added:"05.11.2026",
-    title:"Gewalt gegen Frauen in Lateinamerika: Strukturelle Ursachen und gesundheitliche Folgen",
-    sum:"Scoping Review von 82 empirischen Studien (2012–2025) zur Analyse von Zusammenhängen zwischen sozialen Bestimmungsfaktoren, Gewalt gegen Frauen und physischen/psychischen Gesundheitsfolgen in Lateinamerika und der Karibik mittels eines Frameworks, das strukturelle (Einkommensungleichheit, Rassifizierung, Territorialsegregation, Geschlechternormen) und intermediäre Determinanten (Alter, Partnerschaftsstatus, Alkoholkonsum, Armut) unterscheidet.",
-    result:"Gewalt gegen Frauen in der Region zeigt konsistent Zusammenhänge mit strukturellen Faktoren: Einkommensungleichheit innerhalb von Paaren, Bildungsdefizite und Marginalisierung durch Hautfarbe und Ethnizität erhöhen das Gewaltexpositionsrisiko. Intermediäre Mechanismen (Alkoholkonsum, Beziehungsinstabilität, Kindheitstrauma) vermittelten diese Effekte. Gesundheitsfolgen waren gravierend und kumulativ: Gewalt korrelierte mit Depression, Angststörungen, PTBS, Suizidalität, adversen Schwangerschaftsergebnissen und kardiovaskulären Risikomerkmalen. Das Review zeigt: Gewalt ist strukturell produziert, nicht individuell verschuldet.",
-    transfer:"Lateinamerika, aber konzeptioneller Zugang (Determinanten-Framework) für deutsche Gesundheitsämter zu sexualisierter Gewalt übertragbar."
-  },
-  {
-    journal:"Appetite", year:"2027", pmid:"42665192",
-    author:"van den Bekerom L et al.", pubdate:"01.01.2027",
-    added:"28.08.2026",
-    title:"Verhaltensanreize gegen Ernährungsungleichheit: Wirken sie bei ärmeren Menschen?",
-    sum:"Zwei experimentelle Studien in Großbritannien zur Prüfung, ob Default-Nudges (vordefinierte gesunde Wahl) zur Förderung gesunder Lebensmittelwahl bei Menschen mit niedriger vs. hoher Sozioökonomischer Position (SEP) gleich wirksam sind; Hypothese: Nudges könnten Versorgungsungleichheiten verringern.",
-    result:"Beide Studien zeigten: Default-Nudge erhöhte gesunde Wahl signifikant. Dieser Effekt war NICHT moderiert durch SEP – das heißt, Nudges funktionieren bei niedrigerer und höherer SEP gleich gut (no consistent moderation by SEP). Studie 2 zeigte zudem: Preisangaben-Präsenz minderte den Nudge-Effekt nicht. Fazit der Autoren: Nudges wirken bei niedrigerer SEP, aber reduzieren Ungleichheiten NICHT – da beide Gruppen profitieren. Realistische Settings mit echten Finanzengpässen erforderlich.",
-    transfer:"Niederlande/Großbritannien, vergleichbare Versorgungssysteme; deutsche Kantinen und Lebensmittelläden könnten ähnlich getestet werden."
-  },
-  {
-    journal:"BMC Med", year:"2026", pmid:"43000358",
-    author:"Yao L et al.", pubdate:"11.08.2026",
-    added:"08.11.2026",
-    title:"Typ-2-Diabetes bei Frauen nach der Menopause: Globale Lasten und regionale Ungleichheiten",
-    sum:"Globale ökologische Modellierungsstudie mit Daten der Global Burden of Disease Study 2021 zu Inzidenz, Mortalität und Risikofaktoren von Typ-2-Diabetes bei Frauen ≥55 Jahren; Machine-Learning-Verfahren (K-means, Hierarchisches Clustering, Random Forest, XGBoost mit SHAP) zur Identifikation divergenter Muster und Risikoprofile nach Ländern und Soziodemographischem Index.",
-    result:"Inzidenzrate stieg global um 1,40% pro Jahr seit 1990 (95%-KI 1,35–1,44), erreichend knapp 600 Fälle pro 100.000 im Jahr 2021. Drei Cluster identifiziert: 83 Länder (Naher Osten, Südostasien, USA, Russland) zeigten hohes Risiko mit schnellem Anstieg; 33 Länder (kleine Inselstaaten) hatten höchste Inzidenz aber stabile Trends; 41 Länder moderate Muster. Substantielle Ungleichheiten zwischen Ländern unterschiedlicher Entwicklung (niedriger Soziodemographischer Index mit höherer Mortalität). Risikoprofile heterogen: westliche Ernährungsrisiken und hohes LDL in höher-entwickelten Ländern; hohe Natriumzufuhr und geringe Obstaufnahme in Asien und Afrika.",
-    transfer:"Globale Daten; biologische Unterschiede (Menopause, Hormonwechsel) belegt, aber Versorgungsunterschiede nicht kausal differenziert."
-  },
-  {
-    journal:"BMC Psychiatry", year:"2026", pmid:"43000281",
-    author:"Xie L et al.", pubdate:"10.08.2026",
-    added:"08.11.2026",
-    title:"Depression und Schlafstörungen bei Jugendlichen: Unterschiedliche Muster bei Mädchen und Jungen",
-    sum:"Querschnittstudie mit latenter Profilanalyse und Netzwerkanalyse zur Identifikation von Subtypen der Depression-Schlafstörungs-Komorbiditäten und geschlechtsspezifischen Unterschieden in deren Einflussfaktoren bei Jugendlichen.",
-    result:"Geschlechtsspezifische Risikofaktoren zeigten unterschiedliche Muster: Alkoholkonsum, Übergewicht, Wohnverhältnisse, Familieneinkommen und Elternbildung beeinflussten Depression und Schlafstörungen bei Mädchen und Jungen unterschiedlich. Bei Mädchen verschob sich das Symptommuster mit zunehmender Schwere von gemischten zu polarisierten Strukturen (dominiert entweder von Schlaf- oder Depressionssymptomen); Jungen zeigten über alle Schweregrade hinweg ausgeglichene Symptommuster ohne Polarisierung. CESD11 (Schlaflosigkeit) war bei beiden Geschlechtern das zentrale Brückensymptom.",
-    transfer:"China; biologische Unterschiede weniger wahrscheinlich; deutsche Schulgesundheitsstudien könnten dieses Muster validieren."
+    title:"Geschlechtsbinärität und medizinische Standards: eine konzeptuelle Analyse",
+    sum:"Konzeptionelle Abhandlung zur Frage, ob Geschlechtsbinarität in der Medizin noch der Realität des biomedizinischen Wissens entspricht und wie kulturelle Polarisierung medizinische Standards beeinflusst.",
+    result:"Die Autoren argumentieren, dass die Biologie das biologische Geschlechtsbinär-Modell ('gamet account') über ein Jahrhundert hinweg gestützt hat, während kulturelle Debatten über Transgender-Rechte Zweifel an dieser Klassifikation in Medizin, Recht und Sport gesät haben. Sie warnen vor Erosion medizinischer Standards, besonders in der Behandlung von Geschlechtsdysphorie bei Minderjährigen, die nach ihrer Einschätzung unter normalen Standards leiden. Fazit: Widerspruch zwischen unverändertem biomedizinischem Wissen und politischen Umbruchforderungen schädigt klinische Praxis und Patientenwohl.",
+    transfer:"USA-basiert, konzeptionell; relevante Debatte über Datenerfordernisse in allen Systemen, aber Arbeit argumentiert normativ, nicht empirisch-versorgungsorientiert."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2294,7 +2285,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "10.11.2026";
+const NEWS_STAND = "11.11.2026";
 const NEWS = [
   {titel:"Erbliche Krebsrisiken und Liquid Biopsy: Med Uni Graz zur Männergesundheit", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/erbliche-krebsrisiken-und-liquid-biopsy-med-uni-graz-zur-maennergesundheit/"},
   {titel:"Versorgung von Frauen mit Seltenen Erkrankungen: Chiesi-Fachdialog", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-von-frauen-mit-seltenen-erkrankungen-chiesi-fachdialog/"},
