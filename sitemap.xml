@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://gender.m-vf.de/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://gender.m-vf.de/studie/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://gender.m-vf.de/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://gender.m-vf.de/studie/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://gender.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://gender.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://gender.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://gender.m-vf.de/studie/43026674/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://gender.m-vf.de/studie/43026525/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://gender.m-vf.de/studie/43024839/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://gender.m-vf.de/studie/43023936/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://gender.m-vf.de/studie/43021928/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://gender.m-vf.de/studie/43016818/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://gender.m-vf.de/studie/43015038/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://gender.m-vf.de/studie/43023776/</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://gender.m-vf.de/studie/43023760/</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://gender.m-vf.de/studie/43023526/</loc><lastmod>2026-11-14</lastmod></url>
