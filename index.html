@@ -2293,7 +2293,7 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "20. Nov. 2026, 05:24 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
@@ -2304,24 +2304,6 @@ const STUDIES = [
     sum:"Propensity-Score-gematchte Kohortenstudie mit 147.518 Patienten (nach Matching) zur Häufigkeit von Komplikationen nach ORIF von Unterschenkelbrüchen, geschlechtsspezifisch und altersgeschichtet analysiert.",
     result:"Männer hatten signifikant höhere Raten von Thrombosen (2,1 vs. 1,5 %), Pneumonie (1,5 vs. 1,0 %), Pseudarthrosen (4,8 vs. 3,5 %) und Amputationen (1,1 vs. 0,5 %, alle p&lt;0,001). Diese Disparitäten waren im mittleren Alter (40–64 Jahre) am stärksten. Frauen hatten höhere CRPS-Raten über alle Altersgruppen. Biologische oder Zugangsunterschiede werden nicht untersucht; es ist ein reines Outcomes-Deskriptionswerk.",
     transfer:"USA, TriNetX-Datenbank; Fragebau (Zugang, Biologie?) unklar; übertragbarkeit gering."
-  },
-  {
-    journal:"JAMA Oncol", year:"2026", pmid:"42783354",
-    author:"Li ZY et al.", pubdate:"01.11.2026",
-    added:"24.09.2026",
-    title:"Krebsrisiko bei Männern: Lebensstilfaktoren erklären 84 % des Unterschieds in China",
-    sum:"Kohortenstudie in China und Großbritannien mit 589.766 Teilnehmenden, die den Beitrag von elf Risikofaktoren (Rauchen, Alkohol, Bewegung, Ernährung, Erkrankungen) zur geschlechtsspezifischen Krebsinzidenzlücke untersuchte.",
-    result:"In der chinesischen Population erklärten Risikofaktoren 84,44 % der Geschlechterunterschiede (adjustierte Raten-Differenz 182,52 pro 100.000 Personenjahre); Rauchen und Alkohol waren die Haupttreiber (51,75 % bzw. 15,10 %). In der britischen Population machten sie nur 26,21 % aus (52,31 pro 100.000). Dies zeigt, dass Unterschiede biologisch unvermeidlich sind – modifizierbare Faktoren prägen sie unterschiedlich je Kontext.",
-    transfer:"China und UK, bevölkerungsbasiert; Unterschied zeigt, dass deutsche Prävention Kontext-Daten braucht, nicht globale Regeln."
-  },
-  {
-    journal:"Skeletal Radiol", year:"2026", pmid:"42825809",
-    author:"Bach U et al.", pubdate:"02.10.2026",
-    added:"02.10.2026",
-    title:"Knochenmarkfett in der Wirbelsäule: Frauen haben mehr Fett als Männer, überall",
-    sum:"Retrospektive Analyse von MRI-Daten von 81.318 Biobank-Teilnehmenden zur räumlichen Verteilung und geschlechtsspezifischen Muster von Knochenmark-Fettfraktion (BMFF) in der Wirbelsäule.",
-    result:"BMFF zeigte ein strukturiertes kraniokaudales Muster (zervical ~39 %, thorakal ~55 %, lumbal ~45 %, sakral ~70 %). Mit dem Alter stieg BMFF in allen Regionen (p&lt;0,001; Zunahme pro Jahrzehnt: zervikal 3,33 %, thorakal 3,41 %, lumbal 2,95 %, sakral 3,83 %). Frauen wiesen BMFF über alle Regionen hinweg höher auf als Männer (alle p&lt;0,001). Es ist eine biologische Basisbeschreibung, keine Folgerung für Versorgung erkennbar.",
-    transfer:"UK Biobank, bevölkerungsbasiert; zeigt biologischen Unterschied, aber Versorgungsbezug fehlt."
   },
   {
     journal:"BMC Cancer", year:"2026", pmid:"43052882",
@@ -2341,6 +2323,33 @@ const STUDIES = [
     result:"Höhere Glykämievariabilität war bei Frauen mit längerer Verweildauer assoziiert (β=0,194, p=0,001) und mit erhöhter Einjahresmortalität (HR 1,02, 95%-KI 1,00–1,04, p=0,019); bei Männern zeigte sich eine inverse Assoziation. Nach zwei Jahren war die Assoziation nur bei Frauen signifikant. Mechanismus: wahrscheinlich unterschiedliche Insulinsensitivität und Gegenregulation.",
     transfer:"Italien (Padua/Treviso), ähnlich deutschem System; zeigt, dass Glykämie-Management geschlechtsspezifisch sein muss."
   },
+  {
+    journal:"Skeletal Radiol", year:"2026", pmid:"42825809",
+    author:"Bach U et al.", pubdate:"02.10.2026",
+    added:"02.10.2026",
+    title:"Knochenmarkfett in der Wirbelsäule: Frauen haben mehr Fett als Männer, überall",
+    sum:"Retrospektive Analyse von MRI-Daten von 81.318 Biobank-Teilnehmenden zur räumlichen Verteilung und geschlechtsspezifischen Muster von Knochenmark-Fettfraktion (BMFF) in der Wirbelsäule.",
+    result:"BMFF zeigte ein strukturiertes kraniokaudales Muster (zervical ~39 %, thorakal ~55 %, lumbal ~45 %, sakral ~70 %). Mit dem Alter stieg BMFF in allen Regionen (p&lt;0,001; Zunahme pro Jahrzehnt: zervikal 3,33 %, thorakal 3,41 %, lumbal 2,95 %, sakral 3,83 %). Frauen wiesen BMFF über alle Regionen hinweg höher auf als Männer (alle p&lt;0,001). Es ist eine biologische Basisbeschreibung, keine Folgerung für Versorgung erkennbar.",
+    transfer:"UK Biobank, bevölkerungsbasiert; zeigt biologischen Unterschied, aber Versorgungsbezug fehlt."
+  },
+  {
+    journal:"JAMA Oncol", year:"2026", pmid:"42783354",
+    author:"Li ZY et al.", pubdate:"01.11.2026",
+    added:"24.09.2026",
+    title:"Krebsrisiko bei Männern: Lebensstilfaktoren erklären 84 % des Unterschieds in China",
+    sum:"Kohortenstudie in China und Großbritannien mit 589.766 Teilnehmenden, die den Beitrag von elf Risikofaktoren (Rauchen, Alkohol, Bewegung, Ernährung, Erkrankungen) zur geschlechtsspezifischen Krebsinzidenzlücke untersuchte.",
+    result:"In der chinesischen Population erklärten Risikofaktoren 84,44 % der Geschlechterunterschiede (adjustierte Raten-Differenz 182,52 pro 100.000 Personenjahre); Rauchen und Alkohol waren die Haupttreiber (51,75 % bzw. 15,10 %). In der britischen Population machten sie nur 26,21 % aus (52,31 pro 100.000). Dies zeigt, dass Unterschiede biologisch unvermeidlich sind – modifizierbare Faktoren prägen sie unterschiedlich je Kontext.",
+    transfer:"China und UK, bevölkerungsbasiert; Unterschied zeigt, dass deutsche Prävention Kontext-Daten braucht, nicht globale Regeln."
+  },
+  {
+    journal:"J Am Heart Assoc", year:"2026", pmid:"43018095",
+    author:"Sun D et al.", pubdate:"17.11.2026",
+    added:"12.11.2026",
+    title:"Ballondilatation bei Hirnarterienstenose: Behandlungserfolg unterscheidet sich zwischen Männern und Frauen",
+    sum:"Subgruppenanalyse der BASIS-Studie untersuchte, ob Geschlecht den Nutzen einer Ballondilatation plus intensiver medikamentöser Behandlung versus alleiniger Behandlung bei symptomatischer intrakranieller Arterienstenose beeinflusst (n=501 Patienten, davon 158 Frauen aus 31 chinesischen Zentren, 2018-2022).",
+    result:"Bei Männern reduzierte Ballondilatation das primäre Ergebnis (Schlaganfall/Tod ≤30 Tage oder ischämischer Schlaganfall/Revaskularisierung bis 12 Monate) signifikant von 11,1% auf 2,9% (HR 0,21; 95%-KI 0,07–0,65; p=0,01). Bei Frauen zeigte sich ein nicht signifikanter Trend (18,5% vs. 7,8%; HR 0,37; 95%-KI 0,14–1,01; p=0,051). Keine signifikante Geschlechts-Behandlungs-Interaktion insgesamt (p&gt;0,05 für alle Interaktionstests).",
+    transfer:"China-Studie, aber Frage der Geschlechterdifferenz im Behandlungsergebnis ist universell; Übertragbarkeit auf deutsche Versorgung begrenzt durch kleine Frauenzahl und fehlende Mechanismusanalyse."
+  },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
@@ -2354,7 +2363,7 @@ const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07", "2027-02-11"], [], [],
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "19.11.2026";
+const ZUL_STAND = "20.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
