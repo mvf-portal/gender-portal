@@ -2445,71 +2445,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "27. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Depress Anxiety", year:"2026", pmid:"43080750",
-    author:"Tang W et al.", pubdate:"23.11.2026",
+    journal:"Cardiovasc Res", year:"2026", pmid:"42850062",
+    author:"Bugiardini R et al.", pubdate:"26.11.2026",
+    added:"08.10.2026",
+    title:"Herzinfarkt-Sterblichkeit in Osteuropa: Frauen tragen deutlich höhere Last",
+    sum:"Analyse der Global Burden of Disease 2023 für sieben osteuropäische Länder zeigt geschlechtergetrennte Mortalität bei koronarer Herzerkrankung.",
+    result:"In fünf von sechs Ländern wiesen Frauen 2023 höhere Mortalitäts-Prävalenz-Verhältnisse auf als Estlands Frauen (Z=3,27–5,14; p&lt;0,05), während Männer in nur drei Ländern übermäßig betroffen waren. Modifizierbare Risikofaktoren wie hohe Blutglukose und Blutdruck erklärten die weibliche Benachteiligung teilweise. Litauen und die Republik Moldau zeigten die stärksten Geschlechterdisparitäten zugunsten von Nachteil für Frauen.",
+    transfer:"Osteuropa, WHO Global Burden of Disease, vergleichbar mit Versorgungslücken in Teilen Deutschlands"
+  },
+  {
+    journal:"Nutrients", year:"2026", pmid:"43092932",
+    author:"Antu JF et al.", pubdate:"17.11.2026",
+    added:"26.11.2026",
+    title:"Häusliche Gewalt gegen Mütter schädigt Kindeswachstum unterschiedlich nach Geschlecht des Kindes",
+    sum:"Longitudinale Kohortenstudie an 3337 Mutter-Kind-Dyaden mit Latent Class Growth Modeling zu Assoziationen zwischen Gewalt-Erfahrung der Mutter und Wachstumstrajektorien der Kinder bis zwei Jahre.",
+    result:"Emotionale Gewalt gegen Mütter erhöhte bei Söhnen Odds für schwere Stunting (mOR 1,67; 95%-KI 1,03–2,72) und Untergewicht (mOR 1,78; 95%-KI 1,04–3,04). Kontrollorientiertes Verhalten erhöhte bei Töchtern Odds für schwere Stunting (mOR 1,66; 95%-KI 1,08–2,56), körperliche Gewalt Odds für Untergewicht (mOR 1,88; 95%-KI 1,01–3,52). Geschlechtsspezifische Muster zeigen unterschiedliche Vulnerabilität.",
+    transfer:"Bangladesch, sozioökonomisches Setting nicht direkt übertragbar, Mechanismus (familiärer Stress) relevant für deutsche Versorgung"
+  },
+  {
+    journal:"Int J Mol Sci", year:"2026", pmid:"43091833",
+    author:"Niu X et al.", pubdate:"13.11.2026",
+    added:"26.11.2026",
+    title:"Diabetes Typ 2: Geschlechtsabhängige genetische Regulation in Pankreas-β-Zellen – Frauen zeigen krankheitsassoziierte Funktionsstratifizierung",
+    sum:"Integrative Analyse zweier Single-Cell-RNA-Sequenzierungs-Datensätze mit geschlechtsstratifizierten Analysen zur Identifikation geschlechtspriorisierten Gene und therapeutischer Ansätze.",
+    result:"Auf Einzelzell-Ebene: AKT2 als männer-priorisiert, ALDOA und GAPDH als frauen-priorisiert identifiziert. Frauen-β-Zellen bildeten diskrete Diabetes-angereicherte funktionale Zustände (32,5%, 56,8%, 80,0% Diabetes-Anteil; p&lt;0,0001), während Männer keine Schichtung zeigten. Sechs Signalwege unterschieden sich zwischen Geschlechtern. Donor-Level-Analysen identifizierten bei Frauen robuste Sieben-Gen-Signatur (Glykolyse-Herunterregulation); bei Männern wegen niedriger n nur deskriptiv.",
+    transfer:"USA/China, biologische Grundlagen, unsichere Donor-Level-Replikation, Versorgungstransfer begrenzt"
+  },
+  {
+    journal:"Med Sci (Basel)", year:"2026", pmid:"43091384",
+    author:"Shrimali S et al.", pubdate:"03.11.2026",
+    added:"26.11.2026",
+    title:"Herzinfarkt: Frauen landen häufiger in falscher Intensivstation und bekommen weniger Beatmung",
+    sum:"Retrospektive Kohortenstudie mit MIMIC-IV-Datenbank zu geschlechtsspezifischer Verteilung von Herzinfarkt-Patienten auf Intensivstationen und Beatmungstherapie.",
+    result:"Frauen wurden deutlich seltener in kardiovaskuläre Spezial-ICUs aufgenommen als Männer, hatten aber höhere Mortalität und niedrigere Odds für mechanische Beatmung. Frauen wurden stattdessen häufiger in Neuro-Intermediate-ICUs aufgenommen. Die Autoren vermuten atypische Symptompräsentation bei Frauen als Grund für Fehlzuteilung (zeigen diese Kausalität aber nicht).",
+    transfer:"USA (MIMIC-IV), Zugangspfad und Diagnostik-Problem übertragbar, deutsche Daten fehlen"
+  },
+  {
+    journal:"Med Sci (Basel)", year:"2026", pmid:"43091370",
+    author:"Innerhofer N et al.", pubdate:"01.11.2026",
+    added:"26.11.2026",
+    title:"Herzchirurgie: Frauen erhalten dreifach häufiger Bluttransfusionen wegen Hämodilution",
+    sum:"Prospektive Kohortenstudie an 174 Herzchirurgie-Patienten untersuchte geschlechtsspezifische Unterschiede in Hämoglobin-Verläufen und Transfusionsexposition unter Herzlungenmaschine.",
+    result:"Frauen entwickelten unter Kardiopulmonalbypass stärkere Hämodilution (niedrigere Hämoglobin-Konzentrationen, höheres relatives Blutvolumen-Anstieg). Nach Adjustierung für Hämoglobin, Blutvolumen, CPB-Dauer und Eingriff betrug die Odds Ratio für RBC-Transfusion bei Frauen 3,9 (95%-KI 1,5–13,3; p=0,003). Frauen erhielten intraoperativ und gesamt häufiger Transfusionen (42,3% vs. 12,3%; 59,6% vs. 36,1%).",
+    transfer:"Österreich, direkter Handlungsbezug für klinische Transfusions-Guidelines in Deutschland"
+  },
+  {
+    journal:"Nat Commun", year:"2026", pmid:"43086232",
+    author:"Taha T et al.", pubdate:"27.10.2026",
     added:"25.11.2026",
-    title:"Suizidales Verhalten bei LGBTQ+-Studierenden: Unterschiedliche Risikofaktoren nach sexueller Orientierung",
-    sum:"Querschnittstudie mit 22.604 chinesischen Studierenden (1.178 Minderheits-Sexuelle, 21.426 Heterosexuelle) zur Frage, ob die Assoziation zwischen Substanzgebrauch, Internetabhängigkeit und Suizidalität nach sexueller Orientierung variiert.",
-    result:"Sexuelle Minderheiten berichteten höhere Prävalenz von Drogenkonsum und suizidalen Gedanken als heterosexuelle Peers. Exzessive Bildschirmzeit (&gt;5 h/Tag) war bei beiden Gruppen mit suizidalen Gedanken assoziiert (p-Wert nicht genannt); Internetabhängigkeit nur bei Heterosexuellen mit suizidalen Gedanken verbunden. Laufender Alkoholkonsum war mit Suizidalität bei sexuellen Minderheiten assoziiert, häufiger/prolongierter Alkohol- und Tabakkonsum mit Suizidversuchen bei Heterosexuellen. Unterschiedliche Faktoren deuten auf Bedarf für tailored Interventionen hin.",
-    transfer:"China, beschränkter Transfer – kulturelle und versicherungssystematische Unterschiede zu Deutschland erheblich."
-  },
-  {
-    journal:"Womens Health (Lond)", year:"2026", pmid:"43063308",
-    author:"Palavi L'M et al.", pubdate:"20.11.2026",
-    added:"20.11.2026",
-    title:"Gesundheitliche Chancenungleichheit pazifischer Frauen in Neuseeland: Systematische Barrieren und Lösungsansätze",
-    sum:"Scoping Review von 34 Studien (2020–2025) zur Frage, welche Gesundheits- und Versorgungsungleichheiten pazifische Frauen im reproduktiven Alter in Neuseeland erleben und welche Barrieren und Enabler den Zugang zu Gesundheitsversorgung beeinflussen.",
-    result:"Studienliteratur konzentriert sich auf Reproduktions-, Sexual- und Schwangerschaftsgesundheit; Mental- und Sozialwohlbefinden sowie End-of-Life-Care unterrepräsentiert. Identifizierte Barrieren: systemische und strukturelle Faktoren (höhere Komorbiditäten, schlechtere sozioökonomische Bedingungen, kulturell nicht angepasste Versorgung). Enabler: Politiken und Interventionen, die zugrunde liegende Ursachen adressieren und pazifische Frauen in Planung, Implementierung und Leistungserbringung einbeziehen.",
-    transfer:"Neuseeland, begrenzte Übertragbarkeit – ethnische Minderheiten und Versorgungskontexte unterscheiden sich grundlegend von Deutschland."
-  },
-  {
-    journal:"J Vis Exp", year:"2026", pmid:"43062066",
-    author:"Whitfield DL et al.", pubdate:"13.11.2026",
-    added:"20.11.2026",
-    title:"Analkrebs-Screening bei trans Frauen: Wissensdefizite und Unbehagen als Versorgungsbarrieren",
-    sum:"Qualitative Studie mit 16 schwarzen trans Frauen mit überwiegend HIV-Infektion zur Frage, welche Faktoren ihre Entscheidung zum Abschluss von High-Resolution-Anoskopie (HRA) bei abnormaler Zytologie beeinflussen.",
-    result:"Vier primäre Einflussfaktoren auf Screening-Beteiligung identifiziert: (1) Wissen und Bewusstsein für Analkrebs-Risiko (gering); (2) körperliches und emotionales Wohlbefinden während Verfahren (Unbehagen und Sicherheitsbedenken zentral); (3) Qualität der Patient-Provider-Beziehung; (4) Rolle von Community-Normen und Unterstützung. Trans Frauen tragen 5,5-fach erhöhtes Analkrebs-Risiko (Screening-Leitlinien erst 2024 etabliert). Individualisierte, kulturell responsive Strategien notwendig.",
-    transfer:"USA, Befund zu Versorgungsbarrieren übertragbar, aber Screening-Standards und Versorgungsstrukturen in Deutschland unterschiedlich."
-  },
-  {
-    journal:"Dermatol Surg", year:"2026", pmid:"43043815",
-    author:"Valada A et al.", pubdate:"01.11.2026",
-    added:"17.11.2026",
-    title:"Gesichtsfeminisierung und -maskulinisierung mit Fillern: Anatomische Varianten und Zugangsbarrieren",
-    sum:"Narrative Übersichtsarbeit zu skelettalen und Weichteil-Sexualdimorphismen, Gesichtsproportionen und regionsspezifischen Filler-Ansätzen bei transgender und gender-diversen Personen sowie Barrieren (Hormontherapie, ethnische Unterschiede, Versorgungszugang, illegale Filler).",
-    result:"Skelettale und Weichteil-Anatomie variieren zwischen ethnischen Gruppen und beeinflussen Gesichtssexualdimorphismen. Hyaluronsäure-Filler sind Erstlinienbehandlung; können durch biostimulatorische Mittel ergänzt werden. Regionsspezifische Feminisierungs- und Maskulinisierungsansätze existieren (Evidenz für Maskulinisierung begrenzt). Hormontherapie erzeugt progressive Weichteilverdichtungen relevant für Filler-Planung. Illegaler Filler-Gebrauch (getrieben durch Zugangsbarrieren) erhöht Komplikationsrisiko. Versorgungszugang ist zentrale Barriere.",
-    transfer:"USA, Methoden teilweise übertragbar, aber Zugangsbarrieren (Versicherung, spezialisierte Versorgung) in Deutschland anders strukturiert."
-  },
-  {
-    journal:"Am J Hum Biol", year:"2026", pmid:"43078602",
-    author:"Boltaeva K et al.", pubdate:"Nov. 2026",
-    added:"24.11.2026",
-    title:"Untergewicht und Übergewicht nach Geschlecht: Warum Frauen in Usbekistan häufiger untergewichtig sind",
-    sum:"Querschnittsstudie mit gemessenen anthropometrischen Daten von 794 Studierenden (61,2 % weiblich) in Usbekistan zur Frage, ob und warum Untergewicht und Übergewicht nach Geschlecht und sozioökonomischen Faktoren unterschiedlich verteilt sind.",
-    result:"Untergewicht betraf 16,9 % (95 %-KI 14,4–19,6), Übergewicht/Adipositas 13,7 % (11,5–16,3) der Studierenden. Frauen waren dreimal häufiger untergewichtig als Männer (22,6 % vs. 7,8 %; adjusted RRR 3,06, 95 %-KI 1,90–4,95) und etwa halb so häufig übergewichtig (10,3 % vs. 19,2 %; RRR 0,57, 0,37–0,87). BMI-Defizit bei Frauen (~1,5 kg/m²) über alle Perzentile hinweg vorhanden. Weder Wohnort noch elterliche Bildung zeigten signifikante adjusted Assoziationen. Autoren schlussfolgerern: soziokulturelle Körpernormen plausibel, aber ungeprüft; keine Interaktionen mit Geschlecht signifikant. Biologische oder Zuschreibungsfaktoren bleiben ungeklärt.",
-    transfer:"Zentralasien, begrenzte Übertragbarkeit – unterschiedliche Ernährungsumgebung und Körpernormen."
-  },
-  {
-    journal:"BMC Res Notes", year:"2026", pmid:"43079526",
-    author:"Luwaya EL et al.", pubdate:"01.09.2026",
-    added:"25.11.2026",
-    title:"HIV-Viruslast bei Männern und Frauen: Unterschiedliche Faktoren für Therapieerfolg",
-    sum:"Retrospektive Analyse von 384 HIV-positiven Erwachsenen (130 Männer, 254 Frauen) in Sambia zur Frage, ob die Vorhersagefaktoren für Viruslastsuppression nach Geschlecht unterscheiden.",
-    result:"Viruslastsuppression war bei Frauen höher (91,7 %) als bei Männern (87,7 %). Schlechte ART-Adhärenz war bei beiden Geschlechtern der stärkste Prädiktor für Therapieversagen (p &lt; 0,0001). Geschlechtsspezifische Unterschiede: Bei Männern war niedriger Hämoglobinspiegel unabhängig mit Therapieversagen assoziiert (aOR: 1,50 pro g/dL, 95 %-KI: 1,00–2,26; p = 0,049); bei Frauen war früher erreichte Viruslastsuppression ein starker Prädiktor für aktuelle Suppression (OR: 3,67, 95 %-KI: 1,47–9,15; p = 0,005). Das deutet auf unterschiedliche biologische oder behaviorale Mechanismen hin.",
-    transfer:"Subsahara-Afrika, generalisierbar auf Regionen mit ähnlicher HIV-Behandlungsinfrastruktur, aber begrenzte Übertragbarkeit auf deutsches Versicherungssystem."
-  },
-  {
-    journal:"J Epidemiol Glob Health", year:"2026", pmid:"43056047",
-    author:"Filippovych M et al.", pubdate:"26.08.2026",
-    added:"19.11.2026",
-    title:"HIV-Surveillance im Konflikt: Flexible Methoden für Forschung mit schwulen Männern in der Ukraine",
-    sum:"Longitudinal-Kohortenstudie von 1.199 Männern, die Sex mit Männern haben (SMM) in der Ukraine (2024–2026), die untersucht, wie Kriegsbedingungen die Durchführung von HIV-Forschung verändern und welche Adaptationen Studienintegrität gewährleisten.",
-    result:"Während der ersten Rekrutierungswoche wurden Probleme identifiziert; Protokollrevision führte zu Online-Screening, mündlicher Zustimmung, Remote-Interviews und Video-gestütztem HIV-Selbsttest. Von 1.199 Teilnehmern waren 87 HIV-positiv; Interview-Follow-up-Rate 94 % (82/87) bei 6 und 12 Monaten; Bioprobensammlung in 61/87 Fällen (6 Monate) und 45/87 (12 Monate). Flexible Adaptationen ermöglichten Abschluss vor geplantem Zeitrahmen (8 statt 18 Monate). Zeigt, dass Forschung unter extremen Bedingungen möglich ist, aber longitudinale Bioprobensammlung durch Migration schwierig bleibt.",
-    transfer:"Ukraine, methodische Lektion für Konflikt-Epidemiologie, Spezifika (Binnenvertreibung, Mobilitätsbeschränkung für Männer) nicht auf Deutschland übertragbar."
+    title:"Blasenkrebs: Männer profitieren mehr von Antikörper-Wirkstoff-Konjugat durch höhere Zielstruktur-Expression",
+    sum:"Internationale retrospektive Analyse von metastasiertem Urothel-Karzinom unter Enfortumab Vedotin mit Analyse von NECTIN-4-Expression in TCGA-Tumoren.",
+    result:"Männliche Patienten zeigten signifikant längeres Gesamtüberleben und längere Behandlungsdauer. TCGA-Daten offenbarten höhere NECTIN-4-Expression in Tumoren von Männern, persistent nach Adjustierung für molekulare Subtypen, moduliert durch Rauchen und mit Östrogenweg-Aktivität assoziiert. Die Geschlechterdifferenz in Zielstruktur-Expression und Hormonalaktivität erklärt klinische Outcome-Unterschiede.",
+    transfer:"International multizentrisch, biologischer Mechanismus (Zielstruktur-Expression, Hormonaktivität) übertragbar auf deutsche Versorgung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2534,7 +2525,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.11.2026";
+const NEWS_STAND = "27.11.2026";
 const NEWS = [
   {titel:"Erbliche Krebsrisiken und Liquid Biopsy: Med Uni Graz zur Männergesundheit", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/erbliche-krebsrisiken-und-liquid-biopsy-med-uni-graz-zur-maennergesundheit/"},
   {titel:"Versorgung von Frauen mit Seltenen Erkrankungen: Chiesi-Fachdialog", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-von-frauen-mit-seltenen-erkrankungen-chiesi-fachdialog/"},
